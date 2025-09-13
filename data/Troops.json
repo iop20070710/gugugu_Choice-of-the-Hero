@@ -38,7 +38,7 @@
 			{"code":655,"indent":0,"parameters":["    if(0)this.drawCurrentAndMax(Infinity, Infinity, x, y, width,"]},
 			{"code":655,"indent":0,"parameters":["                           this.mpColor(actor), this.normalColor());"]},
 			{"code":655,"indent":0,"parameters":["};"]},
-			{"code":355,"indent":0,"parameters":["$gameParty.members().forEach(btlr=>btlr._mp=btlr._paramPlus[1]=Infinity);"]},
+			{"code":355,"indent":0,"parameters":["$gameParty.members().forEach(btlr=>btlr._mp=btlr._paramPlus[1]=999999);"]},
 			{"code":0,"indent":0,"parameters":[]}
 		],"span":0},
 		{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":2,"turnB":0,"turnEnding":false,"turnValid":true},"list":[
@@ -149,7 +149,7 @@
 			{"code":655,"indent":0,"parameters":["    if(0)this.drawCurrentAndMax(Infinity, Infinity, x, y, width,"]},
 			{"code":655,"indent":0,"parameters":["                           this.mpColor(actor), this.normalColor());"]},
 			{"code":655,"indent":0,"parameters":["};"]},
-			{"code":355,"indent":0,"parameters":["$gameParty.members().forEach(btlr=>btlr._mp=btlr._paramPlus[1]=Infinity);"]},
+			{"code":355,"indent":0,"parameters":["$gameParty.members().forEach(btlr=>btlr._mp=btlr._paramPlus[1]=999999);"]},
 			{"code":0,"indent":0,"parameters":[]}
 		],"span":0},
 		{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":2,"turnB":0,"turnEnding":false,"turnValid":true},"list":[
@@ -533,6 +533,7 @@
 	],"name":"史萊姆群島怪A","pages":[
 		{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":false,"turnValid":true},"list":[
 			{"code":117,"indent":0,"parameters":[7]},
+			{"code":117,"indent":0,"parameters":[27]},
 			{"code":0,"indent":0,"parameters":[]}
 		],"span":0},
 		{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":false,"turnValid":false},"list":[
@@ -540,7 +541,11 @@
 			{"code":108,"indent":0,"parameters":["@PASTECOMMONEVENT"]},
 			{"code":408,"indent":0,"parameters":["11"]},
 			{"code":0,"indent":0,"parameters":[]}
-		],"span":0}
+		],"span":0},
+		{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":true,"turnValid":false},"list":[
+			{"code":117,"indent":0,"parameters":[27]},
+			{"code":0,"indent":0,"parameters":[]}
+		],"span":1}
 	]},
 	{"id":12,"members":[
 		{"enemyId":2,"x":290,"y":436,"hidden":false},
@@ -549,6 +554,7 @@
 	],"name":"史萊姆群島怪B","pages":[
 		{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":false,"turnValid":true},"list":[
 			{"code":117,"indent":0,"parameters":[7]},
+			{"code":117,"indent":0,"parameters":[27]},
 			{"code":0,"indent":0,"parameters":[]}
 		],"span":0},
 		{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":false,"turnValid":false},"list":[
@@ -556,7 +562,11 @@
 			{"code":108,"indent":0,"parameters":["@PASTECOMMONEVENT"]},
 			{"code":408,"indent":0,"parameters":["11"]},
 			{"code":0,"indent":0,"parameters":[]}
-		],"span":0}
+		],"span":0},
+		{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":true,"turnValid":false},"list":[
+			{"code":117,"indent":0,"parameters":[27]},
+			{"code":0,"indent":0,"parameters":[]}
+		],"span":1}
 	]},
 	{"id":13,"members":[
 		{"enemyId":2,"x":231,"y":436,"hidden":false},
@@ -566,6 +576,7 @@
 	],"name":"史萊姆群島怪C","pages":[
 		{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":false,"turnValid":true},"list":[
 			{"code":117,"indent":0,"parameters":[7]},
+			{"code":117,"indent":0,"parameters":[27]},
 			{"code":0,"indent":0,"parameters":[]}
 		],"span":0},
 		{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":false,"turnValid":false},"list":[
@@ -573,7 +584,11 @@
 			{"code":108,"indent":0,"parameters":["@PASTECOMMONEVENT"]},
 			{"code":408,"indent":0,"parameters":["11"]},
 			{"code":0,"indent":0,"parameters":[]}
-		],"span":0}
+		],"span":0},
+		{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":true,"turnValid":false},"list":[
+			{"code":117,"indent":0,"parameters":[27]},
+			{"code":0,"indent":0,"parameters":[]}
+		],"span":1}
 	]},
 	{"id":14,"members":[
 		{"enemyId":2,"x":172,"y":436,"hidden":false},
@@ -584,6 +599,7 @@
 	],"name":"史萊姆群島怪D","pages":[
 		{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":false,"turnValid":true},"list":[
 			{"code":117,"indent":0,"parameters":[7]},
+			{"code":117,"indent":0,"parameters":[27]},
 			{"code":0,"indent":0,"parameters":[]}
 		],"span":0},
 		{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":false,"turnValid":false},"list":[
@@ -591,46 +607,101 @@
 			{"code":108,"indent":0,"parameters":["@PASTECOMMONEVENT"]},
 			{"code":408,"indent":0,"parameters":["11"]},
 			{"code":0,"indent":0,"parameters":[]}
-		],"span":0}
+		],"span":0},
+		{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":true,"turnValid":false},"list":[
+			{"code":117,"indent":0,"parameters":[27]},
+			{"code":0,"indent":0,"parameters":[]}
+		],"span":1}
 	]},
 	{"id":15,"members":[
-		{"enemyId":26,"x":408,"y":436,"hidden":false}
-	],"name":"黃金泡泡球","pages":[
-		{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":false,"turnValid":false},"list":[
+		{"enemyId":28,"x":408,"y":436,"hidden":false}
+	],"name":"黃金泡泡球(簡單)","pages":[
+		{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":false,"turnValid":true},"list":[
+			{"code":117,"indent":0,"parameters":[7]},
+			{"code":117,"indent":0,"parameters":[27]},
 			{"code":0,"indent":0,"parameters":[]}
-		],"span":0}
+		],"span":0},
+		{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":true,"turnValid":false},"list":[
+			{"code":117,"indent":0,"parameters":[27]},
+			{"code":0,"indent":0,"parameters":[]}
+		],"span":1}
 	]},
 	{"id":16,"members":[
-		{"enemyId":28,"x":408,"y":436,"hidden":false}
-	],"name":"原始泡泡球","pages":[
+		{"enemyId":26,"x":408,"y":436,"hidden":false}
+	],"name":"黃金泡泡球(普通)","pages":[
+		{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":false,"turnValid":true},"list":[
+			{"code":117,"indent":0,"parameters":[7]},
+			{"code":117,"indent":0,"parameters":[27]},
+			{"code":0,"indent":0,"parameters":[]}
+		],"span":0},
+		{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":true,"turnValid":false},"list":[
+			{"code":117,"indent":0,"parameters":[27]},
+			{"code":0,"indent":0,"parameters":[]}
+		],"span":1}
+	]},
+	{"id":17,"members":[
+		{"enemyId":27,"x":408,"y":436,"hidden":false}
+	],"name":"黃金泡泡球(困難)","pages":[
+		{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":false,"turnValid":true},"list":[
+			{"code":117,"indent":0,"parameters":[7]},
+			{"code":117,"indent":0,"parameters":[27]},
+			{"code":0,"indent":0,"parameters":[]}
+		],"span":0},
+		{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":true,"turnValid":false},"list":[
+			{"code":117,"indent":0,"parameters":[27]},
+			{"code":0,"indent":0,"parameters":[]}
+		],"span":1}
+	]},
+	{"id":18,"members":[
+		{"enemyId":33,"x":408,"y":436,"hidden":false}
+	],"name":"原始泡泡球(簡單)","pages":[
 		{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":5,"turnEnding":false,"turnValid":true},"list":[
 			{"code":339,"indent":0,"parameters":[0,0,364,-2]},
 			{"code":0,"indent":0,"parameters":[]}
-		],"span":0}
-	]},
-	{"id":17,"members":[
-	],"name":"","pages":[
-		{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":false,"turnValid":false},"list":[
+		],"span":0},
+		{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":false,"turnValid":true},"list":[
+			{"code":117,"indent":0,"parameters":[7]},
+			{"code":117,"indent":0,"parameters":[27]},
 			{"code":0,"indent":0,"parameters":[]}
-		],"span":0}
-	]},
-	{"id":18,"members":[
-	],"name":"","pages":[
-		{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":false,"turnValid":false},"list":[
+		],"span":0},
+		{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":true,"turnValid":false},"list":[
+			{"code":117,"indent":0,"parameters":[27]},
 			{"code":0,"indent":0,"parameters":[]}
-		],"span":0}
+		],"span":1}
 	]},
 	{"id":19,"members":[
-	],"name":"","pages":[
-		{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":false,"turnValid":false},"list":[
+		{"enemyId":32,"x":408,"y":436,"hidden":false}
+	],"name":"原始泡泡球(普通)","pages":[
+		{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":5,"turnEnding":false,"turnValid":true},"list":[
+			{"code":339,"indent":0,"parameters":[0,0,364,-2]},
 			{"code":0,"indent":0,"parameters":[]}
-		],"span":0}
+		],"span":0},
+		{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":false,"turnValid":true},"list":[
+			{"code":117,"indent":0,"parameters":[7]},
+			{"code":117,"indent":0,"parameters":[27]},
+			{"code":0,"indent":0,"parameters":[]}
+		],"span":0},
+		{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":true,"turnValid":false},"list":[
+			{"code":117,"indent":0,"parameters":[27]},
+			{"code":0,"indent":0,"parameters":[]}
+		],"span":1}
 	]},
 	{"id":20,"members":[
-	],"name":"","pages":[
-		{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":false,"turnValid":false},"list":[
+		{"enemyId":34,"x":408,"y":436,"hidden":false}
+	],"name":"原始泡泡球(困難)","pages":[
+		{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":5,"turnEnding":false,"turnValid":true},"list":[
+			{"code":339,"indent":0,"parameters":[0,0,364,-2]},
 			{"code":0,"indent":0,"parameters":[]}
-		],"span":0}
+		],"span":0},
+		{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":false,"turnValid":true},"list":[
+			{"code":117,"indent":0,"parameters":[7]},
+			{"code":117,"indent":0,"parameters":[27]},
+			{"code":0,"indent":0,"parameters":[]}
+		],"span":0},
+		{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":true,"turnValid":false},"list":[
+			{"code":117,"indent":0,"parameters":[27]},
+			{"code":0,"indent":0,"parameters":[]}
+		],"span":1}
 	]},
 	{"id":21,"members":[
 	],"name":"","pages":[

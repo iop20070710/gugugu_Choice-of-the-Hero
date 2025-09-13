@@ -2549,6 +2549,30 @@
 	{"id":2,"name":"爆彈","note":"","pages":[
 		{"conditions":{"actorId":1,"actorValid":false,"itemId":1,"itemValid":false,"selfSwitchCh":"A","selfSwitchValid":false,"switch1Id":1,"switch1Valid":false,"switch2Id":1,"switch2Valid":false,"variableId":1,"variableValid":false,"variableValue":0},"directionFix":true,"image":{"tileId":0,"characterName":"!Door2","direction":8,"pattern":1,"characterIndex":0},"list":[
 			{"code":108,"indent":0,"parameters":[
+				"  let d = this._direction;                  先存原本的朝向"
+			]},
+			{"code":408,"indent":0,"parameters":[
+				"  this._direction = $gamePlayer._direction; 把方向改成和玩家一樣"
+			]},
+			{"code":408,"indent":0,"parameters":[
+				"  this.jumpFront(3);                        向前跳 3 格（丟出去效果）"
+			]},
+			{"code":408,"indent":0,"parameters":[
+				"  this._direction = d;                      還原原本的朝向"
+			]},
+			{"code":408,"indent":0,"parameters":[
+				"  this.start(-1);"
+			]},
+			{"code":108,"indent":0,"parameters":[
+				"<triggeredByEvents> 標籤  讓事件可以被其他事件觸發。"
+			]},
+			{"code":408,"indent":0,"parameters":[
+				"if(this.getEvt().isStarting() || this.getEvt()==this.getTriggerer())  避免事件重複啟動。"
+			]},
+			{"code":408,"indent":0,"parameters":[
+				"this.getTrigger()===$gamePlayer  檢查是不是玩家觸發。"
+			]},
+			{"code":108,"indent":0,"parameters":[
 				"@NOTE"
 			]},
 			{"code":408,"indent":0,"parameters":[
@@ -2610,78 +2634,47 @@
 				12,
 				"this.getTriggerer()===$gamePlayer"
 			]},
-			{"code":111,"indent":1,"parameters":[
-				0,
-				92,
-				0
+			{"code":108,"indent":1,"parameters":[
+				"讓事件停止「起動中」狀態，避免重複。"
 			]},
-			{"code":223,"indent":2,"parameters":[
-				[
-					-255,
-					-255,
-					-255,
-					0
-				],
-				180,
-				false
+			{"code":408,"indent":1,"parameters":[
+				"設定一個臨時戰鬥小隊（tid=12）。"
 			]},
-			{"code":101,"indent":2,"parameters":[
-				"",
-				0,
-				0,
-				2
+			{"code":408,"indent":1,"parameters":[
+				"取技能 ID 202 當作「爆炸技能」。"
 			]},
-			{"code":401,"indent":2,"parameters":[
-				"勇者大人？\\."
+			{"code":408,"indent":1,"parameters":[
+				"把這個技能套用到所有玩家角色（$gameParty._actors.forEach）。"
 			]},
-			{"code":401,"indent":2,"parameters":[
-				"勇者大人！\\."
+			{"code":408,"indent":1,"parameters":[
+				"等於「炸彈爆炸  全員吃到 202 技能傷害」。"
 			]},
-			{"code":401,"indent":2,"parameters":[
-				"\\{勇者大人！！！\\|\\^"
-			]},
-			{"code":401,"indent":2,"parameters":[
-				"\\NAMEFIELD:\"$gameActors.actor(34).name()\""
-			]},
-			{"code":353,"indent":2,"parameters":[
-			]},
-			{"code":0,"indent":2,"parameters":[
-			]},
-			{"code":411,"indent":1,"parameters":[
-			]},
-			{"code":355,"indent":2,"parameters":[
+			{"code":355,"indent":1,"parameters":[
 				"$gameMap._events[this._eventId]._starting=false;"
 			]},
-			{"code":655,"indent":2,"parameters":[
-				"{ let tid=12; $gameTroop._troopId!==tid && $gameTroop.setup(tid); }"
+			{"code":655,"indent":1,"parameters":[
+				"{ let tid=1; $gameTroop._troopId!==tid && $gameTroop.setup(tid); }"
 			]},
-			{"code":655,"indent":2,"parameters":[
-				"{ let dataobj=$dataSkills[202] , e=$gameTroop.members()[0] , a=new Game_Action(e);"
+			{"code":655,"indent":1,"parameters":[
+				"{ let dataobj=$dataItems[501] , e=$gameTroop.members()[0] , a=new Game_Action(e);"
 			]},
-			{"code":655,"indent":2,"parameters":[
+			{"code":655,"indent":1,"parameters":[
 				"if(e){"
 			]},
-			{"code":655,"indent":2,"parameters":[
+			{"code":655,"indent":1,"parameters":[
 				"e.recoverAll();"
 			]},
-			{"code":655,"indent":2,"parameters":[
+			{"code":655,"indent":1,"parameters":[
 				"a.setItemObject(dataobj);"
 			]},
-			{"code":655,"indent":2,"parameters":[
+			{"code":655,"indent":1,"parameters":[
 				"$gameParty._actors.forEach(i=>a.apply($gameActors.actor(i)));"
 			]},
-			{"code":655,"indent":2,"parameters":[
+			{"code":655,"indent":1,"parameters":[
 				"}"
 			]},
-			{"code":655,"indent":2,"parameters":[
+			{"code":655,"indent":1,"parameters":[
 				"}"
-			]},
-			{"code":0,"indent":2,"parameters":[
-			]},
-			{"code":412,"indent":1,"parameters":[
-			]},
-			{"code":108,"indent":1,"parameters":[
-				"用202技能丟全隊"
 			]},
 			{"code":0,"indent":1,"parameters":[
 			]},
@@ -3569,14 +3562,17 @@
 		],"repeat":true,"skippable":false,"wait":false},"moveSpeed":3,"moveType":0,"priorityType":1,"stepAnime":false,"through":false,"trigger":0,"walkAnime":true}
 	],"x":8,"y":0},
 	{"id":15,"name":"EV015","note":"","pages":[
-		{"conditions":{"actorId":1,"actorValid":false,"itemId":1,"itemValid":false,"selfSwitchCh":"A","selfSwitchValid":false,"switch1Id":1,"switch1Valid":false,"switch2Id":1,"switch2Valid":false,"variableId":1,"variableValid":false,"variableValue":0},"directionFix":false,"image":{"tileId":0,"characterName":"BLR_SaintessMaid01","direction":4,"pattern":0,"characterIndex":7},"list":[
+		{"conditions":{"actorId":1,"actorValid":false,"itemId":1,"itemValid":false,"selfSwitchCh":"A","selfSwitchValid":false,"switch1Id":1,"switch1Valid":false,"switch2Id":1,"switch2Valid":false,"variableId":1,"variableValid":false,"variableValue":0},"directionFix":false,"image":{"tileId":0,"characterName":"Damage2","direction":6,"pattern":1,"characterIndex":1},"list":[
+			{"code":117,"indent":0,"parameters":[
+				12
+			]},
 			{"code":0,"indent":0,"parameters":[
 			]}
 		],"moveFrequency":3,"moveRoute":{"list":[
 			{"code":0,"parameters":[
 			]}
 		],"repeat":true,"skippable":false,"wait":false},"moveSpeed":3,"moveType":0,"priorityType":1,"stepAnime":false,"through":false,"trigger":0,"walkAnime":true}
-	],"x":1,"y":9},
+	],"x":10,"y":9},
 	null,
 	{"id":17,"name":"EV017","note":"","pages":[
 		{"conditions":{"actorId":1,"actorValid":false,"itemId":1,"itemValid":false,"selfSwitchCh":"A","selfSwitchValid":false,"switch1Id":1,"switch1Valid":false,"switch2Id":1,"switch2Valid":false,"variableId":1,"variableValid":false,"variableValue":0},"directionFix":true,"image":{"characterIndex":0,"characterName":"!Chest","direction":2,"pattern":1,"tileId":0},"list":[
@@ -3662,18 +3658,7 @@
 			]}
 		],"repeat":true,"skippable":false,"wait":false},"moveSpeed":3,"moveType":0,"priorityType":1,"stepAnime":false,"through":false,"trigger":0,"walkAnime":false}
 	],"x":7,"y":0},
-	{"id":18,"name":"EV018","note":"","pages":[
-		{"conditions":{"actorId":1,"actorValid":false,"itemId":1,"itemValid":false,"selfSwitchCh":"A","selfSwitchValid":false,"switch1Id":1,"switch1Valid":false,"switch2Id":1,"switch2Valid":false,"variableId":1,"variableValid":false,"variableValue":0},"directionFix":false,"image":{"tileId":0,"characterName":"Damage3","direction":6,"pattern":0,"characterIndex":1},"list":[
-			{"code":117,"indent":0,"parameters":[
-				22
-			]},
-			{"code":0,"indent":0,"parameters":[
-			]}
-		],"moveFrequency":3,"moveRoute":{"list":[
-			{"code":0,"parameters":[
-			]}
-		],"repeat":true,"skippable":false,"wait":false},"moveSpeed":3,"moveType":0,"priorityType":1,"stepAnime":false,"through":false,"trigger":0,"walkAnime":true}
-	],"x":14,"y":6},
+	null,
 	{"id":19,"name":"EV019","note":"","pages":[
 		{"conditions":{"actorId":1,"actorValid":false,"itemId":1,"itemValid":false,"selfSwitchCh":"A","selfSwitchValid":false,"switch1Id":1,"switch1Valid":false,"switch2Id":1,"switch2Valid":false,"variableId":1,"variableValid":false,"variableValue":0},"directionFix":false,"image":{"tileId":0,"characterName":"!Flame","direction":2,"pattern":2,"characterIndex":6},"list":[
 			{"code":126,"indent":0,"parameters":[

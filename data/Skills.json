@@ -22,30 +22,30 @@
 		{"code":11,"dataId":0,"value1":0.05,"value2":0},
 		{"code":12,"dataId":0,"value1":0.05,"value2":0}
 	],"hitType":0,"iconIndex":72,"message1":"待機。","message2":"","mpCost":0,"name":"休息","note":"","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":0,"speed":0,"stypeId":0,"successRate":100,"tpCost":0,"tpGain":10},
-	{"id":8,"animationId":121,"damage":{"critical":false,"elementId":0,"formula":"0","type":0,"variance":0},"description":"激發全身的腎上腺素，短時間內突破能力的極限。\n自身全能力強化5階（6回合）並獲得【續力】、【魔力增幅】狀態。","effects":[
+	{"id":8,"animationId":121,"damage":{"critical":false,"elementId":0,"formula":"0","type":0,"variance":0},"description":"","effects":[
 		{"code":44,"dataId":1,"value1":1,"value2":0}
-	],"hitType":0,"iconIndex":175,"message1":"攻擊！","message2":"","mpCost":1200,"name":"超越規則","note":"","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":11,"speed":0,"stypeId":1,"successRate":100,"tpCost":0,"tpGain":0},
-	{"id":9,"animationId":121,"damage":{"critical":false,"elementId":0,"formula":"0","type":0,"variance":0},"description":"悲傷的治癒女神流下了她的眼淚，治癒受傷的戰士們，\n復活並恢復我方全體大量HP，解除所有異常狀態。","effects":[
+	],"hitType":0,"iconIndex":175,"message1":"攻擊！","message2":"","mpCost":1200,"name":"超越規則","note":"<description>\n激發全身的腎上腺素，短時間內突破能力的極限。\n自身全能力強化5階（6回合）並獲得【續力】、【魔力增幅】狀態。\n</description>","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":11,"speed":0,"stypeId":1,"successRate":100,"tpCost":0,"tpGain":0},
+	{"id":9,"animationId":121,"damage":{"critical":false,"elementId":0,"formula":"0","type":0,"variance":0},"description":"","effects":[
 		{"code":44,"dataId":1,"value1":1,"value2":0}
-	],"hitType":1,"iconIndex":83,"message1":"攻擊！","message2":"","mpCost":1500,"name":"月光之淚","note":"","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":11,"speed":0,"stypeId":1,"successRate":100,"tpCost":0,"tpGain":0},
-	{"id":10,"animationId":121,"damage":{"critical":false,"elementId":0,"formula":"0","type":0,"variance":0},"description":"召喚大地女神賜予加護，我方全體獲得防禦強化5階（6回合）、\n【大地守護】、【無敵】狀態。","effects":[
+	],"hitType":0,"iconIndex":83,"message1":"攻擊！","message2":"","mpCost":1500,"name":"月光之淚","note":"<description>\n悲傷的治癒女神流下了她的眼淚，治癒受傷的戰士們，\n復活並恢復我方全體大量HP，解除所有異常狀態。\n</description>","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":11,"speed":0,"stypeId":1,"successRate":100,"tpCost":0,"tpGain":0},
+	{"id":10,"animationId":121,"damage":{"critical":false,"elementId":0,"formula":"0","type":0,"variance":0},"description":"","effects":[
 		{"code":44,"dataId":1,"value1":1,"value2":0}
-	],"hitType":1,"iconIndex":82,"message1":"攻擊！","message2":"","mpCost":2000,"name":"地母神的守護","note":"","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":11,"speed":0,"stypeId":1,"successRate":100,"tpCost":0,"tpGain":0},
-	{"id":11,"animationId":121,"damage":{"critical":false,"elementId":0,"formula":"0","type":0,"variance":0},"description":"對單個敵人烙上帶有神聖力量的印記，使其受到的所有傷害\n變成兩倍，持續3回合。","effects":[
+	],"hitType":0,"iconIndex":82,"message1":"攻擊！","message2":"","mpCost":2000,"name":"地母神的守護","note":"<description>\n召喚大地女神賜予加護，我方全體獲得防禦強化5階（6回合）、\n【大地守護】、【無敵】狀態。\n</description>","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":11,"speed":0,"stypeId":1,"successRate":100,"tpCost":0,"tpGain":0},
+	{"id":11,"animationId":121,"damage":{"critical":false,"elementId":0,"formula":"0","type":0,"variance":0},"description":"","effects":[
 		{"code":44,"dataId":1,"value1":1,"value2":0}
-	],"hitType":1,"iconIndex":86,"message1":"攻擊！","message2":"","mpCost":1000,"name":"天秤之印","note":"","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":11,"speed":0,"stypeId":1,"successRate":100,"tpCost":0,"tpGain":0},
+	],"hitType":0,"iconIndex":86,"message1":"攻擊！","message2":"","mpCost":1000,"name":"天秤之印","note":"<description>\n對單個敵人烙上帶有神聖力量的印記，使其受到的所有傷害\n變成兩倍，持續3回合。\n</description>","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":11,"speed":0,"stypeId":1,"successRate":100,"tpCost":0,"tpGain":0},
 	{"id":12,"animationId":121,"damage":{"critical":false,"elementId":0,"formula":"0","type":0,"variance":0},"description":"「魔法&無屬性」使用勇者之器凝聚魔力對單個敵人射出\n流星般銳利的能量，無視防禦，命中時速度弱化5階（3回合）。","effects":[
 		{"code":44,"dataId":1,"value1":1,"value2":0}
-	],"hitType":1,"iconIndex":75,"message1":"攻擊！","message2":"","mpCost":800,"name":"無盡流星","note":"","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":11,"speed":0,"stypeId":1,"successRate":100,"tpCost":0,"tpGain":0},
-	{"id":13,"animationId":121,"damage":{"critical":false,"elementId":0,"formula":"0","type":0,"variance":0},"description":"「物理&斬&刺&鈍屬性」使用勇者之器迅速變換各種不同\n的武器，對目標造成多次傷害。","effects":[
+	],"hitType":0,"iconIndex":75,"message1":"攻擊！","message2":"","mpCost":800,"name":"無盡流星","note":"<description>\n「魔法&無屬性」使用勇者之器凝聚魔力對單個敵人射出\n流星般銳利的能量，無視防禦，命中時速度弱化5階（3回合）。\n</description>","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":11,"speed":0,"stypeId":1,"successRate":100,"tpCost":0,"tpGain":0},
+	{"id":13,"animationId":121,"damage":{"critical":false,"elementId":0,"formula":"0","type":0,"variance":0},"description":"","effects":[
 		{"code":44,"dataId":1,"value1":1,"value2":0}
-	],"hitType":1,"iconIndex":75,"message1":"攻擊！","message2":"","mpCost":1000,"name":"三殺風暴","note":"","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":11,"speed":0,"stypeId":1,"successRate":100,"tpCost":0,"tpGain":0},
-	{"id":14,"animationId":121,"damage":{"critical":false,"elementId":0,"formula":"0","type":0,"variance":0},"description":"「物理&斬屬性」將勇者之器變化成足以斬斷龍頭的巨劍\n斬殺敵人，對單個敵人造成傷害，對動物系敵人額外增傷。","effects":[
+	],"hitType":0,"iconIndex":75,"message1":"攻擊！","message2":"","mpCost":1000,"name":"三殺風暴","note":"<description>\n「物理&斬&刺&鈍屬性」使用勇者之器迅速變換各種不同\n的武器，對目標造成多次傷害。\n</description>","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":11,"speed":0,"stypeId":1,"successRate":100,"tpCost":0,"tpGain":0},
+	{"id":14,"animationId":121,"damage":{"critical":false,"elementId":0,"formula":"0","type":0,"variance":0},"description":"","effects":[
 		{"code":44,"dataId":1,"value1":1,"value2":0}
-	],"hitType":1,"iconIndex":75,"message1":"攻擊！","message2":"","mpCost":2000,"name":"斬龍劍","note":"","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":11,"speed":0,"stypeId":1,"successRate":100,"tpCost":0,"tpGain":0},
-	{"id":15,"animationId":121,"damage":{"critical":false,"elementId":0,"formula":"0","type":0,"variance":0},"description":"「魔法&地&水&火&風&雷&冰&光&暗屬性」連續使用最強大的\n各屬性魔法對敵方全體進行毀滅性攻擊。","effects":[
+	],"hitType":0,"iconIndex":75,"message1":"攻擊！","message2":"","mpCost":2000,"name":"斬龍劍","note":"<description>\n「物理&斬屬性」將勇者之器變化成足以斬斷龍頭的巨劍\n斬殺敵人，對單個敵人造成傷害，對龍系敵人額外增傷。\n</description>","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":11,"speed":0,"stypeId":1,"successRate":100,"tpCost":0,"tpGain":0},
+	{"id":15,"animationId":121,"damage":{"critical":false,"elementId":0,"formula":"0","type":0,"variance":0},"description":"","effects":[
 		{"code":44,"dataId":1,"value1":1,"value2":0}
-	],"hitType":1,"iconIndex":70,"message1":"攻擊！","message2":"","mpCost":3500,"name":"眾神之怒","note":"","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":11,"speed":0,"stypeId":1,"successRate":100,"tpCost":0,"tpGain":0},
+	],"hitType":0,"iconIndex":70,"message1":"攻擊！","message2":"","mpCost":3500,"name":"眾神之怒","note":"<description>\n「魔法&地&水&火&風&雷&冰&光&暗屬性」連續使用強大的\n所有屬性魔法對敵方全體進行毀滅性攻擊。\n</description>","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":11,"speed":0,"stypeId":1,"successRate":100,"tpCost":0,"tpGain":0},
 	{"id":16,"animationId":0,"damage":{"critical":false,"elementId":0,"formula":"0","type":0,"variance":20},"description":"","effects":[
 	],"hitType":0,"iconIndex":0,"message1":"","message2":"","mpCost":0,"name":"-劇情演出用-","note":"","occasion":0,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":1,"speed":0,"stypeId":1,"successRate":100,"tpCost":0,"tpGain":0},
 	{"id":17,"animationId":0,"damage":{"critical":true,"elementId":1,"formula":"350","type":1,"variance":20},"description":"","effects":[
@@ -174,26 +174,34 @@
 	{"id":72,"animationId":0,"damage":{"critical":true,"elementId":1,"formula":"500 + (a.atk * 3 - b.def * 2) ","type":0,"variance":20},"description":"","effects":[
 	],"hitType":1,"iconIndex":75,"message1":"","message2":"","mpCost":0,"name":"而後動","note":"<description>\n[自身]\n[立刻發動][這回合行動速度-2000][CD3]\n控制自己的速度，短時間內速度大幅降低。\n</description>","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":11,"speed":0,"stypeId":1,"successRate":100,"tpCost":0,"tpGain":0},
 	{"id":73,"animationId":0,"damage":{"critical":false,"elementId":6,"formula":"(a.mat * 3 - b.mdf * 2) * 1.15","type":1,"variance":20},"description":"","effects":[
-		{"code":21,"dataId":11,"value1":0.1,"value2":0}
+		{"code":21,"dataId":11,"value1":0.1,"value2":0},
+		{"code":22,"dataId":13,"value1":1,"value2":0}
 	],"hitType":2,"iconIndex":64,"message1":"","message2":"","mpCost":0,"name":"爐火","note":"<description>\n【\\I[260]&\\I[64]】[單體傷害][速度補正-50]\n燃起高熱的火焰，除了燙小朋友，也很適合用來做飯。\n</description>","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":1,"speed":-50,"stypeId":1,"successRate":100,"tpCost":0,"tpGain":0},
 	{"id":74,"animationId":0,"damage":{"critical":false,"elementId":6,"formula":"(50 + (a.mat * 3 - b.mdf * 2)) * 1.15","type":1,"variance":20},"description":"","effects":[
-		{"code":21,"dataId":11,"value1":0.1,"value2":0}
+		{"code":21,"dataId":11,"value1":0.1,"value2":0},
+		{"code":22,"dataId":13,"value1":1,"value2":0}
 	],"hitType":2,"iconIndex":64,"message1":"","message2":"","mpCost":0,"name":"熱炎","note":"<description>\n【\\I[260]&\\I[64]】[單體傷害][速度補正-50]\n[\\I[64]燒傷10%]\n冬天到了，用猛烈的火焰包圍對手進行攻擊。\n</description>","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":1,"speed":-50,"stypeId":1,"successRate":100,"tpCost":0,"tpGain":0},
 	{"id":75,"animationId":0,"damage":{"critical":false,"elementId":6,"formula":"(50 + (a.mat * 3 - b.mdf * 2)) * 1.15","type":1,"variance":20},"description":"","effects":[
-		{"code":21,"dataId":11,"value1":0.1,"value2":0}
+		{"code":21,"dataId":11,"value1":0.1,"value2":0},
+		{"code":22,"dataId":13,"value1":1,"value2":0}
 	],"hitType":2,"iconIndex":64,"message1":"","message2":"","mpCost":0,"name":"焰爆","note":"<description>\n【\\I[260]&\\I[64]】[全體傷害][速度補正-50]\n[\\I[64]燒傷10%]\n在小範圍進行火焰轟炸。\n</description>","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":2,"speed":-50,"stypeId":1,"successRate":100,"tpCost":0,"tpGain":0},
 	{"id":76,"animationId":0,"damage":{"critical":false,"elementId":6,"formula":"(125 + (a.mat * 3 - b.mdf * 2)) * 1.15","type":1,"variance":20},"description":"","effects":[
+		{"code":22,"dataId":13,"value1":1,"value2":0}
 	],"hitType":2,"iconIndex":64,"message1":"","message2":"","mpCost":0,"name":"獄滅","note":"<description>\n【\\I[260]&\\I[64]】[單體傷害][速度補正-50]\n[對象燒傷狀態傷害提升]\n燙傷了還不去治療，還敢做料理就是這種下場。\n</description>","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":1,"speed":-50,"stypeId":1,"successRate":100,"tpCost":0,"tpGain":0},
 	{"id":77,"animationId":0,"damage":{"critical":false,"elementId":6,"formula":"(50 + (a.mat * 3 - b.mdf * 2)) * 1.15","type":1,"variance":20},"description":"","effects":[
+		{"code":22,"dataId":13,"value1":1,"value2":0}
 	],"hitType":2,"iconIndex":64,"message1":"","message2":"","mpCost":0,"name":"鳳火流星","note":"<description>\n【\\I[260]&\\I[64]】[單體3~5次傷害][速度補正-50]\n[隨機消耗火元素6:8:10點]\n隨機消耗不等的火元素，射出數個鳳形火焰造成傷害。\n</description>","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":1,"speed":-50,"stypeId":1,"successRate":100,"tpCost":0,"tpGain":0},
 	{"id":78,"animationId":1,"damage":{"critical":false,"elementId":6,"formula":"(50 + (a.mat * 3 - b.mdf * 2)) * 1.15","type":1,"variance":20},"description":"","effects":[
-		{"code":21,"dataId":11,"value1":1,"value2":0}
+		{"code":21,"dataId":11,"value1":1,"value2":0},
+		{"code":22,"dataId":13,"value1":1,"value2":0}
 	],"hitType":2,"iconIndex":64,"message1":"","message2":"","mpCost":0,"name":"太陽","note":"<description>\n【\\I[260]&\\I[64]】[全體傷害][速度補正-50]\n[\\I[64]燒傷100%][1場戰鬥限用1次]\n將所有的火元素凝聚在自己周圍引爆，對敵人造成極大傷害。\n</description>","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":2,"speed":-50,"stypeId":1,"successRate":100,"tpCost":0,"tpGain":0},
 	{"id":79,"animationId":0,"damage":{"critical":false,"elementId":6,"formula":"(a.mat * 3 - b.mdf * 2) * 1.15","type":0,"variance":20},"description":"","effects":[
 		{"code":22,"dataId":6,"value1":1,"value2":0},
-		{"code":22,"dataId":7,"value1":1,"value2":0}
+		{"code":22,"dataId":7,"value1":1,"value2":0},
+		{"code":22,"dataId":13,"value1":1,"value2":0}
 	],"hitType":0,"iconIndex":80,"message1":"","message2":"","mpCost":0,"name":"火之洗禮","note":"<description>\n[單體][解除][速度補正-50]\n[\\I[3]失明100%][\\I[4]沉默100%]\n接受火的洗禮，燒毀一切不潔之物。\n</description>","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":7,"speed":-50,"stypeId":1,"successRate":100,"tpCost":0,"tpGain":0},
-	{"id":80,"animationId":0,"damage":{"critical":false,"elementId":6,"formula":"(50 + a.mat * 1 + ((b.vit + b.wis)/2)) * 1.15","type":3,"variance":20},"description":"","effects":[
+	{"id":80,"animationId":0,"damage":{"critical":false,"elementId":6,"formula":"(50 + a.mat * 1 + ((b._vit + b._wis)/2)) * 1.15","type":3,"variance":20},"description":"","effects":[
+		{"code":22,"dataId":13,"value1":1,"value2":0}
 	],"hitType":0,"iconIndex":80,"message1":"","message2":"","mpCost":0,"name":"淨化之火","note":"<description>\n【\\I[64]】[單體][恢復][速度補正-50]\n能夠淨化不潔之物的原始之火。\n</description>","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":7,"speed":-50,"stypeId":1,"successRate":100,"tpCost":0,"tpGain":0},
 	{"id":81,"animationId":0,"damage":{"critical":false,"elementId":6,"formula":"(50 + a.mat * 1 + ((b.vit + b.wis)/2)) * 1.15","type":0,"variance":20},"description":"","effects":[
 		{"code":21,"dataId":42,"value1":1,"value2":0}
@@ -229,22 +237,29 @@
 	{"id":87,"animationId":0,"damage":{"critical":false,"elementId":6,"formula":"(150 + a.mat * 1 + ((b.vit + b.wis)/2)) * 1.15","type":0,"variance":20},"description":"","effects":[
 	],"hitType":0,"iconIndex":80,"message1":"","message2":"","mpCost":0,"name":"重生之火","note":"<description>\n[單體]\n[涅槃]\n自火中消逝，同時自火中重生。\n</description>","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":7,"speed":-50,"stypeId":1,"successRate":100,"tpCost":0,"tpGain":0},
 	{"id":88,"animationId":0,"damage":{"critical":false,"elementId":5,"formula":"(a.mat * 3 - b.mdf * 2) * 1.1","type":1,"variance":20},"description":"","effects":[
+		{"code":22,"dataId":11,"value1":1,"value2":0}
 	],"hitType":2,"iconIndex":67,"message1":"","message2":"","mpCost":0,"name":"水波","note":"<description>\n【\\I[260]&\\I[67]】[單體傷害]\n用水把敵人淋成落湯雞。\n</description>","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":1,"speed":0,"stypeId":1,"successRate":100,"tpCost":0,"tpGain":0},
 	{"id":89,"animationId":0,"damage":{"critical":false,"elementId":5,"formula":"(50 + (a.mat * 3 - b.mdf * 2)) * 1.1","type":1,"variance":20},"description":"","effects":[
+		{"code":22,"dataId":11,"value1":1,"value2":0}
 	],"hitType":2,"iconIndex":67,"message1":"","message2":"","mpCost":0,"name":"泡沫衝擊","note":"<description>\n【\\I[260]&\\I[67]】[單體傷害]\n[\\I[67]潮濕10%]\n噴射大量的泡沫進行攻擊，你媽都用這招洗衣服。\n</description>","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":1,"speed":0,"stypeId":1,"successRate":100,"tpCost":0,"tpGain":0},
 	{"id":90,"animationId":0,"damage":{"critical":false,"elementId":5,"formula":"(50 + (a.mat * 3 - b.mdf * 2)) * 1.1","type":1,"variance":20},"description":"","effects":[
+		{"code":22,"dataId":11,"value1":1,"value2":0}
 	],"hitType":2,"iconIndex":67,"message1":"","message2":"","mpCost":0,"name":"大海浪","note":"<description>\n【\\I[260]&\\I[67]】[全體傷害]\n[\\I[67]潮濕10%]\n席捲大浪攻擊敵人，這樣救生員會很忙，停止你的危險行為。\n</description>","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":2,"speed":0,"stypeId":1,"successRate":100,"tpCost":0,"tpGain":0},
 	{"id":91,"animationId":0,"damage":{"critical":false,"elementId":5,"formula":"(125 + (a.mat * 3 - b.mdf * 2)) * 1.1","type":1,"variance":20},"description":"","effects":[
+		{"code":22,"dataId":11,"value1":1,"value2":0}
 	],"hitType":2,"iconIndex":67,"message1":"","message2":"","mpCost":0,"name":"強襲水炮","note":"<description>\n【\\I[260]&\\I[67]】[單體傷害]\n[速度下降1階][3回合]\n將水壓縮噴射出去，魔王城失火就靠你了。\n</description>","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":1,"speed":0,"stypeId":1,"successRate":100,"tpCost":0,"tpGain":0},
 	{"id":92,"animationId":0,"damage":{"critical":false,"elementId":5,"formula":"(200 + (a.mat * 3 - b.mdf * 2)) * 1.1","type":1,"variance":20},"description":"","effects":[
+		{"code":22,"dataId":11,"value1":1,"value2":0}
 	],"hitType":2,"iconIndex":67,"message1":"","message2":"","mpCost":0,"name":"海洋渦流","note":"<description>\n【\\I[260]&\\I[67]】[單體傷害]\n[渦流100%][3回合]\n將敵人困在激烈的水流漩渦中，你就是滾筒洗衣機的先驅。\n</description>","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":1,"speed":0,"stypeId":1,"successRate":100,"tpCost":0,"tpGain":0},
 	{"id":93,"animationId":0,"damage":{"critical":false,"elementId":5,"formula":"(300 + (a.mat * 3 - b.mdf * 2)) * 1.1","type":1,"variance":20},"description":"","effects":[
+		{"code":22,"dataId":11,"value1":1,"value2":0}
 	],"hitType":2,"iconIndex":67,"message1":"","message2":"","mpCost":0,"name":"七色雨","note":"<description>\n【\\I[260]&\\I[67]】[全體傷害]\n[MP-15%]\n降下彩虹色的雨，哇！好漂亮──幹好痛啊！\n</description>","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":2,"speed":0,"stypeId":1,"successRate":100,"tpCost":0,"tpGain":0},
 	{"id":94,"animationId":0,"damage":{"critical":false,"elementId":6,"formula":"(a.mat * 3 - b.mdf * 2) * 1.15","type":0,"variance":20},"description":"","effects":[
 		{"code":22,"dataId":4,"value1":1,"value2":0},
 		{"code":22,"dataId":3,"value1":1,"value2":0}
 	],"hitType":0,"iconIndex":83,"message1":"","message2":"","mpCost":0,"name":"療癒露水","note":"<description>\n[單體][解除]\n[\\I[2]中毒100%][\\I[2]猛毒100%]\n新鮮的清晨露水，能夠淨化你汙穢的心靈。\n</description>","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":7,"speed":0,"stypeId":1,"successRate":100,"tpCost":0,"tpGain":0},
 	{"id":95,"animationId":0,"damage":{"critical":false,"elementId":5,"formula":"(50 + a.mat * 1 + ((b.vit + b.wis)/2)) * 1.1","type":3,"variance":20},"description":"","effects":[
+		{"code":22,"dataId":11,"value1":1,"value2":0}
 	],"hitType":0,"iconIndex":83,"message1":"","message2":"","mpCost":0,"name":"水之歌","note":"<description>\n【\\I[67]】[單體][恢復]\n新鮮的清晨露水，能夠淨化你汙穢的心靈。\n</description>","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":7,"speed":0,"stypeId":1,"successRate":100,"tpCost":0,"tpGain":0},
 	{"id":96,"animationId":0,"damage":{"critical":false,"elementId":5,"formula":"(50 + a.mat * 1 + ((b.vit + b.wis)/2)) * 1.1","type":0,"variance":20},"description":"","effects":[
 		{"code":21,"dataId":45,"value1":1,"value2":0}
@@ -261,6 +276,7 @@
 	{"id":100,"animationId":0,"damage":{"critical":false,"elementId":5,"formula":"(50 + a.mat * 1 + ((b.vit + b.wis)/2)) * 1.1","type":0,"variance":20},"description":"","effects":[
 	],"hitType":0,"iconIndex":83,"message1":"","message2":"","mpCost":0,"name":"祈雨","note":"<description>\n[全場]\n[水屬性傷害提升][3回合]\n跳起祈求下雨的舞蹈，很醜！不要看我！\n</description>","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":8,"speed":0,"stypeId":1,"successRate":100,"tpCost":0,"tpGain":0},
 	{"id":101,"animationId":0,"damage":{"critical":false,"elementId":5,"formula":"(150 + a.mat * 1 + ((b.vit + b.wis)/2)) * 1.1","type":3,"variance":20},"description":"","effects":[
+		{"code":22,"dataId":11,"value1":1,"value2":0}
 	],"hitType":0,"iconIndex":83,"message1":"","message2":"","mpCost":0,"name":"柔和治療","note":"<description>\n【\\I[67]】[單體][恢復]\n[恢復量按照對象異常狀態數量增加]\n累積了太多壓力嗎？趕快放鬆一下吧。\n</description>","occasion":1,"repeats":1,"requiredWtypeId1":0,"requiredWtypeId2":0,"scope":7,"speed":0,"stypeId":1,"successRate":100,"tpCost":0,"tpGain":0},
 	{"id":102,"animationId":0,"damage":{"critical":false,"elementId":5,"formula":"(50 + a.mat * 1 + ((b.vit + b.wis)/2)) * 1.1","type":0,"variance":20},"description":"","effects":[
 		{"code":21,"dataId":33,"value1":1,"value2":0}

@@ -7,7 +7,7 @@
 		3,
 		0
 	],"faceIndex":0,"faceName":"Actor1","traits":[
-	],"initialLevel":1,"maxLevel":99,"name":"德普","nickname":"","note":"<adjustEquipSlots>\n{\n\"1\":0,\n\"2\":-1,\n\"3\":0,\n\"4\":4,\n\"_dummy\":0\n}\n</adjustEquipSlots>","profile":""},
+	],"initialLevel":1,"maxLevel":99,"name":"德普","nickname":"","note":"<adjustEquipSlots>\n{\n\"1\":0,\n\"2\":-1,\n\"3\":0,\n\"4\":4,\n\"_dummy\":0\n}\n</adjustEquipSlots>\n<levelUpEval>\nthis.skillTreePoint_set(this.skillTreePoint_get()+1);\nthis.allocating_getPoints(5);\n</levelUpEval>","profile":""},
 	{"id":2,"battlerName":"","characterIndex":7,"characterName":"Actor1","classId":2,"equips":[
 		2,
 		1,
@@ -15,7 +15,7 @@
 		3,
 		0
 	],"faceIndex":7,"faceName":"Actor1","traits":[
-	],"initialLevel":1,"maxLevel":30,"name":"蝙蝠","nickname":"","note":"<寵物>","profile":""},
+	],"initialLevel":1,"maxLevel":30,"name":"蝙蝠","nickname":"","note":"<寵物>\nif(this.level%3===1)\nthis.skillTreePoint_set(this.skillTreePoint_get()+1);\nthis.allocating_getPoints(3);","profile":""},
 	{"id":3,"battlerName":"","characterIndex":7,"characterName":"Actor3","classId":7,"equips":[
 		3,
 		0,

@@ -6244,12 +6244,93 @@
 			{"code":250,"indent":0,"parameters":[
 				{"name":"Item1","volume":90,"pitch":100,"pan":0}
 			]},
-			{"code":128,"indent":0,"parameters":[
-				152,
+			{"code":111,"indent":0,"parameters":[
+				1,
+				1,
+				0,
+				1,
+				0
+			]},
+			{"code":128,"indent":1,"parameters":[
+				166,
 				0,
 				0,
 				1,
 				false
+			]},
+			{"code":0,"indent":1,"parameters":[
+			]},
+			{"code":411,"indent":0,"parameters":[
+			]},
+			{"code":111,"indent":1,"parameters":[
+				1,
+				1,
+				0,
+				2,
+				0
+			]},
+			{"code":128,"indent":2,"parameters":[
+				182,
+				0,
+				0,
+				1,
+				false
+			]},
+			{"code":0,"indent":2,"parameters":[
+			]},
+			{"code":411,"indent":1,"parameters":[
+			]},
+			{"code":111,"indent":2,"parameters":[
+				1,
+				1,
+				0,
+				3,
+				0
+			]},
+			{"code":128,"indent":3,"parameters":[
+				173,
+				0,
+				0,
+				1,
+				false
+			]},
+			{"code":0,"indent":3,"parameters":[
+			]},
+			{"code":411,"indent":2,"parameters":[
+			]},
+			{"code":111,"indent":3,"parameters":[
+				1,
+				1,
+				0,
+				4,
+				0
+			]},
+			{"code":128,"indent":4,"parameters":[
+				165,
+				0,
+				0,
+				1,
+				false
+			]},
+			{"code":0,"indent":4,"parameters":[
+			]},
+			{"code":411,"indent":3,"parameters":[
+			]},
+			{"code":0,"indent":4,"parameters":[
+			]},
+			{"code":412,"indent":3,"parameters":[
+			]},
+			{"code":0,"indent":3,"parameters":[
+			]},
+			{"code":412,"indent":2,"parameters":[
+			]},
+			{"code":0,"indent":2,"parameters":[
+			]},
+			{"code":412,"indent":1,"parameters":[
+			]},
+			{"code":0,"indent":1,"parameters":[
+			]},
+			{"code":412,"indent":0,"parameters":[
 			]},
 			{"code":101,"indent":0,"parameters":[
 				"",
@@ -6302,7 +6383,37 @@
 				{"name":"Item1","volume":90,"pitch":100,"pan":0}
 			]},
 			{"code":126,"indent":1,"parameters":[
-				260,
+				501,
+				0,
+				0,
+				3
+			]},
+			{"code":101,"indent":1,"parameters":[
+				"",
+				0,
+				0,
+				2
+			]},
+			{"code":401,"indent":1,"parameters":[
+				"獲得\\EVALTOSTR:\"$gameTemp._partyLastGainedItem.object().name\"3個。"
+			]},
+			{"code":126,"indent":1,"parameters":[
+				511,
+				0,
+				0,
+				3
+			]},
+			{"code":101,"indent":1,"parameters":[
+				"",
+				0,
+				0,
+				2
+			]},
+			{"code":401,"indent":1,"parameters":[
+				"獲得\\EVALTOSTR:\"$gameTemp._partyLastGainedItem.object().name\"3個。"
+			]},
+			{"code":126,"indent":1,"parameters":[
+				518,
 				0,
 				0,
 				3

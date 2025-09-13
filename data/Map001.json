@@ -1458,16 +1458,16 @@
 				1
 			]},
 			{"code":401,"indent":0,"parameters":[
-				"你是有名冒險家的兒子，父親將你送入了冒險者學校就讀，"
+				"\\EVALJSCODE:\"SceneManager._scene._messageWindow.y-=123;\"你是有名冒險家的兒子，"
 			]},
 			{"code":401,"indent":0,"parameters":[
-				"父親告訴你，他之所以能成為有名冒險家，"
+				"父親將你送入了冒險者學校就讀，他告訴你，"
 			]},
 			{"code":401,"indent":0,"parameters":[
-				"有很大一部份原因歸功於學校的教育。"
+				"他之所以能成為有名冒險家，有很大原因歸功於學校的教育。"
 			]},
 			{"code":401,"indent":0,"parameters":[
-				"此時的你聽著父親的話，你打算怎麼辦？"
+				"此時的你聽著父親的話，打算怎麼辦？"
 			]},
 			{"code":102,"indent":0,"parameters":[
 				[
@@ -1478,7 +1478,7 @@
 				],
 				-1,
 				-1,
-				2,
+				1,
 				0
 			]},
 			{"code":402,"indent":0,"parameters":[
@@ -1601,7 +1601,7 @@
 				1
 			]},
 			{"code":401,"indent":0,"parameters":[
-				"你是一個就讀傭兵學校的學生，"
+				"\\EVALJSCODE:\"SceneManager._scene._messageWindow.y-=123;\"你是一個就讀傭兵學校的學生，"
 			]},
 			{"code":401,"indent":0,"parameters":[
 				"今天要進行第一次的實戰演練，老師說以兩人一組為單位，"
@@ -1618,7 +1618,7 @@
 				],
 				-1,
 				-1,
-				2,
+				1,
 				0
 			]},
 			{"code":402,"indent":0,"parameters":[
@@ -1626,8 +1626,8 @@
 				"擅長連續攻擊的戰士"
 			]},
 			{"code":122,"indent":1,"parameters":[
-				1,
-				1,
+				120,
+				120,
 				0,
 				0,
 				1
@@ -1642,8 +1642,8 @@
 				"習得多種魔法的魔法師"
 			]},
 			{"code":122,"indent":1,"parameters":[
-				1,
-				1,
+				120,
+				120,
 				0,
 				0,
 				2
@@ -1658,8 +1658,8 @@
 				"運用治癒魔法的僧侶"
 			]},
 			{"code":122,"indent":1,"parameters":[
-				1,
-				1,
+				120,
+				120,
 				0,
 				0,
 				3
@@ -1674,8 +1674,8 @@
 				"潛入黑暗之中的盜賊"
 			]},
 			{"code":122,"indent":1,"parameters":[
-				1,
-				1,
+				120,
+				120,
 				0,
 				0,
 				4
@@ -1700,10 +1700,10 @@
 				1
 			]},
 			{"code":401,"indent":0,"parameters":[
-				"你是個認真學習的學生，剛開始屬於你的住宿生活，"
+				"\\EVALJSCODE:\"SceneManager._scene._messageWindow.y-=123;\"你是個認真學習的學生，剛開始屬於你的住宿生活，"
 			]},
 			{"code":401,"indent":0,"parameters":[
-				"在學校經過了一周，好不容易盼到了休息。"
+				"在學校經過了一周，好不容易盼到了休息的日子。"
 			]},
 			{"code":401,"indent":0,"parameters":[
 				"這時候的你想做點什麼來度過這個週末？"
@@ -1717,7 +1717,7 @@
 				],
 				-1,
 				-1,
-				2,
+				1,
 				0
 			]},
 			{"code":402,"indent":0,"parameters":[
@@ -1785,7 +1785,7 @@
 				1
 			]},
 			{"code":401,"indent":0,"parameters":[
-				"你正在學校附近遊歷冒險，湊巧在處理任務的途中幫助了"
+				"\\EVALJSCODE:\"SceneManager._scene._messageWindow.y-=123;\"你正在學校附近遊歷冒險，湊巧在處理任務的途中幫助了"
 			]},
 			{"code":401,"indent":0,"parameters":[
 				"一名路人。"
@@ -1805,7 +1805,7 @@
 				],
 				-1,
 				-1,
-				2,
+				1,
 				0
 			]},
 			{"code":402,"indent":0,"parameters":[
@@ -1881,7 +1881,7 @@
 				1
 			]},
 			{"code":401,"indent":0,"parameters":[
-				"你在森林裡見到了認識的獵人用捕獸夾抓住的獵物，"
+				"\\EVALJSCODE:\"SceneManager._scene._messageWindow.y-=123;\"你在森林裡見到了認識的獵人用捕獸夾抓住的獵物，"
 			]},
 			{"code":401,"indent":0,"parameters":[
 				"牠奄奄一息，發出了淒厲的叫聲。"
@@ -1898,7 +1898,7 @@
 				],
 				-1,
 				-1,
-				2,
+				1,
 				0
 			]},
 			{"code":402,"indent":0,"parameters":[
@@ -1985,7 +1985,7 @@
 				1
 			]},
 			{"code":401,"indent":0,"parameters":[
-				"你在冒險者學校裡是首屈一指的狩獵者，"
+				"\\EVALJSCODE:\"SceneManager._scene._messageWindow.y-=123;\"你在冒險者學校裡是首屈一指的狩獵者，"
 			]},
 			{"code":401,"indent":0,"parameters":[
 				"狩獵過大大小小的動物，"
@@ -2002,7 +2002,7 @@
 				],
 				-1,
 				-1,
-				2,
+				1,
 				0
 			]},
 			{"code":402,"indent":0,"parameters":[
@@ -2070,7 +2070,7 @@
 				1
 			]},
 			{"code":401,"indent":0,"parameters":[
-				"今天是你在冒險者學院的第二年，悠閒的午後沒有任何課程。"
+				"\\EVALJSCODE:\"SceneManager._scene._messageWindow.y-=123;\"今天是你在冒險者學院的第二年，悠閒的午後沒有任何課程。"
 			]},
 			{"code":401,"indent":0,"parameters":[
 				"於是你打算去圖書館充實一下自己的知識。"
@@ -2090,7 +2090,7 @@
 				],
 				-1,
 				-1,
-				2,
+				1,
 				0
 			]},
 			{"code":402,"indent":0,"parameters":[
@@ -2146,7 +2146,7 @@
 				1
 			]},
 			{"code":401,"indent":0,"parameters":[
-				"你即將從冒險者學校畢業，正在整理自己的行李，"
+				"\\EVALJSCODE:\"SceneManager._scene._messageWindow.y-=123;\"你即將從冒險者學校畢業，正在整理自己的行李，"
 			]},
 			{"code":401,"indent":0,"parameters":[
 				"此時你無意間在房間角落找到了你放著珍貴回憶寶物的箱子。"
@@ -2163,7 +2163,7 @@
 				],
 				-1,
 				-1,
-				2,
+				1,
 				0
 			]},
 			{"code":402,"indent":0,"parameters":[
@@ -2246,7 +2246,7 @@
 				""
 			]},
 			{"code":401,"indent":0,"parameters":[
-				"\\TXTCENTER:\"…\\.…\\.原來如此，\\|我慢慢回想起來了。\""
+				"\\TXTCENTER:\"…\\\\.…\\\\.原來如此，\\\\|我慢慢回想起來了。\""
 			]},
 			{"code":401,"indent":0,"parameters":[
 				"　　　　　　　　　　"
@@ -2336,7 +2336,15 @@
 				""
 			]},
 			{"code":401,"indent":0,"parameters":[
-				"\\TXTCENTER:\"\\C[5]※請選擇你的遊戲難度\""
+				"\\TXTCENTER:\"\\\\C[5]※請選擇你的遊戲難度\""
+			]},
+			{"code":121,"indent":0,"parameters":[
+				1,
+				1,
+				0
+			]},
+			{"code":355,"indent":0,"parameters":[
+				"SceneManager._scene._messageWindow._choiceWindow.alpha=1;"
 			]},
 			{"code":118,"indent":0,"parameters":[
 				"模式選擇"
@@ -2349,7 +2357,7 @@
 				],
 				-1,
 				-1,
-				2,
+				1,
 				0
 			]},
 			{"code":402,"indent":0,"parameters":[
@@ -2470,19 +2478,22 @@
 			{"code":401,"indent":1,"parameters":[
 				"確定要選擇這個模式嗎？"
 			]},
+			{"code":230,"indent":1,"parameters":[
+				1
+			]},
 			{"code":102,"indent":1,"parameters":[
 				[
-					"是",
-					"否"
+					"\\TXTCENTER:\"是\"",
+					"\\TXTCENTER:\"否\""
 				],
 				1,
 				-1,
-				2,
+				1,
 				0
 			]},
 			{"code":402,"indent":1,"parameters":[
 				0,
-				"是"
+				"\\TXTCENTER:\"是\""
 			]},
 			{"code":121,"indent":2,"parameters":[
 				42,
@@ -2493,7 +2504,7 @@
 			]},
 			{"code":402,"indent":1,"parameters":[
 				1,
-				"否"
+				"\\TXTCENTER:\"否\""
 			]},
 			{"code":119,"indent":2,"parameters":[
 				"模式選擇"
@@ -2598,19 +2609,22 @@
 			{"code":401,"indent":1,"parameters":[
 				"確定要選擇這個模式嗎？"
 			]},
+			{"code":230,"indent":1,"parameters":[
+				1
+			]},
 			{"code":102,"indent":1,"parameters":[
 				[
-					"是",
-					"否"
+					"\\TXTCENTER:\"是\"",
+					"\\TXTCENTER:\"否\""
 				],
 				1,
 				-1,
-				2,
+				1,
 				0
 			]},
 			{"code":402,"indent":1,"parameters":[
 				0,
-				"是"
+				"\\TXTCENTER:\"是\""
 			]},
 			{"code":121,"indent":2,"parameters":[
 				43,
@@ -2621,7 +2635,7 @@
 			]},
 			{"code":402,"indent":1,"parameters":[
 				1,
-				"否"
+				"\\TXTCENTER:\"否\""
 			]},
 			{"code":119,"indent":2,"parameters":[
 				"模式選擇"
@@ -2699,19 +2713,22 @@
 			{"code":401,"indent":1,"parameters":[
 				"確定要選擇這個模式嗎？"
 			]},
+			{"code":230,"indent":1,"parameters":[
+				1
+			]},
 			{"code":102,"indent":1,"parameters":[
 				[
-					"是",
-					"否"
+					"\\TXTCENTER:\"是\"",
+					"\\TXTCENTER:\"否\""
 				],
 				1,
 				-1,
-				2,
+				1,
 				0
 			]},
 			{"code":402,"indent":1,"parameters":[
 				0,
-				"是"
+				"\\TXTCENTER:\"是\""
 			]},
 			{"code":121,"indent":2,"parameters":[
 				44,
@@ -2722,7 +2739,7 @@
 			]},
 			{"code":402,"indent":1,"parameters":[
 				1,
-				"否"
+				"\\TXTCENTER:\"否\""
 			]},
 			{"code":119,"indent":2,"parameters":[
 				"模式選擇"
@@ -2757,7 +2774,7 @@
 				""
 			]},
 			{"code":401,"indent":0,"parameters":[
-				"\\TXTCENTER:\"無論當初你選擇了怎樣的道路。\"\\|\\|\\|\\^"
+				"\\TXTCENTER:\"無論當初你選擇了怎樣的道路。\"\\\\|\\\\|\\\\|\\^"
 			]},
 			{"code":401,"indent":0,"parameters":[
 				"　　　　　　　　　　"
@@ -2772,7 +2789,7 @@
 				""
 			]},
 			{"code":401,"indent":0,"parameters":[
-				"\\TXTCENTER:\"為何你最後會變成這樣呢？\"\\|\\|\\|\\^"
+				"\\TXTCENTER:\"為何你最後會變成這樣呢？\"\\\\|\\\\|\\\\|\\^"
 			]},
 			{"code":401,"indent":0,"parameters":[
 				"　　　　　　　　　　"
@@ -2787,7 +2804,7 @@
 				""
 			]},
 			{"code":401,"indent":0,"parameters":[
-				"\\TXTCENTER:\"希望你最後……能夠找出，正確的道路。\"\\|\\|\\|\\^"
+				"\\TXTCENTER:\"希望你最後……能夠找出，正確的道路。\"\\\\|\\\\|\\\\|\\^"
 			]},
 			{"code":401,"indent":0,"parameters":[
 				"　　　　　　　　　　"
@@ -2805,10 +2822,85 @@
 				""
 			]},
 			{"code":401,"indent":0,"parameters":[
-				"\\TXTCENTER:\"做出，你所期望的選擇。\"\\|\\|\\|\\^"
+				"\\TXTCENTER:\"做出，你所期望的選擇。\"\\\\|\\\\|\\\\|\\^"
 			]},
 			{"code":401,"indent":0,"parameters":[
 				"　　　　　　　　　　"
+			]},
+			{"code":122,"indent":0,"parameters":[
+				42,
+				42,
+				0,
+				0,
+				1
+			]},
+			{"code":122,"indent":0,"parameters":[
+				43,
+				43,
+				0,
+				0,
+				1
+			]},
+			{"code":122,"indent":0,"parameters":[
+				44,
+				44,
+				0,
+				0,
+				1
+			]},
+			{"code":122,"indent":0,"parameters":[
+				45,
+				45,
+				0,
+				0,
+				1
+			]},
+			{"code":122,"indent":0,"parameters":[
+				46,
+				46,
+				0,
+				0,
+				1
+			]},
+			{"code":122,"indent":0,"parameters":[
+				47,
+				47,
+				0,
+				0,
+				1
+			]},
+			{"code":122,"indent":0,"parameters":[
+				48,
+				48,
+				0,
+				0,
+				1
+			]},
+			{"code":122,"indent":0,"parameters":[
+				49,
+				49,
+				0,
+				0,
+				1
+			]},
+			{"code":122,"indent":0,"parameters":[
+				50,
+				50,
+				0,
+				0,
+				1
+			]},
+			{"code":122,"indent":0,"parameters":[
+				52,
+				52,
+				0,
+				0,
+				1
+			]},
+			{"code":121,"indent":0,"parameters":[
+				1,
+				1,
+				1
 			]},
 			{"code":223,"indent":0,"parameters":[
 				[
@@ -2841,17 +2933,39 @@
 	{"id":2,"name":"EV002","note":"","pages":[
 		{"conditions":{"actorId":1,"actorValid":false,"itemId":1,"itemValid":false,"selfSwitchCh":"A","selfSwitchValid":false,"switch1Id":1,"switch1Valid":false,"switch2Id":1,"switch2Valid":false,"variableId":1,"variableValid":false,"variableValue":0},"directionFix":false,"image":{"characterIndex":0,"characterName":"","direction":2,"pattern":0,"tileId":0},"list":[
 			{"code":355,"indent":0,"parameters":[
-				"$gamePlayer._moveSpeed=6;"
+				"if(!SceneManager._scene._messageWindow._choiceWindow.isClosed()){"
 			]},
-			{"code":101,"indent":0,"parameters":[
-				"",
-				0,
-				0,
-				2
+			{"code":655,"indent":0,"parameters":[
+				" if(SceneManager._scene._messageWindow._choiceWindow._transparentCtr){"
 			]},
-			{"code":401,"indent":0,"parameters":[
-				"\\F[\\n[1]]"
+			{"code":655,"indent":0,"parameters":[
+				"  SceneManager._scene._messageWindow._choiceWindow.alpha+=(1-SceneManager._scene._messageWindow._choiceWindow.alpha)/SceneManager._scene._messageWindow._choiceWindow._transparentCtr--;"
 			]},
+			{"code":655,"indent":0,"parameters":[
+				" }"
+			]},
+			{"code":655,"indent":0,"parameters":[
+				" SceneManager._scene._messageWindow._choiceWindow.y=380;"
+			]},
+			{"code":655,"indent":0,"parameters":[
+				"}else if(!SceneManager._scene._messageWindow._choiceWindow._transparentCtr){"
+			]},
+			{"code":655,"indent":0,"parameters":[
+				" SceneManager._scene._messageWindow._choiceWindow._transparentCtr=64;"
+			]},
+			{"code":655,"indent":0,"parameters":[
+				" SceneManager._scene._messageWindow._choiceWindow.alpha=0;"
+			]},
+			{"code":655,"indent":0,"parameters":[
+				"}"
+			]},
+			{"code":0,"indent":0,"parameters":[
+			]}
+		],"moveFrequency":3,"moveRoute":{"list":[
+			{"code":0,"parameters":[
+			]}
+		],"repeat":true,"skippable":false,"wait":false},"moveSpeed":3,"moveType":0,"priorityType":0,"stepAnime":false,"through":false,"trigger":4,"walkAnime":true},
+		{"conditions":{"actorId":1,"actorValid":false,"itemId":1,"itemValid":false,"selfSwitchCh":"A","selfSwitchValid":false,"switch1Id":1,"switch1Valid":true,"switch2Id":1,"switch2Valid":false,"variableId":1,"variableValid":false,"variableValue":0},"directionFix":false,"image":{"characterIndex":0,"characterName":"","direction":2,"pattern":0,"tileId":0},"list":[
 			{"code":0,"indent":0,"parameters":[
 			]}
 		],"moveFrequency":3,"moveRoute":{"list":[
