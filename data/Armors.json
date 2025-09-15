@@ -1945,7 +1945,7 @@
 		0
 	],"price":0},
 	{"id":152,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":198,"name":"煌珠【白色力量】","note":"<description>\n[全能力+2]\n牛奶泡泡球的煌珠，可以強化身體能力。\n</description>","params":[
+	],"iconIndex":198,"name":"煌珠【白色力量】","note":"<description>\n[全能力+2]\n牛奶泡泡球的煌珠，可以強化身體能力。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式01_normal()\",\"裝備最大值的函式01_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mhp\",\"atk\",\"def\",\"mat\",\"mdf\",\"agi\",\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		2,
@@ -1958,7 +1958,7 @@
 	{"id":153,"atypeId":2,"description":"","etypeId":4,"traits":[
 		{"code":41,"dataId":3,"value":1},
 		{"code":43,"dataId":237,"value":1}
-	],"iconIndex":192,"name":"煌珠【火球】","note":"<description>\n[煌珠技能][火球]\n辣椒泡泡球的煌珠，可以使用火的力量。\n</description>","params":[
+	],"iconIndex":192,"name":"煌珠【火球】","note":"<description>\n[煌珠技能][火球]\n辣椒泡泡球的煌珠，可以使用火的力量。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式01_normal()\",\"裝備最大值的函式01_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"atk\",\"mat\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -1971,7 +1971,7 @@
 	{"id":154,"atypeId":2,"description":"","etypeId":4,"traits":[
 		{"code":22,"dataId":0,"value":0.03},
 		{"code":22,"dataId":1,"value":0.01}
-	],"iconIndex":197,"name":"煌珠【輕飄飄】","note":"<description>\n[命中率+3%][迴避率+1%]\n絨絨草泡泡球的煌珠，可以強化感官。\n</description>","params":[
+	],"iconIndex":197,"name":"煌珠【輕飄飄】","note":"<description>\n[命中率+3%][迴避率+1%]\n絨絨草泡泡球的煌珠，可以強化感官。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式01_normal()\",\"裝備最大值的函式01_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"agi\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -1983,7 +1983,7 @@
 	],"price":0},
 	{"id":155,"atypeId":2,"description":"","etypeId":4,"traits":[
 		{"code":23,"dataId":6,"value":0.95}
-	],"iconIndex":196,"name":"煌珠【堅硬】","note":"<description>\n[受到的物理傷害*95%]\n烏莢果泡泡球的煌珠，可以讓皮膚變得堅硬。\n</description>","params":[
+	],"iconIndex":196,"name":"煌珠【堅硬】","note":"<description>\n[受到的物理傷害*95%]\n烏莢果泡泡球的煌珠，可以讓皮膚變得堅硬。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式01_normal()\",\"裝備最大值的函式01_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"def\",\"mdf\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -1995,7 +1995,7 @@
 	],"price":0},
 	{"id":156,"atypeId":2,"description":"","etypeId":4,"traits":[
 		{"code":22,"dataId":7,"value":0.03}
-	],"iconIndex":195,"name":"煌珠【修復】","note":"<description>\n[HP再生+3%]\n果凍泡泡球的煌珠，可以加速傷口的修復。\n</description>","params":[
+	],"iconIndex":195,"name":"煌珠【修復】","note":"<description>\n[HP再生+3%]\n果凍泡泡球的煌珠，可以加速傷口的修復。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式01_normal()\",\"裝備最大值的函式01_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mhp\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2014,7 +2014,7 @@
 		{"code":11,"dataId":9,"value":0.9},
 		{"code":11,"dataId":10,"value":0.9},
 		{"code":11,"dataId":11,"value":0.9}
-	],"iconIndex":198,"name":"煌珠【彩虹守護】","note":"<description>\n[全元素耐受性*90%]\n彩虹泡泡球的煌珠，能抵抗受到的元素屬性傷害。\n</description>","params":[
+	],"iconIndex":198,"name":"煌珠【彩虹守護】","note":"<description>\n[全元素耐受性*90%]\n彩虹泡泡球的煌珠，能抵抗受到的元素屬性傷害。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式01_rate()\",\"裝備最大值的函式01_rate()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mhp\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2025,7 +2025,7 @@
 		0
 	],"price":0},
 	{"id":158,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":194,"name":"煌珠【招財】","note":"<description>\n[戰鬥結束後獲得30~100不等的金幣]\n黃金泡泡球的煌珠，對金錢的氣味變得靈敏。\n</description>","params":[
+	],"iconIndex":194,"name":"煌珠【招財】","note":"<description>\n[戰鬥結束後獲得30~100不等的金幣]\n黃金泡泡球的煌珠，對金錢的氣味變得靈敏。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式01_elite()\",\"裝備最大值的函式01_elite()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2036,7 +2036,7 @@
 		0
 	],"price":0},
 	{"id":159,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":198,"name":"煌珠【原始力量】","note":"<description>\n[戰鬥開始時獲得][\\I[172]免疫異常狀態100%]\n原始泡泡球的煌珠，能獲得原始的力量。\n</description>","params":[
+	],"iconIndex":198,"name":"煌珠【原始力量】","note":"<description>\n[戰鬥開始時獲得][\\I[172]免疫異常狀態100%]\n原始泡泡球的煌珠，能獲得原始的力量。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式01_boss()\",\"裝備最大值的函式01_boss()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mhp\",\"atk\",\"def\",\"mat\",\"mdf\",\"agi\",\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2047,7 +2047,7 @@
 		0
 	],"price":0},
 	{"id":160,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":196,"name":"煌珠【吞石】","note":"<description>\n[戰鬥開始獲得地屬性傷害吸收，觸發後解除，冷卻8回合]\n嶙峋蟾的煌珠，會讓你開始覺得石頭很美味。\n</description>","params":[
+	],"iconIndex":196,"name":"煌珠【吞石】","note":"<description>\n[戰鬥開始獲得地屬性傷害吸收，觸發後解除，冷卻8回合]\n嶙峋蟾的煌珠，會讓你開始覺得石頭很美味。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式02_normal()\",\"裝備最大值的函式02_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"def\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2059,7 +2059,7 @@
 	],"price":0},
 	{"id":161,"atypeId":2,"description":"","etypeId":4,"traits":[
 		{"code":22,"dataId":2,"value":0.03}
-	],"iconIndex":192,"name":"煌珠【兇性】","note":"<description>\n[爆擊率+3%]\n沙骨狼的煌珠，現在你看一切都很不順眼了。\n</description>","params":[
+	],"iconIndex":192,"name":"煌珠【兇性】","note":"<description>\n[爆擊率+3%]\n沙骨狼的煌珠，現在你看一切都很不順眼了。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式02_normal()\",\"裝備最大值的函式02_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"atk\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2071,7 +2071,7 @@
 	],"price":0},
 	{"id":162,"atypeId":2,"description":"","etypeId":4,"traits":[
 		{"code":23,"dataId":0,"value":0.5}
-	],"iconIndex":196,"name":"煌珠【躲藏】","note":"<description>\n[受到攻擊的機率*50%]\n淘氣鼠的煌珠，配戴後會變得唯唯諾諾，看到誰都會很害怕。\n</description>","params":[
+	],"iconIndex":196,"name":"煌珠【躲藏】","note":"<description>\n[受到攻擊的機率*50%]\n淘氣鼠的煌珠，配戴後會變得唯唯諾諾，看到誰都會很害怕。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式02_normal()\",\"裝備最大值的函式02_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"agi\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2084,7 +2084,7 @@
 	{"id":163,"atypeId":2,"description":"","etypeId":4,"traits":[
 		{"code":41,"dataId":3,"value":1},
 		{"code":43,"dataId":238,"value":1}
-	],"iconIndex":196,"name":"煌珠【土爆】","note":"<description>\n[煌珠技能][土爆]\n泥土精靈的煌珠，可以使用大地的力量。\n</description>","params":[
+	],"iconIndex":196,"name":"煌珠【土爆】","note":"<description>\n[煌珠技能][土爆]\n泥土精靈的煌珠，可以使用大地的力量。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式02_normal()\",\"裝備最大值的函式02_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mat\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2097,7 +2097,7 @@
 	{"id":164,"atypeId":2,"description":"","etypeId":4,"traits":[
 		{"code":31,"dataId":9,"value":1},
 		{"code":13,"dataId":14,"value":0.1}
-	],"iconIndex":197,"name":"煌珠【龍捲武器】","note":"<description>\n[風屬性武器][\\I[6]失明10%]\n石羽咕咕的煌珠，能在武器上賦予風之力。\n</description>","params":[
+	],"iconIndex":197,"name":"煌珠【龍捲武器】","note":"<description>\n[風屬性武器][\\I[6]失明10%]\n石羽咕咕的煌珠，能在武器上賦予風之力。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式02_normal()\",\"裝備最大值的函式02_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"agi\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2108,7 +2108,7 @@
 		0
 	],"price":0},
 	{"id":165,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":198,"name":"煌珠【迷蹤踏】","note":"<description>\n[戰鬥開始時迴避率、魔法迴避+20%，受到攻擊後解除]\n幻角的煌珠，能踏出幻影的步伐，但受到攻擊會解除。\n</description>","params":[
+	],"iconIndex":198,"name":"煌珠【迷蹤踏】","note":"<description>\n[戰鬥開始時迴避率、魔法迴避+20%，受到攻擊後解除]\n幻角的煌珠，能踏出幻影的步伐，但受到攻擊會解除。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式02_rare()\",\"裝備最大值的函式02_rare()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"agi\",\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2120,7 +2120,7 @@
 	],"price":0},
 	{"id":166,"atypeId":2,"description":"","etypeId":4,"traits":[
 		{"code":22,"dataId":1,"value":0.1}
-	],"iconIndex":194,"name":"煌珠【蠻牙】","note":"<description>\n[普通攻擊次數+1]\n雷牙山豬的煌珠，攻擊時能額外命中一次。\n</description>","params":[
+	],"iconIndex":194,"name":"煌珠【蠻牙】","note":"<description>\n[普通攻擊次數+1]\n雷牙山豬的煌珠，攻擊時能額外命中一次。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式02_elite()\",\"裝備最大值的函式02_elite()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"atk\",\"def\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2132,7 +2132,7 @@
 	],"price":0},
 	{"id":167,"atypeId":2,"description":"","etypeId":4,"traits":[
 		{"code":22,"dataId":1,"value":0.1}
-	],"iconIndex":194,"name":"煌珠【疾速】","note":"<description>\n[戰鬥開始時獲得5層速度提升][3回合]\n大掌灰鷹的煌珠，短時間內能獲得老鷹俯衝一般的速度。\n</description>","params":[
+	],"iconIndex":194,"name":"煌珠【疾速】","note":"<description>\n[戰鬥開始時獲得5層速度提升][3回合]\n大掌灰鷹的煌珠，短時間內能獲得老鷹俯衝一般的速度。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式02_boss()\",\"裝備最大值的函式02_boss()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mat\",\"agi\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2143,7 +2143,7 @@
 		0
 	],"price":0},
 	{"id":168,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":196,"name":"煌珠【營養】","note":"<description>\n[使用藥品、獲得藥品效果+25%]\n飛天菜根的煌珠，能獲得汲取大地營養的力量。\n</description>","params":[
+	],"iconIndex":196,"name":"煌珠【營養】","note":"<description>\n[使用藥品、獲得藥品效果+25%]\n飛天菜根的煌珠，能獲得汲取大地營養的力量。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式03_normal()\",\"裝備最大值的函式03_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mhp\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2154,7 +2154,7 @@
 		0
 	],"price":0},
 	{"id":169,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":198,"name":"煌珠【柔軟彈性】","note":"<description>\n[抗暴率+25%]\n氣球兔的煌珠，能獲得柔軟有彈性的皮膚。\n</description>","params":[
+	],"iconIndex":198,"name":"煌珠【柔軟彈性】","note":"<description>\n[抗暴率+25%]\n氣球兔的煌珠，能獲得柔軟有彈性的皮膚。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式03_normal()\",\"裝備最大值的函式03_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"def\",\"mdf\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2165,7 +2165,7 @@
 		0
 	],"price":0},
 	{"id":170,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":194,"name":"煌珠【耐受百毒】","note":"<description>\n[全異常抗性*75%]\n陸魚的煌珠，能獲得對異常狀態的抵抗力。\n</description>","params":[
+	],"iconIndex":194,"name":"煌珠【耐受百毒】","note":"<description>\n[全異常抗性*75%]\n陸魚的煌珠，能獲得對異常狀態的抵抗力。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式03_normal()\",\"裝備最大值的函式03_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"atk\",\"mdf\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2176,7 +2176,7 @@
 		0
 	],"price":0},
 	{"id":171,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":197,"name":"煌珠【森林氣息】","note":"<description>\n[行動結束時隨機恢復一種元素點1點]\n湖泊菇精的煌珠，能吸收大氣之力為己用。\n</description>","params":[
+	],"iconIndex":197,"name":"煌珠【森林氣息】","note":"<description>\n[行動結束時隨機恢復一種元素點1點]\n湖泊菇精的煌珠，能吸收大氣之力為己用。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式03_normal()\",\"裝備最大值的函式03_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mat\",\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2187,7 +2187,7 @@
 		0
 	],"price":0},
 	{"id":172,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":196,"name":"煌珠【粗糙棘皮】","note":"<description>\n[防禦效果*150%]\n叢林山角的煌珠，皮膚變得粗糙，還長出棘皮了。\n</description>","params":[
+	],"iconIndex":196,"name":"煌珠【粗糙棘皮】","note":"<description>\n[防禦效果*150%]\n叢林山角的煌珠，皮膚變得粗糙，還長出棘皮了。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式03_normal()\",\"裝備最大值的函式03_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mat\",\"def\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2198,7 +2198,7 @@
 		0
 	],"price":0},
 	{"id":173,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":199,"name":"煌珠【休憩】","note":"<description>\n[戰鬥結束恢復角色已損失一半的HP與隨機一種元素點]\n雙色仙精的煌珠，戰鬥結束後好好休息能加速傷口癒合的速度。\n</description>","params":[
+	],"iconIndex":199,"name":"煌珠【休憩】","note":"<description>\n[戰鬥結束恢復角色已損失一半的HP與隨機一種元素點]\n雙色仙精的煌珠，戰鬥結束後好好休息能加速傷口癒合的速度。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式03_rare()\",\"裝備最大值的函式03_rare()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mat\",\"mdf\",\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2209,7 +2209,7 @@
 		0
 	],"price":0},
 	{"id":174,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":196,"name":"煌珠【反震】","note":"<description>\n[HP滿時，受到傷害給敵人造成受到傷害2倍的傷害]\n潛爪青熊的煌珠，精力充沛時受到傷害能震傷敵人。\n</description>","params":[
+	],"iconIndex":196,"name":"煌珠【反震】","note":"<description>\n[HP滿時，受到傷害給敵人造成受到傷害2倍的傷害]\n潛爪青熊的煌珠，精力充沛時受到傷害能震傷敵人。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式03_elite()\",\"裝備最大值的函式03_elite()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mhp\",\"atk\",\"def\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2220,7 +2220,7 @@
 		0
 	],"price":0},
 	{"id":175,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":199,"name":"煌珠【潛力】","note":"<description>\n[能力強化上限增加2層]\n大地龍鯊的煌珠，能激發出體內的潛力。\n</description>","params":[
+	],"iconIndex":199,"name":"煌珠【潛力】","note":"<description>\n[能力強化上限增加2層]\n大地龍鯊的煌珠，能激發出體內的潛力。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式03_boss()\",\"裝備最大值的函式03_boss()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"atk\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2231,7 +2231,7 @@
 		0
 	],"price":0},
 	{"id":176,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":198,"name":"煌珠【米香】","note":"<description>\n[回合結束時，擁有『防禦』、『守護』狀態]\n[恢復15%HP]\n飯糰武士的煌珠，帶著武士守護城池的驕傲。\n</description>","params":[
+	],"iconIndex":198,"name":"煌珠【米香】","note":"<description>\n[回合結束時，擁有『防禦』、『守護』狀態]\n[恢復15%HP]\n飯糰武士的煌珠，帶著武士守護城池的驕傲。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式04_normal()\",\"裝備最大值的函式04_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"atk\",\"def\",\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2242,7 +2242,7 @@
 		0
 	],"price":0},
 	{"id":177,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":196,"name":"煌珠【酥餅盔甲】","note":"<description>\n[回合開始時若滿血，減少受到的物理、魔法傷害25%]\n[受到攻擊後解除]\n燒餅俠的煌珠，體力充沛時能減輕受到的傷害。\n</description>","params":[
+	],"iconIndex":196,"name":"煌珠【酥餅盔甲】","note":"<description>\n[回合開始時若滿血，減少受到的物理、魔法傷害25%]\n[受到攻擊後解除]\n燒餅俠的煌珠，體力充沛時能減輕受到的傷害。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式04_normal()\",\"裝備最大值的函式04_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"def\",\"mdf\",\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2253,7 +2253,7 @@
 		0
 	],"price":0},
 	{"id":178,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":192,"name":"煌珠【熱力】","note":"<description>\n[血量低於25%時]\n[攻擊力、爆擊傷害提升]\n炒泡麵狂徒的煌珠，陷入絕境時會變得更為暴躁。\n</description>","params":[
+	],"iconIndex":192,"name":"煌珠【熱力】","note":"<description>\n[血量低於25%時]\n[攻擊力、爆擊傷害提升]\n炒泡麵狂徒的煌珠，陷入絕境時會變得更為暴躁。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式04_normal()\",\"裝備最大值的函式04_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"atk\",\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2264,7 +2264,7 @@
 		0
 	],"price":0},
 	{"id":179,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":195,"name":"煌珠【祛寒問暖】","note":"<description>\n[煌珠技能][祛寒問暖]\n關東煮劍士的煌珠，能使用祛寒問暖的技能。\n</description>","params":[
+	],"iconIndex":195,"name":"煌珠【祛寒問暖】","note":"<description>\n[煌珠技能][祛寒問暖]\n關東煮劍士的煌珠，能使用祛寒問暖的技能。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式04_normal()\",\"裝備最大值的函式04_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2275,7 +2275,7 @@
 		0
 	],"price":0},
 	{"id":180,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":194,"name":"煌珠【支援射擊】","note":"<description>\n[回合結束時若有萬能點，自動消耗1點萬能珠]\n[對隨機敵人造成1次突屬性傷害]\n魚條射手的煌珠，能獲得援護的力量。\n</description>","params":[
+	],"iconIndex":194,"name":"煌珠【支援射擊】","note":"<description>\n[回合結束時若有萬能點，自動消耗1點萬能珠]\n[對隨機敵人造成1次突屬性傷害]\n魚條射手的煌珠，能獲得援護的力量。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式04_normal()\",\"裝備最大值的函式04_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"atk\",\"agi\",\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2286,7 +2286,7 @@
 		0
 	],"price":0},
 	{"id":181,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":198,"name":"煌珠【香氣】","note":"<description>\n[使用技能後]\n[額外獲得1點萬能點]\n鹹酥小雞的煌珠，散發的香氣能療癒裝備者。\n</description>","params":[
+	],"iconIndex":198,"name":"煌珠【香氣】","note":"<description>\n[使用技能後]\n[額外獲得1點萬能點]\n鹹酥小雞的煌珠，散發的香氣能療癒裝備者。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式04_rare()\",\"裝備最大值的函式04_rare()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mhp\",\"atk\",\"def\",\"mat\",\"mdf\",\"agi\",\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2297,7 +2297,7 @@
 		0
 	],"price":0},
 	{"id":182,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":199,"name":"煌珠【魔法】","note":"<description>\n[煌珠技能][火球][閃電][冰凍]\n茄湯奶奶的煌珠，能熟練使用各種魔法。\n</description>","params":[
+	],"iconIndex":199,"name":"煌珠【魔法】","note":"<description>\n[煌珠技能][火球][閃電][冰凍]\n茄湯奶奶的煌珠，能熟練使用各種魔法。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式04_elite()\",\"裝備最大值的函式04_elite()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mhp\",\"atk\",\"def\",\"mat\",\"mdf\",\"agi\",\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2308,7 +2308,7 @@
 		0
 	],"price":0},
 	{"id":183,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":196,"name":"煌珠【法式長棍】","note":"<description>\n[普通攻擊轉變為全體]\n蒜棍爺爺的煌珠，攻擊時能延伸武器進行廣範圍攻擊。\n</description>","params":[
+	],"iconIndex":196,"name":"煌珠【法式長棍】","note":"<description>\n[普通攻擊轉變為全體]\n蒜棍爺爺的煌珠，攻擊時能延伸武器進行廣範圍攻擊。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式04_elite()\",\"裝備最大值的函式04_elite()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mhp\",\"atk\",\"def\",\"mat\",\"mdf\",\"agi\",\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2319,7 +2319,7 @@
 		0
 	],"price":0},
 	{"id":184,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":194,"name":"煌珠【君王令】","note":"<description>\n[戰鬥中發動，死亡時不解除]\n[裝備者全能力降低50%，其餘隊友全能力提升25%]\n英雄霸王堡的煌珠，能獲得君臨天下的指揮之力。\n</description>","params":[
+	],"iconIndex":194,"name":"煌珠【君王令】","note":"<description>\n[戰鬥中發動，死亡時不解除]\n[裝備者全能力降低50%，其餘隊友全能力提升25%]\n英雄霸王堡的煌珠，能獲得君臨天下的指揮之力。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式04_boss()\",\"裝備最大值的函式04_boss()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mhp\",\"atk\",\"def\",\"mat\",\"mdf\",\"agi\",\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2330,7 +2330,7 @@
 		0
 	],"price":0},
 	{"id":185,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":193,"name":"煌珠【還擊】","note":"<description>\n[迴避時有機率以普通攻擊進行反擊]\n雪人戰士的煌珠，能學會還擊的技巧。\n</description>","params":[
+	],"iconIndex":193,"name":"煌珠【還擊】","note":"<description>\n[迴避時有機率以普通攻擊進行反擊]\n雪人戰士的煌珠，能學會還擊的技巧。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式05_normal()\",\"裝備最大值的函式05_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"atk\",\"def\",\"mdf\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2341,7 +2341,7 @@
 		0
 	],"price":0},
 	{"id":186,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":193,"name":"煌珠【固守定點】","note":"<description>\n[agi * 0%]\n雪人投彈手的煌珠，在原地伺機而動，大幅降低裝備者的行動速度。\n</description>","params":[
+	],"iconIndex":193,"name":"煌珠【固守定點】","note":"<description>\n[agi * 0%]\n雪人投彈手的煌珠，在原地伺機而動，大幅降低裝備者的行動速度。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式05_normal()\",\"裝備最大值的函式05_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mat\",\"def\",\"mdf\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2352,7 +2352,7 @@
 		0
 	],"price":0},
 	{"id":187,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":199,"name":"煌珠【怨念幽靈】","note":"<description>\n[受到攻擊時機率給予敵人結凍]\n怨念幽靈的煌珠，受到攻擊時對敵人施加因冷笑話太好笑而猝死的怨念。\n</description>","params":[
+	],"iconIndex":199,"name":"煌珠【怨念幽靈】","note":"<description>\n[受到攻擊時機率給予敵人結凍]\n怨念幽靈的煌珠，受到攻擊時對敵人施加因冷笑話太好笑而猝死的怨念。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式05_normal()\",\"裝備最大值的函式05_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mat\",\"mdf\",\"agi\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2363,7 +2363,7 @@
 		0
 	],"price":0},
 	{"id":188,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":199,"name":"煌珠【再生性】","note":"<description>\n[受到恢復效果+25%]\n駐顏有助殭屍的煌珠，每天使用XX牌化妝水，確保皮膚不腐爛。\n</description>","params":[
+	],"iconIndex":199,"name":"煌珠【再生性】","note":"<description>\n[受到恢復效果+25%]\n駐顏有助殭屍的煌珠，每天使用XX牌化妝水，確保皮膚不腐爛。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式05_normal()\",\"裝備最大值的函式05_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mhp\",\"mdf\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2374,7 +2374,7 @@
 		0
 	],"price":0},
 	{"id":189,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":193,"name":"煌珠【冰凍】","note":"<description>\n[戰鬥中發動，死亡時不解除]\n[裝備者全能力降低50%，其餘隊友全能力提升25%]\n校外教學的寒冰法師的煌珠，可以使用冰的力量。\n</description>","params":[
+	],"iconIndex":193,"name":"煌珠【冰凍】","note":"<description>\n[戰鬥中發動，死亡時不解除]\n[裝備者全能力降低50%，其餘隊友全能力提升25%]\n校外教學的寒冰法師的煌珠，可以使用冰的力量。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式05_normal()\",\"裝備最大值的函式05_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mat\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2385,7 +2385,7 @@
 		0
 	],"price":0},
 	{"id":190,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":198,"name":"煌珠【汪汪抗體】","note":"<description>\n[免疫能力強化消除]\n雪球狗狗的煌珠，體內會產生神秘的抗體。\n</description>","params":[
+	],"iconIndex":198,"name":"煌珠【汪汪抗體】","note":"<description>\n[免疫能力強化消除]\n雪球狗狗的煌珠，體內會產生神秘的抗體。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式05_rare()\",\"裝備最大值的函式05_rare()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mhp\",\"atk\",\"def\",\"mat\",\"mdf\",\"agi\",\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2396,7 +2396,7 @@
 		0
 	],"price":0},
 	{"id":191,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":193,"name":"煌珠【神秘圖騰】","note":"<description>\n[受到傷害時恢復隨機元素點][百分比計算 每3%HP+1隨機元素點]\n冰圖騰像的煌珠，受到傷害後會將損失的血液轉變為元素力量。\n</description>","params":[
+	],"iconIndex":193,"name":"煌珠【神秘圖騰】","note":"<description>\n[受到傷害時恢復隨機元素點][百分比計算 每3%HP+1隨機元素點]\n冰圖騰像的煌珠，受到傷害後會將損失的血液轉變為元素力量。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式05_elite()\",\"裝備最大值的函式05_elite()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mhp\",\"atk\",\"def\",\"mat\",\"mdf\",\"agi\",\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2407,7 +2407,7 @@
 		0
 	],"price":0},
 	{"id":192,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":193,"name":"煌珠【水晶心】","note":"<description>\n[魔法攻擊變為可爆擊]\n冰晶蛟龍的煌珠，能改變攻擊魔法的性質。\n</description>","params":[
+	],"iconIndex":193,"name":"煌珠【水晶心】","note":"<description>\n[魔法攻擊變為可爆擊]\n冰晶蛟龍的煌珠，能改變攻擊魔法的性質。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式05_boss()\",\"裝備最大值的函式05_boss()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mhp\",\"atk\",\"def\",\"mat\",\"mdf\",\"agi\",\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2418,7 +2418,7 @@
 		0
 	],"price":0},
 	{"id":193,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":197,"name":"煌珠【無限成長】","note":"<description>\n[每5回合自動發動一次＂成長＂ (最大HP+2)]\n嗜人草的煌珠，你會越長越大，越長越大。\n</description>","params":[
+	],"iconIndex":197,"name":"煌珠【無限成長】","note":"<description>\n[每5回合自動發動一次＂成長＂ (最大HP+2)]\n嗜人草的煌珠，你會越長越大，越長越大。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式06_normal()\",\"裝備最大值的函式06_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"atk\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2429,7 +2429,7 @@
 		0
 	],"price":0},
 	{"id":194,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":196,"name":"煌珠【韌性】","note":"<description>\n[HP大於50%時受到致死攻擊時必定保留1HP]\n巨石守衛的煌珠，能夠以強韌的軀體撐住任何強大攻擊。\n</description>","params":[
+	],"iconIndex":196,"name":"煌珠【韌性】","note":"<description>\n[HP大於50%時受到致死攻擊時必定保留1HP]\n巨石守衛的煌珠，能夠以強韌的軀體撐住任何強大攻擊。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式06_normal()\",\"裝備最大值的函式06_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"def\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2440,7 +2440,7 @@
 		0
 	],"price":0},
 	{"id":195,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":199,"name":"煌珠【毒牙】","note":"<description>\n[15%機率中毒、15%麻痺]\n沙漠狼蛛的煌珠，能放出劇毒與神經毒。\n</description>","params":[
+	],"iconIndex":199,"name":"煌珠【毒牙】","note":"<description>\n[15%機率中毒、15%麻痺]\n沙漠狼蛛的煌珠，能放出劇毒與神經毒。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式06_normal()\",\"裝備最大值的函式06_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"agi\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2451,7 +2451,7 @@
 		0
 	],"price":0},
 	{"id":196,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":199,"name":"煌珠【冥府吶喊】","note":"<description>\n[死亡時施放＂冥府吶喊＂]\n木乃伊的煌珠，瀕死時會發出充滿怨念與不甘的嘶吼。\n</description>","params":[
+	],"iconIndex":199,"name":"煌珠【冥府吶喊】","note":"<description>\n[死亡時施放＂冥府吶喊＂]\n木乃伊的煌珠，瀕死時會發出充滿怨念與不甘的嘶吼。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式06_normal()\",\"裝備最大值的函式06_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mat\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2462,7 +2462,7 @@
 		0
 	],"price":0},
 	{"id":197,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":196,"name":"煌珠【大地武器】","note":"<description>\n[地屬性武器][\\I[11]出血10%]\n沙蟲的煌珠，能在武器上賦予地之力。\n</description>","params":[
+	],"iconIndex":196,"name":"煌珠【大地武器】","note":"<description>\n[地屬性武器][\\I[11]出血10%]\n沙蟲的煌珠，能在武器上賦予地之力。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式06_normal()\",\"裝備最大值的函式06_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mdf\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2473,7 +2473,7 @@
 		0
 	],"price":0},
 	{"id":198,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":194,"name":"煌珠【求道】","note":"<description>\n[戰鬥開始時獲得心眼、鷹眼、直覺]\n武者仙人掌的煌珠，能使人擁有武者求道之心。\n</description>","params":[
+	],"iconIndex":194,"name":"煌珠【求道】","note":"<description>\n[戰鬥開始時獲得心眼、鷹眼、直覺]\n武者仙人掌的煌珠，能使人擁有武者求道之心。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式06_rare()\",\"裝備最大值的函式06_rare()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mhp\",\"atk\",\"def\",\"agi\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2484,7 +2484,7 @@
 		0
 	],"price":0},
 	{"id":199,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":198,"name":"煌珠【真理】","note":"<description>\n[全元素點上限+5]\n鷲頭飛獅的煌珠，蘊含著真理。\n</description>","params":[
+	],"iconIndex":198,"name":"煌珠【真理】","note":"<description>\n[全元素點上限+5]\n鷲頭飛獅的煌珠，蘊含著真理。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式06_elite()\",\"裝備最大值的函式06_elite()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"def\",\"mat\",\"agi\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2495,7 +2495,7 @@
 		0
 	],"price":0},
 	{"id":200,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":199,"name":"煌珠【冥界祝福】","note":"<description>\n[解除瀕死狀態時HP恢復至最大值]\n神殿守護者的煌珠，擁有冥河的祝福，脫離死亡時重獲新生。\n</description>","params":[
+	],"iconIndex":199,"name":"煌珠【冥界祝福】","note":"<description>\n[解除瀕死狀態時HP恢復至最大值]\n神殿守護者的煌珠，擁有冥河的祝福，脫離死亡時重獲新生。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式06_boss()\",\"裝備最大值的函式06_boss()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mat\",\"mdf\",\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2506,7 +2506,7 @@
 		0
 	],"price":0},
 	{"id":201,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":197,"name":"煌珠【飛速】","note":"<description>\n[命中率+3%][魔法迴避率+1%]\n毒牙血蝠的煌珠，可以強化感官。\n</description>","params":[
+	],"iconIndex":197,"name":"煌珠【飛速】","note":"<description>\n[命中率+3%][魔法迴避率+1%]\n毒牙血蝠的煌珠，可以強化感官。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式07_normal()\",\"裝備最大值的函式07_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"agi\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2517,7 +2517,7 @@
 		0
 	],"price":0},
 	{"id":202,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":199,"name":"煌珠【死亡鐮刀】","note":"<description>\n[5%機率即死]\n血鬼殺手的煌珠，死亡的聲音逐漸逼近。\n</description>","params":[
+	],"iconIndex":199,"name":"煌珠【死亡鐮刀】","note":"<description>\n[5%機率即死]\n血鬼殺手的煌珠，死亡的聲音逐漸逼近。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式07_normal()\",\"裝備最大值的函式07_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"atk\",\"agi\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2528,7 +2528,7 @@
 		0
 	],"price":0},
 	{"id":203,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":199,"name":"煌珠【渴血】","note":"<description>\n[使用物理攻擊的技能或普通攻擊時恢復造成傷害5%的HP]\n屍鬼眷屬的煌珠，攻擊時能汲取敵人的鮮血。\n</description>","params":[
+	],"iconIndex":199,"name":"煌珠【渴血】","note":"<description>\n[使用物理攻擊的技能或普通攻擊時恢復造成傷害5%的HP]\n屍鬼眷屬的煌珠，攻擊時能汲取敵人的鮮血。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式07_normal()\",\"裝備最大值的函式07_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mhp\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2539,7 +2539,7 @@
 		0
 	],"price":0},
 	{"id":204,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":199,"name":"煌珠【血咒】","note":"<description>\n[暗屬性傷害+15%、抗性+5%]\n吸血鬼管家的煌珠，能更得心應手的操控黑暗元素。\n</description>","params":[
+	],"iconIndex":199,"name":"煌珠【血咒】","note":"<description>\n[暗屬性傷害+15%、抗性+5%]\n吸血鬼管家的煌珠，能更得心應手的操控黑暗元素。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式07_normal()\",\"裝備最大值的函式07_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mhp\",\"atk\",\"def\",\"mat\",\"mdf\",\"agi\",\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2550,7 +2550,7 @@
 		0
 	],"price":0},
 	{"id":205,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":199,"name":"煌珠【堅忍不拔】","note":"<description>\n[解除瀕死狀態時當回合獲得無敵狀態]\n吸血鬼護衛的煌珠，從瀕死狀態中恢復時抵禦一切傷害。\n</description>","params":[
+	],"iconIndex":199,"name":"煌珠【堅忍不拔】","note":"<description>\n[解除瀕死狀態時當回合獲得無敵狀態]\n吸血鬼護衛的煌珠，從瀕死狀態中恢復時抵禦一切傷害。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式07_normal()\",\"裝備最大值的函式07_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"atk\",\"def\",\"mdf\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2561,7 +2561,7 @@
 		0
 	],"price":0},
 	{"id":206,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":199,"name":"煌珠【紅月時間】","note":"<description>\n[戰鬥開始時第一回合額外行動一次]\n紅月貓的煌珠，獲得操縱時間的力量。\n</description>","params":[
+	],"iconIndex":199,"name":"煌珠【紅月時間】","note":"<description>\n[戰鬥開始時第一回合額外行動一次]\n紅月貓的煌珠，獲得操縱時間的力量。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式07_rare()\",\"裝備最大值的函式07_rare()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mhp\",\"atk\",\"def\",\"mat\",\"mdf\",\"agi\",\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2572,7 +2572,7 @@
 		0
 	],"price":0},
 	{"id":207,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":199,"name":"煌珠【黑夜咒術】","note":"<description>\n[獲得所有異常狀態時增加1回合]\n吸血鬼淑女的煌珠，無論好與壞所有狀態照單全收。\n</description>","params":[
+	],"iconIndex":199,"name":"煌珠【黑夜咒術】","note":"<description>\n[獲得所有異常狀態時增加1回合]\n吸血鬼淑女的煌珠，無論好與壞所有狀態照單全收。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式07_elite()\",\"裝備最大值的函式07_elite()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mhp\",\"atk\",\"def\",\"mat\",\"mdf\",\"agi\",\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2583,7 +2583,7 @@
 		0
 	],"price":0},
 	{"id":208,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":199,"name":"煌珠【殘虐性情】","note":"<description>\n[爆擊傷害+25%]\n吸血鬼少爺的煌珠，性格會變得殘忍嗜殺。\n</description>","params":[
+	],"iconIndex":199,"name":"煌珠【殘虐性情】","note":"<description>\n[爆擊傷害+25%]\n吸血鬼少爺的煌珠，性格會變得殘忍嗜殺。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式07_elite()\",\"裝備最大值的函式07_elite()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mhp\",\"atk\",\"def\",\"mat\",\"mdf\",\"agi\",\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2594,7 +2594,7 @@
 		0
 	],"price":0},
 	{"id":209,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":199,"name":"煌珠【絕望詛咒】","note":"<description>\n[死亡時施放＂絕望詛咒＂]\n吸血鬼夫人的煌珠，臨死前不甘的吸血鬼詛咒能降低敵人全能力值。\n</description>","params":[
+	],"iconIndex":199,"name":"煌珠【絕望詛咒】","note":"<description>\n[死亡時施放＂絕望詛咒＂]\n吸血鬼夫人的煌珠，臨死前不甘的吸血鬼詛咒能降低敵人全能力值。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式07_elite()\",\"裝備最大值的函式07_elite()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mhp\",\"atk\",\"def\",\"mat\",\"mdf\",\"agi\",\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2605,7 +2605,7 @@
 		0
 	],"price":0},
 	{"id":210,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":199,"name":"煌珠【不死之心】","note":"<description>\n[陷入瀕死狀態時復活並恢復30%HP，一場戰鬥只觸發一次]\n吸血鬼領主的煌珠，以強韌的力量復甦心臟。\n</description>","params":[
+	],"iconIndex":199,"name":"煌珠【不死之心】","note":"<description>\n[陷入瀕死狀態時復活並恢復30%HP，一場戰鬥只觸發一次]\n吸血鬼領主的煌珠，以強韌的力量復甦心臟。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式07_boss()\",\"裝備最大值的函式07_boss()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mhp\",\"atk\",\"def\",\"mat\",\"mdf\",\"agi\",\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2616,7 +2616,7 @@
 		0
 	],"price":0},
 	{"id":211,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":195,"name":"煌珠【八爪觸手】","note":"<description>\n[捨棄護具，可使用雙武器]\n死亡海怪的煌珠，空出你的第二隻手，施展二刀流吧。\n</description>","params":[
+	],"iconIndex":195,"name":"煌珠【八爪觸手】","note":"<description>\n[捨棄護具，可使用雙武器]\n死亡海怪的煌珠，空出你的第二隻手，施展二刀流吧。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式08_normal()\",\"裝備最大值的函式08_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mdf\",\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2627,7 +2627,7 @@
 		0
 	],"price":0},
 	{"id":212,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":195,"name":"煌珠【人魚眼淚】","note":"<description>\n[使用恢復魔法時可爆擊]\n人魚的煌珠，人魚的眼淚據說能治癒百病。\n</description>","params":[
+	],"iconIndex":195,"name":"煌珠【人魚眼淚】","note":"<description>\n[使用恢復魔法時可爆擊]\n人魚的煌珠，人魚的眼淚據說能治癒百病。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式08_normal()\",\"裝備最大值的函式08_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2638,7 +2638,7 @@
 		0
 	],"price":0},
 	{"id":213,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":195,"name":"煌珠【守護隊友】","note":"<description>\n[替生命值低於25%的隊友抵擋傷害]\n蟹將軍的煌珠，隊友有難，兩肋插刀。\n</description>","params":[
+	],"iconIndex":195,"name":"煌珠【守護隊友】","note":"<description>\n[替生命值低於25%的隊友抵擋傷害]\n蟹將軍的煌珠，隊友有難，兩肋插刀。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式08_normal()\",\"裝備最大值的函式08_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"def\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2649,7 +2649,7 @@
 		0
 	],"price":0},
 	{"id":214,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":195,"name":"煌珠【加速代謝】","note":"<description>\n[]\n鬼面鯊魚的煌珠，他的細胞中有著特殊的代謝能力。\n</description>","params":[
+	],"iconIndex":195,"name":"煌珠【加速代謝】","note":"<description>\n[行動結束時，所有狀態持續回合數額外-1]\n鬼面鯊魚的煌珠，他的細胞中有著特殊的代謝能力。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式08_normal()\",\"裝備最大值的函式08_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mdf\",\"agi\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2660,7 +2660,7 @@
 		0
 	],"price":0},
 	{"id":215,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":195,"name":"煌珠【魚影】","note":"<description>\n[迴避攻擊時獲得1點萬能點]\n深海魚影的煌珠，能藉由迴避產生的摩擦充能。\n</description>","params":[
+	],"iconIndex":195,"name":"煌珠【魚影】","note":"<description>\n[迴避攻擊時獲得1點萬能點]\n深海魚影的煌珠，能藉由迴避產生的摩擦充能。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式08_normal()\",\"裝備最大值的函式08_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mat\",\"agi\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2671,7 +2671,7 @@
 		0
 	],"price":0},
 	{"id":216,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":195,"name":"煌珠【遊擊騎射】","note":"<description>\n[煌珠技能][遊擊騎射]\n海神騎射兵的煌珠，能使用騎射兵們的射擊技巧。\n</description>","params":[
+	],"iconIndex":195,"name":"煌珠【遊擊騎射】","note":"<description>\n[煌珠技能][遊擊騎射]\n海神騎射兵的煌珠，能使用騎射兵們的射擊技巧。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式08_normal()\",\"裝備最大值的函式08_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"atk\",\"agi\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2682,7 +2682,7 @@
 		0
 	],"price":0},
 	{"id":217,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":195,"name":"煌珠【激勵夥伴】","note":"<description>\n[死亡時施放＂激勵＂]\n海神突擊兵的煌珠，死亡時能激勵同伴們的士氣。\n</description>","params":[
+	],"iconIndex":195,"name":"煌珠【激勵夥伴】","note":"<description>\n[死亡時施放＂激勵＂]\n海神突擊兵的煌珠，死亡時能激勵同伴們的士氣。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式08_normal()\",\"裝備最大值的函式08_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"atk\",\"agi\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2693,7 +2693,7 @@
 		0
 	],"price":0},
 	{"id":218,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":195,"name":"煌珠【古老力量】","note":"<description>\n[配戴時升級時額外獲得1點素質點]\n古代蝦的煌珠，擁有來自幾億年前的神秘力量。\n</description>","params":[
+	],"iconIndex":195,"name":"煌珠【古老力量】","note":"<description>\n[配戴時升級時額外獲得1點素質點]\n古代蝦的煌珠，擁有來自幾億年前的神秘力量。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式08_rare()\",\"裝備最大值的函式08_rare()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mhp\",\"atk\",\"def\",\"mat\",\"mdf\",\"agi\",\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2704,7 +2704,7 @@
 		0
 	],"price":0},
 	{"id":219,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":195,"name":"煌珠【超越極限】","note":"<description>\n[傷害可以突破上限(9999)]\n海龍王的煌珠，能突破傷害公式的上限值。\n</description>","params":[
+	],"iconIndex":195,"name":"煌珠【超越極限】","note":"<description>\n[傷害可以突破上限(9999)]\n海龍王的煌珠，能突破傷害公式的上限值。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式08_elite()\",\"裝備最大值的函式08_elite()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mhp\",\"atk\",\"def\",\"mat\",\"mdf\",\"agi\",\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2715,7 +2715,7 @@
 		0
 	],"price":0},
 	{"id":220,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":195,"name":"煌珠【擴散波動】","note":"<description>\n[單體技能變更為全體，隨機多次技能不計算在內]\n海神皇的煌珠，能將技能施放的傷害擴散出去。\n</description>","params":[
+	],"iconIndex":195,"name":"煌珠【擴散波動】","note":"<description>\n[單體技能變更為全體，隨機多次技能不計算在內]\n海神皇的煌珠，能將技能施放的傷害擴散出去。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式08_boss()\",\"裝備最大值的函式08_boss()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mhp\",\"atk\",\"def\",\"mat\",\"mdf\",\"agi\",\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2726,7 +2726,7 @@
 		0
 	],"price":0},
 	{"id":221,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":194,"name":"煌珠【雷之龍法】","note":"<description>\n[雷屬性傷害+15%、抗性+5%]\n雷龍的煌珠，蘊含雷龍一族的龍法。\n</description>","params":[
+	],"iconIndex":194,"name":"煌珠【雷之龍法】","note":"<description>\n[雷屬性傷害+15%、抗性+5%]\n雷龍的煌珠，蘊含雷龍一族的龍法。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式09_normal()\",\"裝備最大值的函式09_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mhp\",\"atk\",\"def\",\"mat\",\"mdf\",\"agi\",\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>\n","params":[
 		0,
 		0,
 		0,
@@ -2737,7 +2737,7 @@
 		0
 	],"price":0},
 	{"id":222,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":192,"name":"煌珠【火之龍法】","note":"<description>\n[火屬性傷害+15%、抗性+5%]\n火龍的煌珠，蘊含雷龍一族的龍法。\n</description>","params":[
+	],"iconIndex":192,"name":"煌珠【火之龍法】","note":"<description>\n[火屬性傷害+15%、抗性+5%]\n火龍的煌珠，蘊含雷龍一族的龍法。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式09_normal()\",\"裝備最大值的函式09_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mhp\",\"atk\",\"def\",\"mat\",\"mdf\",\"agi\",\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>\n","params":[
 		0,
 		0,
 		0,
@@ -2748,7 +2748,7 @@
 		0
 	],"price":0},
 	{"id":223,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":196,"name":"煌珠【土之龍法】","note":"<description>\n[地屬性傷害+15%、抗性+5%]\n土龍的煌珠，蘊含土龍一族的龍法。\n</description>","params":[
+	],"iconIndex":196,"name":"煌珠【土之龍法】","note":"<description>\n[地屬性傷害+15%、抗性+5%]\n土龍的煌珠，蘊含土龍一族的龍法。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式09_normal()\",\"裝備最大值的函式09_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mhp\",\"atk\",\"def\",\"mat\",\"mdf\",\"agi\",\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>\n","params":[
 		0,
 		0,
 		0,
@@ -2759,7 +2759,7 @@
 		0
 	],"price":0},
 	{"id":224,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":197,"name":"煌珠【風之龍法】","note":"<description>\n[風屬性傷害+15%、抗性+5%]\n風龍的煌珠，蘊含風龍一族的龍法。\n</description>","params":[
+	],"iconIndex":197,"name":"煌珠【風之龍法】","note":"<description>\n[風屬性傷害+15%、抗性+5%]\n風龍的煌珠，蘊含風龍一族的龍法。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式09_normal()\",\"裝備最大值的函式09_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mhp\",\"atk\",\"def\",\"mat\",\"mdf\",\"agi\",\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>\n","params":[
 		0,
 		0,
 		0,
@@ -2770,7 +2770,7 @@
 		0
 	],"price":0},
 	{"id":225,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":195,"name":"煌珠【水之龍法】","note":"<description>\n[水屬性傷害+15%、抗性+5%]\n海龍的煌珠，蘊含海龍一族的龍法。\n</description>","params":[
+	],"iconIndex":195,"name":"煌珠【水之龍法】","note":"<description>\n[水屬性傷害+15%、抗性+5%]\n海龍的煌珠，蘊含海龍一族的龍法。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式09_normal()\",\"裝備最大值的函式09_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mhp\",\"atk\",\"def\",\"mat\",\"mdf\",\"agi\",\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>\n","params":[
 		0,
 		0,
 		0,
@@ -2781,7 +2781,7 @@
 		0
 	],"price":0},
 	{"id":226,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":193,"name":"煌珠【冰之龍法】","note":"<description>\n[冰屬性傷害+15%、抗性+5%]\n冰龍的煌珠，蘊含冰龍一族的龍法。\n</description>","params":[
+	],"iconIndex":193,"name":"煌珠【冰之龍法】","note":"<description>\n[冰屬性傷害+15%、抗性+5%]\n冰龍的煌珠，蘊含冰龍一族的龍法。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式09_normal()\",\"裝備最大值的函式09_normal()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mhp\",\"atk\",\"def\",\"mat\",\"mdf\",\"agi\",\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>\n","params":[
 		0,
 		0,
 		0,
@@ -2792,7 +2792,7 @@
 		0
 	],"price":0},
 	{"id":227,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":198,"name":"煌珠【八色附魔】","note":"<description>\n[將武器賦予地、水、火、冰、雷、風、光、暗屬性]\n龍星的煌珠，能將武器賦予八種元素附魔，雖然不知道能幹嘛，但是很帥。\n</description>","params":[
+	],"iconIndex":198,"name":"煌珠【八色附魔】","note":"<description>\n[將武器賦予地、水、火、冰、雷、風、光、暗屬性]\n龍星的煌珠，能將武器賦予八種元素附魔，雖然不知道能幹嘛，但是很帥。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式09_rare()\",\"裝備最大值的函式09_rare()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mhp\",\"atk\",\"def\",\"mat\",\"mdf\",\"agi\",\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2803,7 +2803,7 @@
 		0
 	],"price":0},
 	{"id":228,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":199,"name":"煌珠【月之龍法】","note":"<description>\n[戰鬥中消耗的元素點變成兩倍，但第一回合使用技能時不消耗元素點]\n黑龍的煌珠，蘊含黑龍一族的龍法。\n</description>","params":[
+	],"iconIndex":199,"name":"煌珠【月之龍法】","note":"<description>\n[戰鬥中消耗的元素點變成兩倍，但第一回合使用技能時不消耗元素點]\n黑龍的煌珠，蘊含黑龍一族的龍法。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式09_elite()\",\"裝備最大值的函式09_elite()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mhp\",\"atk\",\"def\",\"mat\",\"mdf\",\"agi\",\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2814,7 +2814,7 @@
 		0
 	],"price":0},
 	{"id":229,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":198,"name":"煌珠【日之龍法】","note":"<description>\n[戰鬥開始獲得＂續力＂、＂魔力增幅＂]\n白龍的煌珠，蘊含白龍一族的龍法。\n</description>","params":[
+	],"iconIndex":198,"name":"煌珠【日之龍法】","note":"<description>\n[戰鬥開始獲得＂續力＂、＂魔力增幅＂]\n白龍的煌珠，蘊含白龍一族的龍法。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式09_elite()\",\"裝備最大值的函式09_elite()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mhp\",\"atk\",\"def\",\"mat\",\"mdf\",\"agi\",\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,
@@ -2825,7 +2825,7 @@
 		0
 	],"price":0},
 	{"id":230,"atypeId":2,"description":"","etypeId":4,"traits":[
-	],"iconIndex":198,"name":"煌珠【龍威】","note":"<description>\n[戰鬥開始第一回合敵方無法行動]\n古龍的煌珠，強大的龍之威壓能震懾敵人。\n</description>","params":[
+	],"iconIndex":198,"name":"煌珠【龍威】","note":"<description>\n[戰鬥開始第一回合敵方無法行動]\n古龍的煌珠，強大的龍之威壓能震懾敵人。\n</description>\n\n<RandomTotalPointsOnSomeParams>\n{\n \"total\":[\"裝備最小值的函式09_boss()\",\"裝備最大值的函式09_boss()\"],\n \"ratio\":{\n   \"mhp\":5\n },\n \"params\":[\"mhp\",\"atk\",\"def\",\"mat\",\"mdf\",\"agi\",\"luk\"]\n}\n</RandomTotalPointsOnSomeParams>","params":[
 		0,
 		0,
 		0,

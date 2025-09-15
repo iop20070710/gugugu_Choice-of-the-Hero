@@ -5721,12 +5721,6 @@
 					3
 				]}
 			]},
-			{"code":126,"indent":0,"parameters":[
-				260,
-				0,
-				0,
-				1
-			]},
 			{"code":122,"indent":0,"parameters":[
 				20,
 				20,
@@ -5736,15 +5730,6 @@
 			]},
 			{"code":250,"indent":0,"parameters":[
 				{"name":"Item3","volume":90,"pitch":100,"pan":0}
-			]},
-			{"code":101,"indent":0,"parameters":[
-				"",
-				0,
-				0,
-				2
-			]},
-			{"code":401,"indent":0,"parameters":[
-				"獲得\\EVALTOSTR:\"$gameTemp._partyLastGainedItem.object().name\"。"
 			]},
 			{"code":101,"indent":0,"parameters":[
 				"",

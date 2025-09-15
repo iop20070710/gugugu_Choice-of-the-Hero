@@ -458,12 +458,12 @@
 	{"id":6,"list":[
 		{"code":108,"indent":0,"parameters":["腳本: Input.isTriggered(\"81\")"]},
 		{"code":408,"indent":0,"parameters":["判斷是否按下了Q鍵"]},
-		{"code":408,"indent":0,"parameters":["260 = 物品ID"]},
-		{"code":408,"indent":0,"parameters":["260= 爆彈"]},
+		{"code":408,"indent":0,"parameters":["501 = 物品ID"]},
+		{"code":408,"indent":0,"parameters":["501 = 爆彈"]},
 		{"code":111,"indent":0,"parameters":[12,"Input.isTriggered(\"81\")"]},
 		{"code":111,"indent":1,"parameters":[1,91,0,501,0]},
 		{"code":111,"indent":2,"parameters":[8,501]},
-		{"code":126,"indent":3,"parameters":[260,1,0,1]},
+		{"code":126,"indent":3,"parameters":[501,1,0,1]},
 		{"code":250,"indent":3,"parameters":[{"name":"Wind4","volume":90,"pitch":50,"pan":0}]},
 		{"code":108,"indent":3,"parameters":["複製地圖22的2號事件掛在玩家身上"]},
 		{"code":355,"indent":3,"parameters":["$gameMap.cpevtFromIdTemplate(22,2,$gamePlayer._x,$gamePlayer._y);"]},
@@ -724,6 +724,10 @@
 		{"code":408,"indent":0,"parameters":["showHintCond=$gameSwitches.value(46)"]},
 		{"code":108,"indent":0,"parameters":["@NOTE"]},
 		{"code":408,"indent":0,"parameters":["<dontTurnOnStart>"]},
+		{"code":108,"indent":0,"parameters":["<blockedByEventEval>"]},
+		{"code":408,"indent":0,"parameters":["evt=>(evt.getMeta().玩家替身||evt.getMeta().玩家替身2)"]},
+		{"code":408,"indent":0,"parameters":[""]},
+		{"code":408,"indent":0,"parameters":["</blockedByEventEval>"]},
 		{"code":108,"indent":0,"parameters":["dontTurnOnStart"]},
 		{"code":408,"indent":0,"parameters":["讓他在執行時不會轉向玩家"]},
 		{"code":108,"indent":0,"parameters":["<shapeDraw>"]},
@@ -731,7 +735,8 @@
 		{"code":408,"indent":0,"parameters":["  +++"]},
 		{"code":408,"indent":0,"parameters":[" +++++"]},
 		{"code":408,"indent":0,"parameters":["+++o+++"]},
-		{"code":408,"indent":0,"parameters":["</shapeDraw>"]},
+		{"code":408,"indent":0,"parameters":[" ++ ++"]},
+		{"code":108,"indent":0,"parameters":["</shapeDraw>"]},
 		{"code":108,"indent":0,"parameters":["觸發事件顯示氣泡"]},
 		{"code":408,"indent":0,"parameters":["發出SE提示"]},
 		{"code":108,"indent":0,"parameters":["<detectedEval>"]},
@@ -816,6 +821,7 @@
 		{"code":408,"indent":0,"parameters":["  +++++++"]},
 		{"code":408,"indent":0,"parameters":[" +++++++++"]},
 		{"code":108,"indent":0,"parameters":["+++++o+++++"]},
+		{"code":408,"indent":0,"parameters":[" +++   +++"]},
 		{"code":108,"indent":0,"parameters":["</shapeDraw>"]},
 		{"code":108,"indent":0,"parameters":["<onNondetectedEval>"]},
 		{"code":408,"indent":0,"parameters":["this.requestBalloon(2);"]},
@@ -963,9 +969,9 @@
 	{"id":19,"list":[
 		{"code":250,"indent":0,"parameters":[{"name":"Item1","volume":90,"pitch":100,"pan":0}]},
 		{"code":355,"indent":0,"parameters":["$gameVariables.setValue(1,[1,2,3,4,5,6,7,8,9,16,17,18].rnd1());"]},
-		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataArmors[$gameVariables.value(1)],1);"]},
+		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataItems[$gameVariables.value(1)],1);"]},
 		{"code":101,"indent":0,"parameters":["",0,0,2]},
-		{"code":401,"indent":0,"parameters":["獲得\\IN[1]！\\|\\|\\|\\^"]},
+		{"code":401,"indent":0,"parameters":["獲得\\INV[1]！"]},
 		{"code":122,"indent":0,"parameters":[1,1,0,0,0]},
 		{"code":122,"indent":0,"parameters":[2,2,0,0,0]},
 		{"code":0,"indent":0,"parameters":[]}
@@ -973,9 +979,9 @@
 	{"id":20,"list":[
 		{"code":250,"indent":0,"parameters":[{"name":"Item1","volume":90,"pitch":100,"pan":0}]},
 		{"code":355,"indent":0,"parameters":["$gameVariables.setValue(1,[221,222,223,224].rnd1());"]},
-		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataArmors[$gameVariables.value(1)],1);"]},
+		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataItems[$gameVariables.value(1)],1);"]},
 		{"code":101,"indent":0,"parameters":["",0,0,2]},
-		{"code":401,"indent":0,"parameters":["獲得\\IN[1]！\\|\\|\\|\\^"]},
+		{"code":401,"indent":0,"parameters":["獲得\\INV[1]！"]},
 		{"code":122,"indent":0,"parameters":[1,1,0,0,0]},
 		{"code":122,"indent":0,"parameters":[2,2,0,0,0]},
 		{"code":0,"indent":0,"parameters":[]}
@@ -983,9 +989,9 @@
 	{"id":21,"list":[
 		{"code":250,"indent":0,"parameters":[{"name":"Item1","volume":90,"pitch":100,"pan":0}]},
 		{"code":355,"indent":0,"parameters":["$gameVariables.setValue(1,[12,13].rnd1());"]},
-		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataArmors[$gameVariables.value(1)],1);"]},
+		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataItems[$gameVariables.value(1)],1);"]},
 		{"code":101,"indent":0,"parameters":["",0,0,2]},
-		{"code":401,"indent":0,"parameters":["獲得\\IN[1]！\\|\\|\\|\\^"]},
+		{"code":401,"indent":0,"parameters":["獲得\\INV[1]！"]},
 		{"code":122,"indent":0,"parameters":[1,1,0,0,0]},
 		{"code":122,"indent":0,"parameters":[2,2,0,0,0]},
 		{"code":0,"indent":0,"parameters":[]}
@@ -1107,11 +1113,11 @@
 		{"code":655,"indent":0,"parameters":["const key=[$gameMap._mapId,0];"]},
 		{"code":655,"indent":0,"parameters":["for(let x=0;x!==$gameMap._events.length;++x){"]},
 		{"code":655,"indent":0,"parameters":["  const evt=$gameMap._events[x],reviveTime=evt && evt.event().meta.怪物-0;"]},
-		{"code":655,"indent":0,"parameters":["  if(reviveTime){"]},
-		{"code":655,"indent":0,"parameters":["    key[1]=evt._eventId;"]},
+		{"code":655,"indent":0,"parameters":["  if(reviveTime){ key[1]=evt._eventId;"]},
 		{"code":655,"indent":0,"parameters":["    const lastTime=$gameSystem.採集物_上次採集時間[key]|0;"]},
-		{"code":655,"indent":0,"parameters":["    if(lastTime+60*reviveTime<Graphics.frameCount){"]},
-		{"code":655,"indent":0,"parameters":["      $gameSelfSwitches.setValue([$gameMap._mapId,evt._eventId,\"A\"],false);"]},
+		{"code":655,"indent":0,"parameters":["if(lastTime+60*reviveTime<Graphics.frameCount){ const switchKey=[$gameMap._mapId,evt._eventId,\"A\"];"]},
+		{"code":655,"indent":0,"parameters":["      if($gameSelfSwitches.value(switchKey)) evt.requestAnimation(useDefaultIfIsNaN(useDefaultIfIsNaN(evt.event().meta.怪物復活動畫-0,$dataMap&&$dataMap.meta&&$dataMap.meta.enemyReviveAnimation-0),49));"]},
+		{"code":655,"indent":0,"parameters":["      $gameSelfSwitches.setValue(switchKey,false);"]},
 		{"code":655,"indent":0,"parameters":["    }"]},
 		{"code":655,"indent":0,"parameters":["  }"]},
 		{"code":655,"indent":0,"parameters":["}}"]},
@@ -1137,9 +1143,9 @@
 	{"id":28,"list":[
 		{"code":250,"indent":0,"parameters":[{"name":"Item1","volume":90,"pitch":100,"pan":0}]},
 		{"code":355,"indent":0,"parameters":["$gameVariables.setValue(1,[1,2,3,4,5,6,7,8,9,16,17,18].rnd1());"]},
-		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataArmors[$gameVariables.value(1)],1);"]},
+		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataItems[$gameVariables.value(1)],1);"]},
 		{"code":101,"indent":0,"parameters":["",0,0,2]},
-		{"code":401,"indent":0,"parameters":["獲得\\IN[1]！\\|\\|\\|\\^"]},
+		{"code":401,"indent":0,"parameters":["獲得\\INV[1]！"]},
 		{"code":122,"indent":0,"parameters":[1,1,0,0,0]},
 		{"code":122,"indent":0,"parameters":[2,2,0,0,0]},
 		{"code":0,"indent":0,"parameters":[]}
@@ -1147,9 +1153,9 @@
 	{"id":29,"list":[
 		{"code":250,"indent":0,"parameters":[{"name":"Item1","volume":90,"pitch":100,"pan":0}]},
 		{"code":355,"indent":0,"parameters":["$gameVariables.setValue(1,[221,222,223,224].rnd1());"]},
-		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataArmors[$gameVariables.value(1)],1);"]},
+		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataItems[$gameVariables.value(1)],1);"]},
 		{"code":101,"indent":0,"parameters":["",0,0,2]},
-		{"code":401,"indent":0,"parameters":["獲得\\IN[1]！\\|\\|\\|\\^"]},
+		{"code":401,"indent":0,"parameters":["獲得\\INV[1]！"]},
 		{"code":122,"indent":0,"parameters":[1,1,0,0,0]},
 		{"code":122,"indent":0,"parameters":[2,2,0,0,0]},
 		{"code":0,"indent":0,"parameters":[]}
@@ -1157,9 +1163,9 @@
 	{"id":30,"list":[
 		{"code":250,"indent":0,"parameters":[{"name":"Item1","volume":90,"pitch":100,"pan":0}]},
 		{"code":355,"indent":0,"parameters":["$gameVariables.setValue(1,[12,13].rnd1());"]},
-		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataArmors[$gameVariables.value(1)],1);"]},
+		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataItems[$gameVariables.value(1)],1);"]},
 		{"code":101,"indent":0,"parameters":["",0,0,2]},
-		{"code":401,"indent":0,"parameters":["獲得\\IN[1]！\\|\\|\\|\\^"]},
+		{"code":401,"indent":0,"parameters":["獲得\\INV[1]！"]},
 		{"code":122,"indent":0,"parameters":[1,1,0,0,0]},
 		{"code":122,"indent":0,"parameters":[2,2,0,0,0]},
 		{"code":0,"indent":0,"parameters":[]}
@@ -1167,9 +1173,9 @@
 	{"id":31,"list":[
 		{"code":250,"indent":0,"parameters":[{"name":"Item1","volume":90,"pitch":100,"pan":0}]},
 		{"code":355,"indent":0,"parameters":["$gameVariables.setValue(1,[1,2,3,4,5,6,7,8,9,16,17,18].rnd1());"]},
-		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataArmors[$gameVariables.value(1)],1);"]},
+		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataItems[$gameVariables.value(1)],1);"]},
 		{"code":101,"indent":0,"parameters":["",0,0,2]},
-		{"code":401,"indent":0,"parameters":["獲得\\IN[1]！\\|\\|\\|\\^"]},
+		{"code":401,"indent":0,"parameters":["獲得\\INV[1]！"]},
 		{"code":122,"indent":0,"parameters":[1,1,0,0,0]},
 		{"code":122,"indent":0,"parameters":[2,2,0,0,0]},
 		{"code":0,"indent":0,"parameters":[]}
@@ -1177,9 +1183,9 @@
 	{"id":32,"list":[
 		{"code":250,"indent":0,"parameters":[{"name":"Item1","volume":90,"pitch":100,"pan":0}]},
 		{"code":355,"indent":0,"parameters":["$gameVariables.setValue(1,[221,222,223,224].rnd1());"]},
-		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataArmors[$gameVariables.value(1)],1);"]},
+		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataItems[$gameVariables.value(1)],1);"]},
 		{"code":101,"indent":0,"parameters":["",0,0,2]},
-		{"code":401,"indent":0,"parameters":["獲得\\IN[1]！\\|\\|\\|\\^"]},
+		{"code":401,"indent":0,"parameters":["獲得\\INV[1]！"]},
 		{"code":122,"indent":0,"parameters":[1,1,0,0,0]},
 		{"code":122,"indent":0,"parameters":[2,2,0,0,0]},
 		{"code":0,"indent":0,"parameters":[]}
@@ -1187,9 +1193,9 @@
 	{"id":33,"list":[
 		{"code":250,"indent":0,"parameters":[{"name":"Item1","volume":90,"pitch":100,"pan":0}]},
 		{"code":355,"indent":0,"parameters":["$gameVariables.setValue(1,[12,13].rnd1());"]},
-		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataArmors[$gameVariables.value(1)],1);"]},
+		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataItems[$gameVariables.value(1)],1);"]},
 		{"code":101,"indent":0,"parameters":["",0,0,2]},
-		{"code":401,"indent":0,"parameters":["獲得\\IN[1]！\\|\\|\\|\\^"]},
+		{"code":401,"indent":0,"parameters":["獲得\\INV[1]！"]},
 		{"code":122,"indent":0,"parameters":[1,1,0,0,0]},
 		{"code":122,"indent":0,"parameters":[2,2,0,0,0]},
 		{"code":0,"indent":0,"parameters":[]}
@@ -1197,9 +1203,9 @@
 	{"id":34,"list":[
 		{"code":250,"indent":0,"parameters":[{"name":"Item1","volume":90,"pitch":100,"pan":0}]},
 		{"code":355,"indent":0,"parameters":["$gameVariables.setValue(1,[12,13].rnd1());"]},
-		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataArmors[$gameVariables.value(1)],1);"]},
+		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataItems[$gameVariables.value(1)],1);"]},
 		{"code":101,"indent":0,"parameters":["",0,0,2]},
-		{"code":401,"indent":0,"parameters":["獲得\\IN[1]！\\|\\|\\|\\^"]},
+		{"code":401,"indent":0,"parameters":["獲得\\INV[1]！"]},
 		{"code":122,"indent":0,"parameters":[1,1,0,0,0]},
 		{"code":122,"indent":0,"parameters":[2,2,0,0,0]},
 		{"code":0,"indent":0,"parameters":[]}
@@ -1207,9 +1213,9 @@
 	{"id":35,"list":[
 		{"code":250,"indent":0,"parameters":[{"name":"Item1","volume":90,"pitch":100,"pan":0}]},
 		{"code":355,"indent":0,"parameters":["$gameVariables.setValue(1,[12,13].rnd1());"]},
-		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataArmors[$gameVariables.value(1)],1);"]},
+		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataItems[$gameVariables.value(1)],1);"]},
 		{"code":101,"indent":0,"parameters":["",0,0,2]},
-		{"code":401,"indent":0,"parameters":["獲得\\IN[1]！\\|\\|\\|\\^"]},
+		{"code":401,"indent":0,"parameters":["獲得\\INV[1]！"]},
 		{"code":122,"indent":0,"parameters":[1,1,0,0,0]},
 		{"code":122,"indent":0,"parameters":[2,2,0,0,0]},
 		{"code":0,"indent":0,"parameters":[]}
@@ -1217,9 +1223,9 @@
 	{"id":36,"list":[
 		{"code":250,"indent":0,"parameters":[{"name":"Item1","volume":90,"pitch":100,"pan":0}]},
 		{"code":355,"indent":0,"parameters":["$gameVariables.setValue(1,[12,13].rnd1());"]},
-		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataArmors[$gameVariables.value(1)],1);"]},
+		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataItems[$gameVariables.value(1)],1);"]},
 		{"code":101,"indent":0,"parameters":["",0,0,2]},
-		{"code":401,"indent":0,"parameters":["獲得\\IN[1]！\\|\\|\\|\\^"]},
+		{"code":401,"indent":0,"parameters":["獲得\\INV[1]！"]},
 		{"code":122,"indent":0,"parameters":[1,1,0,0,0]},
 		{"code":122,"indent":0,"parameters":[2,2,0,0,0]},
 		{"code":0,"indent":0,"parameters":[]}
@@ -1229,7 +1235,7 @@
 		{"code":355,"indent":0,"parameters":["$gameVariables.setValue(1,[12,13].rnd1());"]},
 		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataArmors[$gameVariables.value(1)],1);"]},
 		{"code":101,"indent":0,"parameters":["",0,0,2]},
-		{"code":401,"indent":0,"parameters":["獲得\\IN[1]！\\|\\|\\|\\^"]},
+		{"code":401,"indent":0,"parameters":["獲得\\INV[1]！"]},
 		{"code":122,"indent":0,"parameters":[1,1,0,0,0]},
 		{"code":122,"indent":0,"parameters":[2,2,0,0,0]},
 		{"code":0,"indent":0,"parameters":[]}
@@ -1239,7 +1245,7 @@
 		{"code":355,"indent":0,"parameters":["$gameVariables.setValue(1,[221,222,223,224].rnd1());"]},
 		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataArmors[$gameVariables.value(1)],1);"]},
 		{"code":101,"indent":0,"parameters":["",0,0,2]},
-		{"code":401,"indent":0,"parameters":["獲得\\IN[1]！\\|\\|\\|\\^"]},
+		{"code":401,"indent":0,"parameters":["獲得\\INV[1]！"]},
 		{"code":122,"indent":0,"parameters":[1,1,0,0,0]},
 		{"code":122,"indent":0,"parameters":[2,2,0,0,0]},
 		{"code":0,"indent":0,"parameters":[]}
@@ -1249,7 +1255,7 @@
 		{"code":355,"indent":0,"parameters":["$gameVariables.setValue(1,[12,13].rnd1());"]},
 		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataArmors[$gameVariables.value(1)],1);"]},
 		{"code":101,"indent":0,"parameters":["",0,0,2]},
-		{"code":401,"indent":0,"parameters":["獲得\\IN[1]！\\|\\|\\|\\^"]},
+		{"code":401,"indent":0,"parameters":["獲得\\INV[1]！"]},
 		{"code":122,"indent":0,"parameters":[1,1,0,0,0]},
 		{"code":122,"indent":0,"parameters":[2,2,0,0,0]},
 		{"code":0,"indent":0,"parameters":[]}
@@ -1259,7 +1265,7 @@
 		{"code":355,"indent":0,"parameters":["$gameVariables.setValue(1,[12,13].rnd1());"]},
 		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataArmors[$gameVariables.value(1)],1);"]},
 		{"code":101,"indent":0,"parameters":["",0,0,2]},
-		{"code":401,"indent":0,"parameters":["獲得\\IN[1]！\\|\\|\\|\\^"]},
+		{"code":401,"indent":0,"parameters":["獲得\\INV[1]！"]},
 		{"code":122,"indent":0,"parameters":[1,1,0,0,0]},
 		{"code":122,"indent":0,"parameters":[2,2,0,0,0]},
 		{"code":0,"indent":0,"parameters":[]}
@@ -1269,7 +1275,7 @@
 		{"code":355,"indent":0,"parameters":["$gameVariables.setValue(1,[221,222,223,224].rnd1());"]},
 		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataArmors[$gameVariables.value(1)],1);"]},
 		{"code":101,"indent":0,"parameters":["",0,0,2]},
-		{"code":401,"indent":0,"parameters":["獲得\\IN[1]！\\|\\|\\|\\^"]},
+		{"code":401,"indent":0,"parameters":["獲得\\INV[1]！"]},
 		{"code":122,"indent":0,"parameters":[1,1,0,0,0]},
 		{"code":122,"indent":0,"parameters":[2,2,0,0,0]},
 		{"code":0,"indent":0,"parameters":[]}
@@ -1279,7 +1285,7 @@
 		{"code":355,"indent":0,"parameters":["$gameVariables.setValue(1,[12,13].rnd1());"]},
 		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataArmors[$gameVariables.value(1)],1);"]},
 		{"code":101,"indent":0,"parameters":["",0,0,2]},
-		{"code":401,"indent":0,"parameters":["獲得\\IN[1]！\\|\\|\\|\\^"]},
+		{"code":401,"indent":0,"parameters":["獲得\\INV[1]！"]},
 		{"code":122,"indent":0,"parameters":[1,1,0,0,0]},
 		{"code":122,"indent":0,"parameters":[2,2,0,0,0]},
 		{"code":0,"indent":0,"parameters":[]}
@@ -1289,7 +1295,7 @@
 		{"code":355,"indent":0,"parameters":["$gameVariables.setValue(1,[12,13].rnd1());"]},
 		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataArmors[$gameVariables.value(1)],1);"]},
 		{"code":101,"indent":0,"parameters":["",0,0,2]},
-		{"code":401,"indent":0,"parameters":["獲得\\IN[1]！\\|\\|\\|\\^"]},
+		{"code":401,"indent":0,"parameters":["獲得\\INV[1]！"]},
 		{"code":122,"indent":0,"parameters":[1,1,0,0,0]},
 		{"code":122,"indent":0,"parameters":[2,2,0,0,0]},
 		{"code":0,"indent":0,"parameters":[]}
@@ -1299,7 +1305,7 @@
 		{"code":355,"indent":0,"parameters":["$gameVariables.setValue(1,[221,222,223,224].rnd1());"]},
 		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataArmors[$gameVariables.value(1)],1);"]},
 		{"code":101,"indent":0,"parameters":["",0,0,2]},
-		{"code":401,"indent":0,"parameters":["獲得\\IN[1]！\\|\\|\\|\\^"]},
+		{"code":401,"indent":0,"parameters":["獲得\\INV[1]！"]},
 		{"code":122,"indent":0,"parameters":[1,1,0,0,0]},
 		{"code":122,"indent":0,"parameters":[2,2,0,0,0]},
 		{"code":0,"indent":0,"parameters":[]}
@@ -1309,7 +1315,7 @@
 		{"code":355,"indent":0,"parameters":["$gameVariables.setValue(1,[12,13].rnd1());"]},
 		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataArmors[$gameVariables.value(1)],1);"]},
 		{"code":101,"indent":0,"parameters":["",0,0,2]},
-		{"code":401,"indent":0,"parameters":["獲得\\IN[1]！\\|\\|\\|\\^"]},
+		{"code":401,"indent":0,"parameters":["獲得\\INV[1]！"]},
 		{"code":122,"indent":0,"parameters":[1,1,0,0,0]},
 		{"code":122,"indent":0,"parameters":[2,2,0,0,0]},
 		{"code":0,"indent":0,"parameters":[]}
@@ -1319,7 +1325,7 @@
 		{"code":355,"indent":0,"parameters":["$gameVariables.setValue(1,[12,13].rnd1());"]},
 		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataArmors[$gameVariables.value(1)],1);"]},
 		{"code":101,"indent":0,"parameters":["",0,0,2]},
-		{"code":401,"indent":0,"parameters":["獲得\\IN[1]！\\|\\|\\|\\^"]},
+		{"code":401,"indent":0,"parameters":["獲得\\INV[1]！"]},
 		{"code":122,"indent":0,"parameters":[1,1,0,0,0]},
 		{"code":122,"indent":0,"parameters":[2,2,0,0,0]},
 		{"code":0,"indent":0,"parameters":[]}
@@ -1329,7 +1335,7 @@
 		{"code":355,"indent":0,"parameters":["$gameVariables.setValue(1,[221,222,223,224].rnd1());"]},
 		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataArmors[$gameVariables.value(1)],1);"]},
 		{"code":101,"indent":0,"parameters":["",0,0,2]},
-		{"code":401,"indent":0,"parameters":["獲得\\IN[1]！\\|\\|\\|\\^"]},
+		{"code":401,"indent":0,"parameters":["獲得\\INV[1]！"]},
 		{"code":122,"indent":0,"parameters":[1,1,0,0,0]},
 		{"code":122,"indent":0,"parameters":[2,2,0,0,0]},
 		{"code":0,"indent":0,"parameters":[]}
@@ -1339,7 +1345,7 @@
 		{"code":355,"indent":0,"parameters":["$gameVariables.setValue(1,[12,13].rnd1());"]},
 		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataArmors[$gameVariables.value(1)],1);"]},
 		{"code":101,"indent":0,"parameters":["",0,0,2]},
-		{"code":401,"indent":0,"parameters":["獲得\\IN[1]！\\|\\|\\|\\^"]},
+		{"code":401,"indent":0,"parameters":["獲得\\INV[1]！"]},
 		{"code":122,"indent":0,"parameters":[1,1,0,0,0]},
 		{"code":122,"indent":0,"parameters":[2,2,0,0,0]},
 		{"code":0,"indent":0,"parameters":[]}
@@ -1349,7 +1355,7 @@
 		{"code":355,"indent":0,"parameters":["$gameVariables.setValue(1,[12,13].rnd1());"]},
 		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataArmors[$gameVariables.value(1)],1);"]},
 		{"code":101,"indent":0,"parameters":["",0,0,2]},
-		{"code":401,"indent":0,"parameters":["獲得\\IN[1]！\\|\\|\\|\\^"]},
+		{"code":401,"indent":0,"parameters":["獲得\\INV[1]！"]},
 		{"code":122,"indent":0,"parameters":[1,1,0,0,0]},
 		{"code":122,"indent":0,"parameters":[2,2,0,0,0]},
 		{"code":0,"indent":0,"parameters":[]}
@@ -1359,7 +1365,7 @@
 		{"code":355,"indent":0,"parameters":["$gameVariables.setValue(1,[221,222,223,224].rnd1());"]},
 		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataArmors[$gameVariables.value(1)],1);"]},
 		{"code":101,"indent":0,"parameters":["",0,0,2]},
-		{"code":401,"indent":0,"parameters":["獲得\\IN[1]！\\|\\|\\|\\^"]},
+		{"code":401,"indent":0,"parameters":["獲得\\INV[1]！"]},
 		{"code":122,"indent":0,"parameters":[1,1,0,0,0]},
 		{"code":122,"indent":0,"parameters":[2,2,0,0,0]},
 		{"code":0,"indent":0,"parameters":[]}
@@ -1369,7 +1375,7 @@
 		{"code":355,"indent":0,"parameters":["$gameVariables.setValue(1,[12,13].rnd1());"]},
 		{"code":655,"indent":0,"parameters":["$gameParty.gainItem($dataArmors[$gameVariables.value(1)],1);"]},
 		{"code":101,"indent":0,"parameters":["",0,0,2]},
-		{"code":401,"indent":0,"parameters":["獲得\\IN[1]！\\|\\|\\|\\^"]},
+		{"code":401,"indent":0,"parameters":["獲得\\INV[1]！"]},
 		{"code":122,"indent":0,"parameters":[1,1,0,0,0]},
 		{"code":122,"indent":0,"parameters":[2,2,0,0,0]},
 		{"code":0,"indent":0,"parameters":[]}
@@ -2533,122 +2539,409 @@
 		{"code":0,"indent":0,"parameters":[]}
 	],"name":"","switchId":1,"trigger":0},
 	{"id":147,"list":[
+		{"code":111,"indent":0,"parameters":[1,325,0,154,0]},
+		{"code":102,"indent":1,"parameters":[["確認任務","交付任務"],1,0,2,0]},
+		{"code":402,"indent":1,"parameters":[0,"確認任務"]},
+		{"code":101,"indent":2,"parameters":["",0,0,2]},
+		{"code":401,"indent":2,"parameters":["樸桃："]},
+		{"code":401,"indent":2,"parameters":["最近魔王城的補給品好像用得有點兇，去幫忙籌備一下吧。"]},
+		{"code":122,"indent":2,"parameters":[433,433,0,0,0]},
+		{"code":0,"indent":2,"parameters":[]},
+		{"code":402,"indent":1,"parameters":[1,"交付任務"]},
+		{"code":0,"indent":2,"parameters":[]},
+		{"code":404,"indent":1,"parameters":[]},
+		{"code":0,"indent":1,"parameters":[]},
+		{"code":412,"indent":0,"parameters":[]},
+		{"code":111,"indent":0,"parameters":[1,325,0,155,0]},
+		{"code":0,"indent":1,"parameters":[]},
+		{"code":412,"indent":0,"parameters":[]},
+		{"code":111,"indent":0,"parameters":[1,325,0,156,0]},
+		{"code":0,"indent":1,"parameters":[]},
+		{"code":412,"indent":0,"parameters":[]},
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"確認任務","switchId":1,"trigger":0},
 	{"id":148,"list":[
+		{"code":122,"indent":0,"parameters":[341,440,0,0,0]},
+		{"code":355,"indent":0,"parameters":["$gameTemp._arr=[154,155,156];"]},
+		{"code":122,"indent":0,"parameters":[337,337,0,4,"{ const idx=~~($gameTemp._arr.length*Math.random()); const val=$gameTemp._arr[idx]; $gameTemp._arr[idx]=$gameTemp._arr.back; $gameTemp._arr.pop(); val; }"]},
+		{"code":122,"indent":0,"parameters":[338,338,0,4,"{ const idx=~~($gameTemp._arr.length*Math.random()); const val=$gameTemp._arr[idx]; $gameTemp._arr[idx]=$gameTemp._arr.back; $gameTemp._arr.pop(); val; }"]},
+		{"code":122,"indent":0,"parameters":[339,339,0,4,"{ const idx=~~($gameTemp._arr.length*Math.random()); const val=$gameTemp._arr[idx]; $gameTemp._arr[idx]=$gameTemp._arr.back; $gameTemp._arr.pop(); val; }"]},
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"骰任務","switchId":1,"trigger":0},
 	{"id":149,"list":[
+		{"code":355,"indent":0,"parameters":["// 篩選所有<礦石>道具的ID並存入變數118"]},
+		{"code":655,"indent":0,"parameters":["let mineralIds = $dataItems.filter(item => item && item.note.includes('<礦石>')).map(item => item.id);"]},
+		{"code":655,"indent":0,"parameters":["$gameVariables.setValue(118, mineralIds);"]},
+		{"code":655,"indent":0,"parameters":["// 只允許在道具選單中顯示<礦石>道具"]},
+		{"code":655,"indent":0,"parameters":["$gameSystem.EventItemList_setWhite($gameVariables.value(118));"]},
+		{"code":104,"indent":0,"parameters":[118,1]},
+		{"code":101,"indent":0,"parameters":["",0,0,2]},
+		{"code":401,"indent":0,"parameters":["\\inv[1]要交付幾個？"]},
+		{"code":103,"indent":0,"parameters":[1,2]},
+		{"code":108,"indent":0,"parameters":["這裡就可能存陣列，接著外部JS計算道具ID 將交付道具的獎勵總數加起來計算"]},
+		{"code":408,"indent":0,"parameters":[""]},
+		{"code":408,"indent":0,"parameters":["再來做一些分歧條件（額外獎勵等）"]},
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"測試交付藥草","switchId":1,"trigger":0},
 	{"id":150,"list":[
+		{"code":108,"indent":0,"parameters":["$gameMap.cameraChasing_set"]},
+		{"code":408,"indent":0,"parameters":["({_realX:地圖格座標X,_realY:地圖格座標Y},"]},
+		{"code":408,"indent":0,"parameters":["0 額外用途，這裡固定填0 ,幾幀,0額外用途，這裡固定填0);"]},
+		{"code":408,"indent":0,"parameters":[""]},
+		{"code":408,"indent":0,"parameters":["玩家位置:0,0"]},
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"攝影機","switchId":1,"trigger":0},
 	{"id":151,"list":[
+		{"code":101,"indent":0,"parameters":["",0,0,2]},
+		{"code":401,"indent":0,"parameters":["今天的任務是這些。"]},
+		{"code":111,"indent":0,"parameters":[0,35,0]},
+		{"code":102,"indent":1,"parameters":[["任務1","任務2","任務3","任務4"],-2,0,2,0]},
+		{"code":402,"indent":1,"parameters":[0,"任務1"]},
+		{"code":108,"indent":2,"parameters":["從1丟進共版 "]},
+		{"code":355,"indent":2,"parameters":["for(let i=341,c=421,_=15;_--;++i,++c) $gameVariables._data[c]=$gameVariables._data[i];"]},
+		{"code":122,"indent":2,"parameters":[325,325,0,1,326]},
+		{"code":117,"indent":2,"parameters":[147]},
+		{"code":0,"indent":2,"parameters":[]},
+		{"code":402,"indent":1,"parameters":[1,"任務2"]},
+		{"code":355,"indent":2,"parameters":["for(let i=361,c=421,_=15;_--;++i,++c) $gameVariables._data[c]=$gameVariables._data[i];"]},
+		{"code":122,"indent":2,"parameters":[325,325,0,1,327]},
+		{"code":117,"indent":2,"parameters":[147]},
+		{"code":0,"indent":2,"parameters":[]},
+		{"code":402,"indent":1,"parameters":[2,"任務3"]},
+		{"code":355,"indent":2,"parameters":["for(let i=381,c=421,_=15;_--;++i,++c) $gameVariables._data[c]=$gameVariables._data[i];"]},
+		{"code":122,"indent":2,"parameters":[325,325,0,1,328]},
+		{"code":117,"indent":2,"parameters":[147]},
+		{"code":0,"indent":2,"parameters":[]},
+		{"code":402,"indent":1,"parameters":[3,"任務4"]},
+		{"code":355,"indent":2,"parameters":["for(let i=401,c=421,_=15;_--;++i,++c) $gameVariables._data[c]=$gameVariables._data[i];"]},
+		{"code":122,"indent":2,"parameters":[325,325,0,1,329]},
+		{"code":117,"indent":2,"parameters":[147]},
+		{"code":0,"indent":2,"parameters":[]},
+		{"code":403,"indent":1,"parameters":[6,null]},
+		{"code":0,"indent":2,"parameters":[]},
+		{"code":404,"indent":1,"parameters":[]},
+		{"code":0,"indent":1,"parameters":[]},
+		{"code":411,"indent":0,"parameters":[]},
+		{"code":102,"indent":1,"parameters":[["任務1","任務2","任務3"],-2,0,2,0]},
+		{"code":402,"indent":1,"parameters":[0,"任務1"]},
+		{"code":355,"indent":2,"parameters":["for(let i=341,c=421,_=15;_--;++i,++c) $gameVariables._data[c]=$gameVariables._data[i];"]},
+		{"code":122,"indent":2,"parameters":[325,325,0,1,326]},
+		{"code":117,"indent":2,"parameters":[147]},
+		{"code":0,"indent":2,"parameters":[]},
+		{"code":402,"indent":1,"parameters":[1,"任務2"]},
+		{"code":355,"indent":2,"parameters":["for(let i=361,c=421,_=15;_--;++i,++c) $gameVariables._data[c]=$gameVariables._data[i];"]},
+		{"code":122,"indent":2,"parameters":[325,325,0,1,327]},
+		{"code":117,"indent":2,"parameters":[147]},
+		{"code":0,"indent":2,"parameters":[]},
+		{"code":402,"indent":1,"parameters":[2,"任務3"]},
+		{"code":355,"indent":2,"parameters":["for(let i=381,c=421,_=15;_--;++i,++c) $gameVariables._data[c]=$gameVariables._data[i];"]},
+		{"code":122,"indent":2,"parameters":[325,325,0,1,328]},
+		{"code":117,"indent":2,"parameters":[147]},
+		{"code":0,"indent":2,"parameters":[]},
+		{"code":403,"indent":1,"parameters":[6,null]},
+		{"code":0,"indent":2,"parameters":[]},
+		{"code":404,"indent":1,"parameters":[]},
+		{"code":0,"indent":1,"parameters":[]},
+		{"code":412,"indent":0,"parameters":[]},
 		{"code":0,"indent":0,"parameters":[]}
 	],"name":"任務板","switchId":1,"trigger":0},
 	{"id":152,"list":[
+		{"code":111,"indent":0,"parameters":[1,330,0,154,0]},
+		{"code":108,"indent":1,"parameters":["隨機1~3個任務需求"]},
+		{"code":122,"indent":1,"parameters":[1,1,0,2,1,3]},
+		{"code":111,"indent":1,"parameters":[1,1,0,3,0]},
+		{"code":122,"indent":2,"parameters":[1,1,2,0,1]},
+		{"code":108,"indent":2,"parameters":["機率低10%會出<藥草>條件"]},
+		{"code":122,"indent":2,"parameters":[2,2,0,2,1,10]},
+		{"code":111,"indent":2,"parameters":[1,2,0,1,0]},
+		{"code":122,"indent":3,"parameters":[435,435,0,0,4]},
+		{"code":0,"indent":3,"parameters":[]},
+		{"code":411,"indent":2,"parameters":[]},
+		{"code":0,"indent":3,"parameters":[]},
+		{"code":412,"indent":2,"parameters":[]},
+		{"code":0,"indent":2,"parameters":[]},
+		{"code":412,"indent":1,"parameters":[]},
+		{"code":111,"indent":1,"parameters":[1,1,0,2,0]},
+		{"code":122,"indent":2,"parameters":[1,1,2,0,1]},
+		{"code":111,"indent":2,"parameters":[1,432,0,4,0]},
+		{"code":119,"indent":3,"parameters":["2"]},
+		{"code":0,"indent":3,"parameters":[]},
+		{"code":411,"indent":2,"parameters":[]},
+		{"code":108,"indent":3,"parameters":["機率低10%會出<藥草>條件"]},
+		{"code":122,"indent":3,"parameters":[2,2,0,2,1,10]},
+		{"code":111,"indent":3,"parameters":[1,2,0,1,0]},
+		{"code":122,"indent":4,"parameters":[427,427,0,0,4]},
+		{"code":0,"indent":4,"parameters":[]},
+		{"code":411,"indent":3,"parameters":[]},
+		{"code":118,"indent":4,"parameters":["2"]},
+		{"code":0,"indent":4,"parameters":[]},
+		{"code":412,"indent":3,"parameters":[]},
+		{"code":0,"indent":3,"parameters":[]},
+		{"code":412,"indent":2,"parameters":[]},
+		{"code":0,"indent":2,"parameters":[]},
+		{"code":412,"indent":1,"parameters":[]},
+		{"code":111,"indent":1,"parameters":[1,432,0,4,0]},
+		{"code":119,"indent":2,"parameters":["3"]},
+		{"code":0,"indent":2,"parameters":[]},
+		{"code":411,"indent":1,"parameters":[]},
+		{"code":111,"indent":2,"parameters":[1,427,0,4,0]},
+		{"code":119,"indent":3,"parameters":["3"]},
+		{"code":0,"indent":3,"parameters":[]},
+		{"code":411,"indent":2,"parameters":[]},
+		{"code":111,"indent":3,"parameters":[1,1,0,1,0]},
+		{"code":122,"indent":4,"parameters":[1,1,2,0,1]},
+		{"code":108,"indent":4,"parameters":["機率低10%會出<藥草>條件"]},
+		{"code":122,"indent":4,"parameters":[2,2,0,2,1,10]},
+		{"code":111,"indent":4,"parameters":[1,2,0,1,0]},
+		{"code":122,"indent":5,"parameters":[422,422,0,0,4]},
+		{"code":0,"indent":5,"parameters":[]},
+		{"code":411,"indent":4,"parameters":[]},
+		{"code":118,"indent":5,"parameters":["3"]},
+		{"code":0,"indent":5,"parameters":[]},
+		{"code":412,"indent":4,"parameters":[]},
+		{"code":0,"indent":4,"parameters":[]},
+		{"code":412,"indent":3,"parameters":[]},
+		{"code":0,"indent":3,"parameters":[]},
+		{"code":412,"indent":2,"parameters":[]},
+		{"code":0,"indent":2,"parameters":[]},
+		{"code":412,"indent":1,"parameters":[]},
+		{"code":0,"indent":1,"parameters":[]},
+		{"code":412,"indent":0,"parameters":[]},
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"骰任務版任務內容","switchId":1,"trigger":0},
 	{"id":153,"list":[
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"--泡泡球群島任務--","switchId":1,"trigger":0},
 	{"id":154,"list":[
+		{"code":108,"indent":0,"parameters":["收集1~3星煌珠群"]},
+		{"code":101,"indent":0,"parameters":["",0,0,2]},
+		{"code":401,"indent":0,"parameters":["樸桃："]},
+		{"code":401,"indent":0,"parameters":["最近魔王城的補給品好像用得有點兇，去幫忙籌備一下吧。"]},
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"低階煌珠解析01","switchId":1,"trigger":0},
 	{"id":155,"list":[
+		{"code":108,"indent":0,"parameters":["收集4~5煌珠群"]},
+		{"code":101,"indent":0,"parameters":["",0,0,2]},
+		{"code":401,"indent":0,"parameters":["樸桃："]},
+		{"code":401,"indent":0,"parameters":["最近魔王城的補給品好像用得有點兇，去幫忙籌備一下吧。"]},
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"高階煌珠解析02","switchId":1,"trigger":0},
 	{"id":156,"list":[
+		{"code":108,"indent":0,"parameters":["收集6星煌珠群"]},
+		{"code":101,"indent":0,"parameters":["",0,0,2]},
+		{"code":401,"indent":0,"parameters":["樸桃："]},
+		{"code":401,"indent":0,"parameters":["最近魔王城的補給品好像用得有點兇，去幫忙籌備一下吧。"]},
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"稀有煌珠解析03","switchId":1,"trigger":0},
 	{"id":157,"list":[
+		{"code":108,"indent":0,"parameters":["收集泡泡球煌珠群"]},
+		{"code":101,"indent":0,"parameters":["",0,0,2]},
+		{"code":401,"indent":0,"parameters":["樸桃："]},
+		{"code":401,"indent":0,"parameters":["最近魔王城的補給品好像用得有點兇，去幫忙籌備一下吧。"]},
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"泡泡球煌珠解析","switchId":1,"trigger":0},
 	{"id":158,"list":[
+		{"code":108,"indent":0,"parameters":["收集山谷煌珠群"]},
+		{"code":101,"indent":0,"parameters":["",0,0,2]},
+		{"code":401,"indent":0,"parameters":["樸桃："]},
+		{"code":401,"indent":0,"parameters":["最近魔王城的補給品好像用得有點兇，去幫忙籌備一下吧。"]},
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"山谷煌珠解析","switchId":1,"trigger":0},
 	{"id":159,"list":[
+		{"code":108,"indent":0,"parameters":["收集森林煌珠群"]},
+		{"code":101,"indent":0,"parameters":["",0,0,2]},
+		{"code":401,"indent":0,"parameters":["樸桃："]},
+		{"code":401,"indent":0,"parameters":["最近魔王城的補給品好像用得有點兇，去幫忙籌備一下吧。"]},
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"森林煌珠解析","switchId":1,"trigger":0},
 	{"id":160,"list":[
+		{"code":108,"indent":0,"parameters":["收集高塔煌珠群"]},
+		{"code":101,"indent":0,"parameters":["",0,0,2]},
+		{"code":401,"indent":0,"parameters":["樸桃："]},
+		{"code":401,"indent":0,"parameters":["最近魔王城的補給品好像用得有點兇，去幫忙籌備一下吧。"]},
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"高塔煌珠解析","switchId":1,"trigger":0},
 	{"id":161,"list":[
+		{"code":108,"indent":0,"parameters":["收集冰封煌珠群"]},
+		{"code":101,"indent":0,"parameters":["",0,0,2]},
+		{"code":401,"indent":0,"parameters":["樸桃："]},
+		{"code":401,"indent":0,"parameters":["最近魔王城的補給品好像用得有點兇，去幫忙籌備一下吧。"]},
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"冰封煌珠解析","switchId":1,"trigger":0},
 	{"id":162,"list":[
+		{"code":108,"indent":0,"parameters":["收集沙塵煌珠群"]},
+		{"code":101,"indent":0,"parameters":["",0,0,2]},
+		{"code":401,"indent":0,"parameters":["樸桃："]},
+		{"code":401,"indent":0,"parameters":["最近魔王城的補給品好像用得有點兇，去幫忙籌備一下吧。"]},
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"沙塵煌珠解析","switchId":1,"trigger":0},
 	{"id":163,"list":[
+		{"code":108,"indent":0,"parameters":["收集洋館煌珠群"]},
+		{"code":101,"indent":0,"parameters":["",0,0,2]},
+		{"code":401,"indent":0,"parameters":["樸桃："]},
+		{"code":401,"indent":0,"parameters":["最近魔王城的補給品好像用得有點兇，去幫忙籌備一下吧。"]},
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"洋館煌珠解析","switchId":1,"trigger":0},
 	{"id":164,"list":[
+		{"code":108,"indent":0,"parameters":["收集亞特蘭提斯煌珠群"]},
+		{"code":101,"indent":0,"parameters":["",0,0,2]},
+		{"code":401,"indent":0,"parameters":["樸桃："]},
+		{"code":401,"indent":0,"parameters":["最近魔王城的補給品好像用得有點兇，去幫忙籌備一下吧。"]},
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"亞特蘭提斯煌珠解析","switchId":1,"trigger":0},
 	{"id":165,"list":[
+		{"code":108,"indent":0,"parameters":["收集龍穴煌珠群"]},
+		{"code":101,"indent":0,"parameters":["",0,0,2]},
+		{"code":401,"indent":0,"parameters":["樸桃："]},
+		{"code":401,"indent":0,"parameters":["最近魔王城的補給品好像用得有點兇，去幫忙籌備一下吧。"]},
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"龍穴煌珠解析","switchId":1,"trigger":0},
 	{"id":166,"list":[
+		{"code":122,"indent":0,"parameters":[20,20,0,2,1,3]},
+		{"code":112,"indent":0,"parameters":[]},
+		{"code":111,"indent":1,"parameters":[1,20,0,1,1]},
+		{"code":122,"indent":2,"parameters":[19,19,2,2,1,5]},
+		{"code":111,"indent":2,"parameters":[1,19,0,1,0]},
+		{"code":108,"indent":3,"parameters":["收集藥草類道具 1~5 *5個"]},
+		{"code":408,"indent":3,"parameters":["只判定一次，若同一個任務中已經有一樣收集藥草類道具則重新隨機"]},
+		{"code":122,"indent":3,"parameters":[20,20,2,0,1]},
+		{"code":0,"indent":3,"parameters":[]},
+		{"code":411,"indent":2,"parameters":[]},
+		{"code":355,"indent":3,"parameters":["$gameVariables.setValue(3,[159,167,175,184,192,200,210,220,230].rnd1());"]},
+		{"code":122,"indent":3,"parameters":[2,2,0,2,1,5]},
+		{"code":122,"indent":3,"parameters":[2,2,3,0,5]},
+		{"code":0,"indent":3,"parameters":[]},
+		{"code":412,"indent":2,"parameters":[]},
+		{"code":122,"indent":2,"parameters":[20,20,2,0,1]},
+		{"code":0,"indent":2,"parameters":[]},
+		{"code":411,"indent":1,"parameters":[]},
+		{"code":0,"indent":2,"parameters":[]},
+		{"code":412,"indent":1,"parameters":[]},
+		{"code":111,"indent":1,"parameters":[1,20,0,0,0]},
+		{"code":113,"indent":2,"parameters":[]},
+		{"code":0,"indent":2,"parameters":[]},
+		{"code":412,"indent":1,"parameters":[]},
+		{"code":0,"indent":1,"parameters":[]},
+		{"code":413,"indent":0,"parameters":[]},
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"採集藥草(隨便)","switchId":1,"trigger":0},
 	{"id":167,"list":[
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"採集藥草(泡泡)","switchId":1,"trigger":0},
 	{"id":168,"list":[
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"採集藥草(山谷)","switchId":1,"trigger":0},
 	{"id":169,"list":[
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"採集藥草(森)","switchId":1,"trigger":0},
 	{"id":170,"list":[
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"採集藥草(高塔)","switchId":1,"trigger":0},
 	{"id":171,"list":[
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"採集藥草(冰)","switchId":1,"trigger":0},
 	{"id":172,"list":[
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"採集藥草(沙)","switchId":1,"trigger":0},
 	{"id":173,"list":[
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"採集藥草(血)","switchId":1,"trigger":0},
 	{"id":174,"list":[
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"採集藥草(海)","switchId":1,"trigger":0},
 	{"id":175,"list":[
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"採集藥草(龍)","switchId":1,"trigger":0},
 	{"id":176,"list":[
+		{"code":108,"indent":0,"parameters":["收集礦石群"]},
+		{"code":101,"indent":0,"parameters":["",0,0,2]},
+		{"code":401,"indent":0,"parameters":["樸桃："]},
+		{"code":401,"indent":0,"parameters":["小卷老師說他需要一些礦石的樣本用來研究，看能不能"]},
+		{"code":401,"indent":0,"parameters":["用來維護魔王城、或是開發一些魔法道具什麼的，"]},
+		{"code":401,"indent":0,"parameters":["你去幫忙找來吧。"]},
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"礦石研究(隨便)","switchId":1,"trigger":0},
 	{"id":177,"list":[
+		{"code":108,"indent":0,"parameters":["收集礦石群"]},
+		{"code":101,"indent":0,"parameters":["",0,0,2]},
+		{"code":401,"indent":0,"parameters":["樸桃："]},
+		{"code":401,"indent":0,"parameters":["小卷老師說他需要一些礦石的樣本用來研究，看能不能"]},
+		{"code":401,"indent":0,"parameters":["用來維護魔王城、或是開發一些魔法道具什麼的，"]},
+		{"code":401,"indent":0,"parameters":["你去幫忙找來吧。"]},
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"礦石研究(泡)","switchId":1,"trigger":0},
 	{"id":178,"list":[
+		{"code":108,"indent":0,"parameters":["收集礦石群"]},
+		{"code":101,"indent":0,"parameters":["",0,0,2]},
+		{"code":401,"indent":0,"parameters":["樸桃："]},
+		{"code":401,"indent":0,"parameters":["小卷老師說他需要一些礦石的樣本用來研究，看能不能"]},
+		{"code":401,"indent":0,"parameters":["用來維護魔王城、或是開發一些魔法道具什麼的，"]},
+		{"code":401,"indent":0,"parameters":["你去幫忙找來吧。"]},
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"礦石研究(山)","switchId":1,"trigger":0},
 	{"id":179,"list":[
+		{"code":108,"indent":0,"parameters":["收集礦石群"]},
+		{"code":101,"indent":0,"parameters":["",0,0,2]},
+		{"code":401,"indent":0,"parameters":["樸桃："]},
+		{"code":401,"indent":0,"parameters":["小卷老師說他需要一些礦石的樣本用來研究，看能不能"]},
+		{"code":401,"indent":0,"parameters":["用來維護魔王城、或是開發一些魔法道具什麼的，"]},
+		{"code":401,"indent":0,"parameters":["你去幫忙找來吧。"]},
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"礦石研究(森)","switchId":1,"trigger":0},
 	{"id":180,"list":[
+		{"code":108,"indent":0,"parameters":["收集礦石群"]},
+		{"code":101,"indent":0,"parameters":["",0,0,2]},
+		{"code":401,"indent":0,"parameters":["樸桃："]},
+		{"code":401,"indent":0,"parameters":["小卷老師說他需要一些礦石的樣本用來研究，看能不能"]},
+		{"code":401,"indent":0,"parameters":["用來維護魔王城、或是開發一些魔法道具什麼的，"]},
+		{"code":401,"indent":0,"parameters":["你去幫忙找來吧。"]},
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"礦石研究(塔)","switchId":1,"trigger":0},
 	{"id":181,"list":[
+		{"code":108,"indent":0,"parameters":["收集礦石群"]},
+		{"code":101,"indent":0,"parameters":["",0,0,2]},
+		{"code":401,"indent":0,"parameters":["樸桃："]},
+		{"code":401,"indent":0,"parameters":["小卷老師說他需要一些礦石的樣本用來研究，看能不能"]},
+		{"code":401,"indent":0,"parameters":["用來維護魔王城、或是開發一些魔法道具什麼的，"]},
+		{"code":401,"indent":0,"parameters":["你去幫忙找來吧。"]},
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"礦石研究(冰)","switchId":1,"trigger":0},
 	{"id":182,"list":[
+		{"code":108,"indent":0,"parameters":["收集礦石群"]},
+		{"code":101,"indent":0,"parameters":["",0,0,2]},
+		{"code":401,"indent":0,"parameters":["樸桃："]},
+		{"code":401,"indent":0,"parameters":["小卷老師說他需要一些礦石的樣本用來研究，看能不能"]},
+		{"code":401,"indent":0,"parameters":["用來維護魔王城、或是開發一些魔法道具什麼的，"]},
+		{"code":401,"indent":0,"parameters":["你去幫忙找來吧。"]},
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"礦石研究(沙)","switchId":1,"trigger":0},
 	{"id":183,"list":[
+		{"code":108,"indent":0,"parameters":["收集礦石群"]},
+		{"code":101,"indent":0,"parameters":["",0,0,2]},
+		{"code":401,"indent":0,"parameters":["樸桃："]},
+		{"code":401,"indent":0,"parameters":["小卷老師說他需要一些礦石的樣本用來研究，看能不能"]},
+		{"code":401,"indent":0,"parameters":["用來維護魔王城、或是開發一些魔法道具什麼的，"]},
+		{"code":401,"indent":0,"parameters":["你去幫忙找來吧。"]},
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"礦石研究(血)","switchId":1,"trigger":0},
 	{"id":184,"list":[
+		{"code":108,"indent":0,"parameters":["收集礦石群"]},
+		{"code":101,"indent":0,"parameters":["",0,0,2]},
+		{"code":401,"indent":0,"parameters":["樸桃："]},
+		{"code":401,"indent":0,"parameters":["小卷老師說他需要一些礦石的樣本用來研究，看能不能"]},
+		{"code":401,"indent":0,"parameters":["用來維護魔王城、或是開發一些魔法道具什麼的，"]},
+		{"code":401,"indent":0,"parameters":["你去幫忙找來吧。"]},
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"礦石研究(海)","switchId":1,"trigger":0},
 	{"id":185,"list":[
+		{"code":108,"indent":0,"parameters":["收集礦石群"]},
+		{"code":101,"indent":0,"parameters":["",0,0,2]},
+		{"code":401,"indent":0,"parameters":["樸桃："]},
+		{"code":401,"indent":0,"parameters":["小卷老師說他需要一些礦石的樣本用來研究，看能不能"]},
+		{"code":401,"indent":0,"parameters":["用來維護魔王城、或是開發一些魔法道具什麼的，"]},
+		{"code":401,"indent":0,"parameters":["你去幫忙找來吧。"]},
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"礦石研究(龍)","switchId":1,"trigger":0},
 	{"id":186,"list":[
 		{"code":0,"indent":0,"parameters":[]}
 	],"name":"","switchId":1,"trigger":0},
@@ -2680,18 +2973,972 @@
 		{"code":0,"indent":0,"parameters":[]}
 	],"name":"","switchId":1,"trigger":0},
 	{"id":196,"list":[
+		{"code":108,"indent":0,"parameters":["收集ID礦石、收集固定ID樹木、收集樹木群、收集礦石群"]},
+		{"code":101,"indent":0,"parameters":["",0,0,2]},
+		{"code":401,"indent":0,"parameters":["樸桃：這個任務，你就幫忙收集一些維修魔王城用的"]},
+		{"code":401,"indent":0,"parameters":["上的素材，最近城堡被那些冒險者弄得破破爛爛的，"]},
+		{"code":401,"indent":0,"parameters":["但現在又騰不出人手，麻煩你啦。"]},
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"魔王城維護","switchId":1,"trigger":0},
 	{"id":197,"list":[
+		{"code":108,"indent":0,"parameters":["收集ID食材、收集食材群"]},
+		{"code":101,"indent":0,"parameters":["",0,0,2]},
+		{"code":401,"indent":0,"parameters":["樸桃："]},
+		{"code":401,"indent":0,"parameters":["食堂的大媽說最近食材不夠了，麻煩你幫忙跑個腿。"]},
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"缺糧危機","switchId":1,"trigger":0},
 	{"id":198,"list":[
+		{"code":108,"indent":0,"parameters":["收集草群"]},
+		{"code":101,"indent":0,"parameters":["",0,0,2]},
+		{"code":401,"indent":0,"parameters":["樸桃："]},
+		{"code":401,"indent":0,"parameters":["寵物屋的飼料不夠了，去外面隨便找點草回來吧，"]},
+		{"code":401,"indent":0,"parameters":["XXX說他的寵物不挑食的，不用找什麼太好太稀有的東西，"]},
+		{"code":401,"indent":0,"parameters":["隨便找點什麼回來就好。"]},
 		{"code":0,"indent":0,"parameters":[]}
-	],"name":"","switchId":1,"trigger":0},
+	],"name":"寵物屋飼料","switchId":1,"trigger":0},
 	{"id":199,"list":[
+		{"code":108,"indent":0,"parameters":["收集礦石群"]},
+		{"code":101,"indent":0,"parameters":["",0,0,2]},
+		{"code":401,"indent":0,"parameters":["樸桃："]},
+		{"code":401,"indent":0,"parameters":["小卷老師說他需要一些礦石的樣本用來研究，看能不能"]},
+		{"code":401,"indent":0,"parameters":["用來維護魔王城、或是開發一些魔法道具什麼的，"]},
+		{"code":401,"indent":0,"parameters":["你去幫忙找來吧。"]},
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"礦石研究","switchId":1,"trigger":0},
+	{"id":200,"list":[
+		{"code":108,"indent":0,"parameters":["收集ID防具 ID武器"]},
+		{"code":101,"indent":0,"parameters":["",0,0,2]},
+		{"code":401,"indent":0,"parameters":["樸桃："]},
+		{"code":401,"indent":0,"parameters":["最近訓練消耗蠻多裝備的，幫忙去人類城鎮買一些他們的"]},
+		{"code":401,"indent":0,"parameters":["裝備，回來我再給你錢。"]},
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"軍備擴充","switchId":1,"trigger":0},
+	{"id":201,"list":[
+		{"code":108,"indent":0,"parameters":["收集ID樹木、收集樹木群、收集ID調味料"]},
+		{"code":101,"indent":0,"parameters":["",0,0,2]},
+		{"code":401,"indent":0,"parameters":["樸桃："]},
+		{"code":401,"indent":0,"parameters":["食堂的大媽說最近柴火不足，調味料也不太夠，"]},
+		{"code":401,"indent":0,"parameters":["麻煩你幫忙跑個腿。"]},
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"缺糧危機","switchId":1,"trigger":0},
+	{"id":202,"list":[
+		{"code":108,"indent":0,"parameters":["收集ID補給品 補品群"]},
+		{"code":101,"indent":0,"parameters":["",0,0,2]},
+		{"code":401,"indent":0,"parameters":["樸桃："]},
+		{"code":401,"indent":0,"parameters":["最近魔王城的補給品好像用得有點兇，去幫忙籌備一下吧。"]},
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"補給品補給","switchId":1,"trigger":0},
+	{"id":203,"list":[
 		{"code":0,"indent":0,"parameters":[]}
 	],"name":"","switchId":1,"trigger":0},
-	{"id":200,"list":[
+	{"id":204,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":205,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":206,"list":[
+		{"code":108,"indent":0,"parameters":["收集煌珠群"]},
+		{"code":101,"indent":0,"parameters":["",0,0,2]},
+		{"code":401,"indent":0,"parameters":["樸桃："]},
+		{"code":401,"indent":0,"parameters":["最近魔王城的補給品好像用得有點兇，去幫忙籌備一下吧。"]},
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"煌珠解析","switchId":1,"trigger":0},
+	{"id":207,"list":[
+		{"code":108,"indent":0,"parameters":["擊倒泡泡球群島敵群、擊倒ID敵人"]},
+		{"code":101,"indent":0,"parameters":["",0,0,2]},
+		{"code":401,"indent":0,"parameters":["樸桃："]},
+		{"code":401,"indent":0,"parameters":["最近聽人類們說，泡泡球群島的泡泡球們好像繁殖過剩，"]},
+		{"code":401,"indent":0,"parameters":["就當作是個訓練機會，去吧。"]},
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"魔物討伐","switchId":1,"trigger":0},
+	{"id":208,"list":[
+		{"code":108,"indent":0,"parameters":["擊倒泡泡球群島菁英"]},
+		{"code":101,"indent":0,"parameters":["",0,0,2]},
+		{"code":401,"indent":0,"parameters":["樸桃："]},
+		{"code":401,"indent":0,"parameters":["嘿嘿，雜魚勇者，你對這個有興趣嗎？"]},
+		{"code":401,"indent":0,"parameters":["打不贏的話，逃跑也可以喔。"]},
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"菁英討伐","switchId":1,"trigger":0},
+	{"id":209,"list":[
+		{"code":108,"indent":0,"parameters":["擊倒泡泡球群島頭目"]},
+		{"code":101,"indent":0,"parameters":["",0,0,2]},
+		{"code":401,"indent":0,"parameters":["樸桃："]},
+		{"code":401,"indent":0,"parameters":["嘿嘿，雜魚勇者，你對這個有興趣嗎？"]},
+		{"code":401,"indent":0,"parameters":["打不贏的話，逃跑也可以喔。"]},
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"頭目討伐","switchId":1,"trigger":0},
+	{"id":210,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":211,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":212,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":213,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":214,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":215,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":216,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":217,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":218,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":219,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":220,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":221,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":222,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":223,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":224,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":225,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":226,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":227,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":228,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":229,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":230,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":231,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":232,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":233,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":234,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":235,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":236,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":237,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":238,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":239,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":240,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":241,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":242,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":243,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":244,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":245,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":246,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":247,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":248,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":249,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":250,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":251,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":252,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":253,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":254,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":255,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":256,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":257,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":258,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":259,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":260,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":261,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":262,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":263,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":264,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":265,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":266,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":267,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":268,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":269,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":270,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":271,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":272,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":273,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":274,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":275,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":276,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":277,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":278,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":279,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":280,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":281,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":282,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":283,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":284,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":285,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":286,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":287,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":288,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":289,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":290,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":291,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":292,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":293,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":294,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":295,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":296,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":297,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":298,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":299,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":300,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":301,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":302,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":303,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":304,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":305,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":306,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":307,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":308,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":309,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":310,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":311,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":312,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":313,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":314,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":315,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":316,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":317,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":318,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":319,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":320,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":321,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":322,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":323,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":324,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":325,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":326,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":327,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":328,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":329,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":330,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":331,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":332,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":333,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":334,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":335,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":336,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":337,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":338,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":339,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":340,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":341,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":342,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":343,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":344,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":345,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":346,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":347,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":348,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":349,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":350,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":351,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":352,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":353,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":354,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":355,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":356,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":357,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":358,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":359,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":360,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":361,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":362,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":363,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":364,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":365,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":366,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":367,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":368,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":369,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":370,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":371,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":372,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":373,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":374,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":375,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":376,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":377,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":378,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":379,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":380,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":381,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":382,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":383,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":384,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":385,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":386,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":387,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":388,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":389,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":390,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":391,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":392,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":393,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":394,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":395,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":396,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":397,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":398,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":399,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":400,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":401,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":402,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":403,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":404,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":405,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":406,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":407,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":408,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":409,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":410,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":411,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":412,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":413,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":414,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":415,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":416,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":417,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":418,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":419,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":420,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":421,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":422,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":423,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":424,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":425,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":426,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":427,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":428,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":429,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":430,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":431,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":432,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":433,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":434,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":435,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":436,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":437,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":438,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":439,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":440,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":441,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":442,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":443,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":444,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":445,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":446,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":447,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":448,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":449,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":450,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":451,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":452,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":453,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":454,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":455,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":456,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":457,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":458,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":459,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":460,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":461,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":462,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":463,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":464,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":465,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":466,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":467,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":468,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":469,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":470,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":471,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":472,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":473,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":474,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":475,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":476,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":477,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":478,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":479,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":480,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":481,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":482,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":483,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":484,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":485,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":486,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":487,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":488,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":489,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":490,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":491,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":492,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":493,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":494,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":495,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":496,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":497,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":498,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":499,"list":[
+		{"code":0,"indent":0,"parameters":[]}
+	],"name":"","switchId":1,"trigger":0},
+	{"id":500,"list":[
 		{"code":0,"indent":0,"parameters":[]}
 	],"name":"","switchId":1,"trigger":0}
 ]

@@ -1,5 +1,5 @@
 {"autoplayBgm":true,"autoplayBgs":false,"battleback1Name":"","battleback2Name":"","bgm":{"name":"c2","pan":0,"pitch":100,"volume":90},"bgs":{"name":"Sea","pan":0,"pitch":100,"volume":55},"disableDashing":false,"displayName":"","encounterList":[
-],"encounterStep":30,"height":35,"note":"","parallaxLoopX":false,"parallaxLoopY":false,"parallaxName":"!MAP12","parallaxShow":true,"parallaxSx":0,"parallaxSy":0,"scrollType":0,"specifyBattleback":false,"tilesetId":8,"width":20,"data":[
+],"encounterStep":30,"height":35,"note":"<enemyReviveAnimation:82>","parallaxLoopX":false,"parallaxLoopY":false,"parallaxName":"!MAP12","parallaxShow":true,"parallaxSx":0,"parallaxSy":0,"scrollType":0,"specifyBattleback":false,"tilesetId":8,"width":20,"data":[
 	2864,
 	2864,
 	2864,

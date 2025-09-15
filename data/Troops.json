@@ -215,7 +215,7 @@
 		],"span":0}
 	]},
 	{"id":4,"members":[
-		{"enemyId":5,"x":202,"y":262,"hidden":false},
+		{"enemyId":5,"x":199,"y":259,"hidden":false},
 		{"enemyId":5,"x":321,"y":292,"hidden":false},
 		{"enemyId":5,"x":605,"y":262,"hidden":false},
 		{"enemyId":5,"x":393,"y":232,"hidden":false},
@@ -335,13 +335,6 @@
 		{"enemyId":7,"x":408,"y":436,"hidden":false}
 	],"name":"新手教學蘑菇","pages":[
 		{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":false,"turnValid":true},"list":[
-			{"code":355,"indent":0,"parameters":["$gameTemp.anywhereText(1,\"\\\\I[86]\\\\V[85]\",50,100);"]},
-			{"code":655,"indent":0,"parameters":["$gameTemp.anywhereText(2,\"\\\\I[80]\\\\V[73]\",50,140);"]},
-			{"code":655,"indent":0,"parameters":["$gameTemp.anywhereText(3,\"\\\\I[83]\\\\V[75]\",50,180);"]},
-			{"code":655,"indent":0,"parameters":["$gameTemp.anywhereText(4,\"\\\\I[84]\\\\V[77]\",50,220);"]},
-			{"code":655,"indent":0,"parameters":["$gameTemp.anywhereText(5,\"\\\\I[85]\\\\V[79]\",50,260);"]},
-			{"code":655,"indent":0,"parameters":["$gameTemp.anywhereText(6,\"\\\\I[82]\\\\V[81]\",50,300);"]},
-			{"code":655,"indent":0,"parameters":["$gameTemp.anywhereText(7,\"\\\\I[87]\\\\V[83]\",50,340);"]},
 			{"code":117,"indent":0,"parameters":[7]},
 			{"code":101,"indent":0,"parameters":["",0,0,2]},
 			{"code":401,"indent":0,"parameters":["進入戰鬥後，"]},

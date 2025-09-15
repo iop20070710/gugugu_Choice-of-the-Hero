@@ -225,7 +225,7 @@
 		{"code":11,"dataId":9,"value":1},
 		{"code":11,"dataId":10,"value":0.75},
 		{"code":11,"dataId":11,"value":2}
-	],"gold":0,"name":"和平的牛奶泡泡球","note":"<dropItemsEval>\n[\n['i' , 384 , 0.1 , 1],\n['a' , 152 , 0.05 , 1],\n]\n</dropItemsEval>\n<怪物視作:牛奶泡泡球>","params":[
+	],"gold":0,"name":"和平的牛奶泡泡球","note":"<dropItemsEval>\n[\n['i' , 384 , 0.1 , 1],\n['a' , 152 , 0.05 , 1],\n['i' , 901 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		10,
 		1,
 		1,
@@ -261,7 +261,7 @@
 		{"code":11,"dataId":9,"value":1},
 		{"code":11,"dataId":10,"value":0.5},
 		{"code":11,"dataId":11,"value":1.5}
-	],"gold":0,"name":"牛奶泡泡球","note":"<dropItemsEval>\n[\n['i' , 384 , 0.1 , 1],\n['a' , 152 , 0.05 , 1],\n]\n</dropItemsEval>\n<怪物視作:牛奶泡泡球>","params":[
+	],"gold":0,"name":"牛奶泡泡球","note":"<dropItemsEval>\n[\n['i' , 384 , 0.1 , 1],\n['a' , 152 , 0.05 , 1],\n['i' , 901 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		30,
 		3,
 		3,
@@ -297,7 +297,7 @@
 		{"code":11,"dataId":9,"value":1},
 		{"code":11,"dataId":10,"value":0.25},
 		{"code":11,"dataId":11,"value":1.25}
-	],"gold":0,"name":"巨大的牛奶泡泡球","note":"<dropItemsEval>\n[\n['i' , 384 , 0.1 , 1],\n['a' , 152 , 0.05 , 1],\n]\n</dropItemsEval>\n<怪物視作:牛奶泡泡球>","params":[
+	],"gold":0,"name":"巨大的牛奶泡泡球","note":"<dropItemsEval>\n[\n['i' , 384 , 0.1 , 1],\n['a' , 152 , 0.05 , 1],\n['i' , 901 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		50,
 		3,
 		6,
@@ -333,7 +333,7 @@
 		{"code":11,"dataId":9,"value":1},
 		{"code":11,"dataId":10,"value":1},
 		{"code":11,"dataId":11,"value":1}
-	],"gold":0,"name":"膽小的辣椒泡泡球","note":"<dropItemsEval>\n[\n['i' , 391 , 0.1 , 1],\n['a' , 153 , 0.05 , 1],\n]\n</dropItemsEval>\n<怪物視作:辣椒泡泡球>","params":[
+	],"gold":0,"name":"膽小的辣椒泡泡球","note":"<dropItemsEval>\n[\n['i' , 391 , 0.1 , 1],\n['a' , 153 , 0.05 , 1],\n['i' , 902 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		10,
 		1,
 		2,
@@ -369,7 +369,7 @@
 		{"code":11,"dataId":9,"value":1},
 		{"code":11,"dataId":10,"value":1},
 		{"code":11,"dataId":11,"value":1}
-	],"gold":0,"name":"辣椒泡泡球","note":"<dropItemsEval>\n[\n['i' , 391 , 0.1 , 1],\n['a' , 153 , 0.05 , 1],\n]\n</dropItemsEval>\n<怪物視作:辣椒泡泡球>","params":[
+	],"gold":0,"name":"辣椒泡泡球","note":"<dropItemsEval>\n[\n['i' , 391 , 0.1 , 1],\n['a' , 153 , 0.05 , 1],\n['i' , 902 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		25,
 		3,
 		4,
@@ -404,7 +404,7 @@
 		{"code":11,"dataId":9,"value":1},
 		{"code":11,"dataId":10,"value":1},
 		{"code":11,"dataId":11,"value":1}
-	],"gold":0,"name":"活潑的辣椒泡泡球","note":"<dropItemsEval>\n[\n['i' , 391 , 0.1 , 1],\n['a' , 153 , 0.05 , 1],\n]\n</dropItemsEval>\n<怪物視作:辣椒泡泡球>","params":[
+	],"gold":0,"name":"活潑的辣椒泡泡球","note":"<dropItemsEval>\n[\n['i' , 391 , 0.1 , 1],\n['a' , 153 , 0.05 , 1],\n['i' , 902 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		40,
 		5,
 		6,
@@ -440,7 +440,7 @@
 		{"code":11,"dataId":9,"value":0.75},
 		{"code":11,"dataId":10,"value":1},
 		{"code":11,"dataId":11,"value":1}
-	],"gold":0,"name":"飄飄的絨絨草泡泡球","note":"<dropItemsEval>\n[\n['i' , 1 , 0.1 , 1],\n['a' , 154 , 0.05 , 1],\n]\n</dropItemsEval>\n<怪物視作:絨絨草泡泡球>","params":[
+	],"gold":0,"name":"飄飄的絨絨草泡泡球","note":"<dropItemsEval>\n[\n['i' , 1 , 0.1 , 1],\n['a' , 154 , 0.05 , 1],\n['i' , 903 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		15,
 		1,
 		2,
@@ -476,7 +476,7 @@
 		{"code":11,"dataId":9,"value":0.5},
 		{"code":11,"dataId":10,"value":1},
 		{"code":11,"dataId":11,"value":1}
-	],"gold":0,"name":"絨絨草泡泡球","note":"<dropItemsEval>\n[\n['i' , 1 , 0.1 , 1],\n['a' , 154 , 0.05 , 1],\n]\n</dropItemsEval>\n<怪物視作:絨絨草泡泡球>","params":[
+	],"gold":0,"name":"絨絨草泡泡球","note":"<dropItemsEval>\n[\n['i' , 1 , 0.1 , 1],\n['a' , 154 , 0.05 , 1],\n['i' , 903 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		30,
 		3,
 		5,
@@ -511,7 +511,7 @@
 		{"code":11,"dataId":9,"value":0.25},
 		{"code":11,"dataId":10,"value":1},
 		{"code":11,"dataId":11,"value":1}
-	],"gold":0,"name":"沉重的絨絨草泡泡球","note":"<dropItemsEval>\n[\n['i' , 1 , 0.1 , 1],\n['a' , 154 , 0.05 , 1],\n]\n</dropItemsEval>\n<怪物視作:絨絨草泡泡球>","params":[
+	],"gold":0,"name":"沉重的絨絨草泡泡球","note":"<dropItemsEval>\n[\n['i' , 1 , 0.1 , 1],\n['a' , 154 , 0.05 , 1],\n['i' , 903 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		50,
 		5,
 		5,
@@ -547,7 +547,7 @@
 		{"code":11,"dataId":9,"value":2},
 		{"code":11,"dataId":10,"value":1},
 		{"code":11,"dataId":11,"value":1}
-	],"gold":0,"name":"甜甜的烏莢果泡泡球","note":"<dropItemsEval>\n[\n['i' , 7 , 0.5 , 1],\n['a' , 155 , 0.05 , 1],\n]\n</dropItemsEval>\n<怪物視作:烏莢果泡泡球>","params":[
+	],"gold":0,"name":"甜甜的烏莢果泡泡球","note":"<dropItemsEval>\n[\n['i' , 7 , 0.5 , 1],\n['a' , 155 , 0.05 , 1],\n['i' , 904 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		15,
 		1,
 		3,
@@ -583,7 +583,7 @@
 		{"code":11,"dataId":9,"value":1.5},
 		{"code":11,"dataId":10,"value":1},
 		{"code":11,"dataId":11,"value":1}
-	],"gold":0,"name":"烏莢果泡泡球","note":"<dropItemsEval>\n[\n['i' , 7 , 0.5 , 1],\n['a' , 155 , 0.05 , 1],\n]\n</dropItemsEval>\n<怪物視作:烏莢果泡泡球>","params":[
+	],"gold":0,"name":"烏莢果泡泡球","note":"<dropItemsEval>\n[\n['i' , 7 , 0.5 , 1],\n['a' , 155 , 0.05 , 1],\n['i' , 904 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		35,
 		2,
 		5,
@@ -618,7 +618,7 @@
 		{"code":11,"dataId":9,"value":1.25},
 		{"code":11,"dataId":10,"value":1},
 		{"code":11,"dataId":11,"value":1}
-	],"gold":0,"name":"更苦的烏莢果泡泡球","note":"<dropItemsEval>\n[\n['i' , 7 , 0.5 , 1],\n['a' , 155 , 0.05 , 1],\n]\n</dropItemsEval>\n<怪物視作:烏莢果泡泡球>","params":[
+	],"gold":0,"name":"更苦的烏莢果泡泡球","note":"<dropItemsEval>\n[\n['i' , 7 , 0.5 , 1],\n['a' , 155 , 0.05 , 1],\n['i' , 904 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		60,
 		3,
 		8,
@@ -654,7 +654,7 @@
 		{"code":11,"dataId":9,"value":1},
 		{"code":11,"dataId":10,"value":1},
 		{"code":11,"dataId":11,"value":1}
-	],"gold":0,"name":"乾癟的果凍泡泡球","note":"<dropItemsEval>\n[\n['i' , 2 , 0.1 , 1],\n['a' , 156 , 0.05 , 1],\n]\n</dropItemsEval>\n<怪物視作:果凍泡泡球>","params":[
+	],"gold":0,"name":"乾癟的果凍泡泡球","note":"<dropItemsEval>\n[\n['i' , 2 , 0.1 , 1],\n['a' , 156 , 0.05 , 1],\n['i' , 905 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		10,
 		2,
 		1,
@@ -690,7 +690,7 @@
 		{"code":11,"dataId":9,"value":1},
 		{"code":11,"dataId":10,"value":1},
 		{"code":11,"dataId":11,"value":1}
-	],"gold":0,"name":"果凍泡泡球","note":"<dropItemsEval>\n[\n['i' , 2 , 0.1 , 1],\n['a' , 156 , 0.05 , 1],\n]\n</dropItemsEval>\n<怪物視作:果凍泡泡球>","params":[
+	],"gold":0,"name":"果凍泡泡球","note":"<dropItemsEval>\n[\n['i' , 2 , 0.1 , 1],\n['a' , 156 , 0.05 , 1],\n['i' , 905 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		25,
 		5,
 		3,
@@ -725,7 +725,7 @@
 		{"code":11,"dataId":9,"value":1},
 		{"code":11,"dataId":10,"value":1},
 		{"code":11,"dataId":11,"value":1}
-	],"gold":0,"name":"飽滿的果凍泡泡球","note":"<dropItemsEval>\n[\n['i' , 2 , 0.1 , 1],\n['a' , 156 , 0.05 , 1],\n]\n</dropItemsEval>\n<怪物視作:果凍泡泡球>","params":[
+	],"gold":0,"name":"飽滿的果凍泡泡球","note":"<dropItemsEval>\n[\n['i' , 2 , 0.1 , 1],\n['a' , 156 , 0.05 , 1],\n['i' , 905 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		45,
 		7,
 		5,
@@ -756,7 +756,7 @@
 		{"code":11,"dataId":9,"value":0.75},
 		{"code":11,"dataId":10,"value":0.75},
 		{"code":11,"dataId":11,"value":0.75}
-	],"gold":0,"name":"彩虹泡泡球(簡單)","note":"簡單\n<dropItemsEval>\n[\n['i' , 273 , 0.05 , 1],\n['i' , 274 , 0.05 , 1],\n['i' , 275 , 0.05 , 1],\n['a' , 157 , 0.05 , 1],\n]\n</dropItemsEval>\n<怪物視作:彩虹泡泡球>","params":[
+	],"gold":0,"name":"彩虹泡泡球(簡單)","note":"簡單\n<dropItemsEval>\n[\n['i' , 273 , 0.05 , 1],\n['i' , 274 , 0.05 , 1],\n['i' , 275 , 0.05 , 1],\n['a' , 157 , 0.05 , 1],\n['i' , 906 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		1,
@@ -788,7 +788,7 @@
 		{"code":11,"dataId":9,"value":0.5},
 		{"code":11,"dataId":10,"value":0.5},
 		{"code":11,"dataId":11,"value":0.5}
-	],"gold":0,"name":"彩虹泡泡球(普通)","note":"普通\n<dropItemsEval>\n[\n['i' , 273 , 0.05 , 1],\n['i' , 274 , 0.05 , 1],\n['i' , 275 , 0.05 , 1],\n['a' , 157 , 0.05 , 1],\n]\n</dropItemsEval>\n<怪物視作:彩虹泡泡球>","params":[
+	],"gold":0,"name":"彩虹泡泡球(普通)","note":"普通\n<dropItemsEval>\n[\n['i' , 273 , 0.05 , 1],\n['i' , 274 , 0.05 , 1],\n['i' , 275 , 0.05 , 1],\n['a' , 157 , 0.05 , 1],\n['i' , 906 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		1,
@@ -820,7 +820,7 @@
 		{"code":11,"dataId":9,"value":0.25},
 		{"code":11,"dataId":10,"value":0.25},
 		{"code":11,"dataId":11,"value":0.25}
-	],"gold":0,"name":"彩虹泡泡球(困難)","note":"困難\n<dropItemsEval>\n[\n['i' , 273 , 0.05 , 1],\n['i' , 274 , 0.05 , 1],\n['i' , 275 , 0.05 , 1],\n['a' , 157 , 0.2 , 1],\n]\n</dropItemsEval>\n<怪物視作:彩虹泡泡球>","params":[
+	],"gold":0,"name":"彩虹泡泡球(困難)","note":"困難\n<dropItemsEval>\n[\n['i' , 273 , 0.05 , 1],\n['i' , 274 , 0.05 , 1],\n['i' , 275 , 0.05 , 1],\n['a' , 157 , 0.2 , 1],\n['i' , 906 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		300,
 		0,
 		1,
@@ -853,7 +853,7 @@
 		{"code":11,"dataId":9,"value":1},
 		{"code":11,"dataId":10,"value":1},
 		{"code":11,"dataId":11,"value":1}
-	],"gold":0,"name":"黃金泡泡球(簡單)","note":"簡單\n<dropItemsEval>\n[\n['a' , 158 , 0.05 , 1],\n]\n</dropItemsEval>\n<怪物視作:黃金泡泡球>","params":[
+	],"gold":0,"name":"黃金泡泡球(簡單)","note":"簡單\n<dropItemsEval>\n[\n['a' , 158 , 0.05 , 1],\n['i' , 907 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		200,
 		5,
 		7,
@@ -887,7 +887,7 @@
 		{"code":11,"dataId":9,"value":1},
 		{"code":11,"dataId":10,"value":1},
 		{"code":11,"dataId":11,"value":1}
-	],"gold":0,"name":"黃金泡泡球(普通)","note":"普通\n<dropItemsEval>\n[\n['a' , 158 , 0.05 , 1],\n]\n</dropItemsEval>\n<怪物視作:黃金泡泡球>","params":[
+	],"gold":0,"name":"黃金泡泡球(普通)","note":"普通\n<dropItemsEval>\n[\n['a' , 158 , 0.05 , 1],\n['i' , 907 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		400,
 		10,
 		15,
@@ -922,7 +922,7 @@
 		{"code":11,"dataId":9,"value":1},
 		{"code":11,"dataId":10,"value":1},
 		{"code":11,"dataId":11,"value":1}
-	],"gold":0,"name":"黃金泡泡球(困難)","note":"困難\n<dropItemsEval>\n[\n['a' , 158 , 0.2 , 1],\n]\n</dropItemsEval>\n<怪物視作:黃金泡泡球>","params":[
+	],"gold":0,"name":"黃金泡泡球(困難)","note":"困難\n<dropItemsEval>\n[\n['a' , 158 , 0.2 , 1],\n['i' , 907 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		750,
 		20,
 		30,
@@ -956,7 +956,7 @@
 		{"code":11,"dataId":9,"value":1},
 		{"code":11,"dataId":10,"value":1},
 		{"code":11,"dataId":11,"value":1}
-	],"gold":0,"name":"原始泡泡球(簡單)","note":"簡單\n<dropItemsEval>\n[\n['i' , 706 , 0.25 , 1],\n['i' , 707 , 0.25 , 1],\n['i' , 708 , 0.25 , 1],\n['a' , 159 , 0.05 , 1],\n]\n</dropItemsEval>\n<怪物視作:原始泡泡球>","params":[
+	],"gold":0,"name":"原始泡泡球(簡單)","note":"簡單\n<dropItemsEval>\n[\n['i' , 706 , 0.25 , 1],\n['i' , 707 , 0.25 , 1],\n['i' , 708 , 0.25 , 1],\n['a' , 159 , 0.05 , 1],\n['i' , 908 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		500,
 		0,
 		10,
@@ -993,7 +993,7 @@
 		{"code":11,"dataId":9,"value":1},
 		{"code":11,"dataId":10,"value":1},
 		{"code":11,"dataId":11,"value":1}
-	],"gold":0,"name":"原始泡泡球(普通)","note":"普通\n<dropItemsEval>\n[\n['i' , 706 , 0.25 , 1],\n['i' , 707 , 0.25 , 1],\n['i' , 708 , 0.25 , 1],\n['a' , 159 , 0.05 , 1],\n]\n</dropItemsEval>\n<怪物視作:原始泡泡球>","params":[
+	],"gold":0,"name":"原始泡泡球(普通)","note":"普通\n<dropItemsEval>\n[\n['i' , 706 , 0.25 , 1],\n['i' , 707 , 0.25 , 1],\n['i' , 708 , 0.25 , 1],\n['a' , 159 , 0.05 , 1],\n['i' , 908 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		1000,
 		0,
 		20,
@@ -1031,7 +1031,7 @@
 		{"code":11,"dataId":9,"value":1},
 		{"code":11,"dataId":10,"value":1},
 		{"code":11,"dataId":11,"value":1}
-	],"gold":0,"name":"原始泡泡球(困難)","note":"困難\n<dropItemsEval>\n[\n['i' , 706 , 0.25 , 1],\n['i' , 707 , 0.25 , 1],\n['i' , 708 , 0.25 , 1],\n['a' , 159 , 0.2 , 1],\n]\n</dropItemsEval>\n<怪物視作:原始泡泡球>","params":[
+	],"gold":0,"name":"原始泡泡球(困難)","note":"困難\n<dropItemsEval>\n[\n['i' , 706 , 0.25 , 1],\n['i' , 707 , 0.25 , 1],\n['i' , 708 , 0.25 , 1],\n['a' , 159 , 0.2 , 1],\n['i' , 908 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		1500,
 		0,
 		40,
@@ -1058,7 +1058,7 @@
 		{"code":11,"dataId":5,"value":0.75},
 		{"code":11,"dataId":2,"value":2},
 		{"code":11,"dataId":10,"value":2}
-	],"gold":0,"name":"嶙峋幼蟾","note":"<怪物視作:嶙峋蟾>","params":[
+	],"gold":0,"name":"嶙峋幼蟾","note":"<dropItemsEval>\n[\n['i' , 909 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		30,
 		3,
 		3,
@@ -1088,7 +1088,7 @@
 		{"code":11,"dataId":1,"value":0.75},
 		{"code":11,"dataId":2,"value":1.5},
 		{"code":11,"dataId":10,"value":1.5}
-	],"gold":0,"name":"嶙峋蟾","note":"濕滑皮膚：被動 受到攻擊時機率造成敵人潮濕\n皮膚厚重如岩，背上長滿乾裂地貌般的花紋，嘴巴巨大能吞食岩石。\n<怪物視作:嶙峋蟾>","params":[
+	],"gold":0,"name":"嶙峋蟾","note":"濕滑皮膚：被動 受到攻擊時機率造成敵人潮濕\n皮膚厚重如岩，背上長滿乾裂地貌般的花紋，嘴巴巨大能吞食岩石。\n<dropItemsEval>\n[\n['i' , 909 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		30,
 		3,
 		3,
@@ -1118,7 +1118,7 @@
 		{"code":11,"dataId":1,"value":0.5},
 		{"code":11,"dataId":2,"value":1.25},
 		{"code":11,"dataId":10,"value":1.25}
-	],"gold":0,"name":"嶙峋巨蟾","note":"濕滑皮膚：被動 受到攻擊時機率造成敵人潮濕、中毒\n<怪物視作:嶙峋蟾>","params":[
+	],"gold":0,"name":"嶙峋巨蟾","note":"濕滑皮膚：被動 受到攻擊時機率造成敵人潮濕、中毒\n<dropItemsEval>\n[\n['i' , 909 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		30,
 		3,
 		3,
@@ -1146,7 +1146,7 @@
 		{"code":11,"dataId":8,"value":0.75},
 		{"code":11,"dataId":2,"value":2},
 		{"code":11,"dataId":7,"value":2}
-	],"gold":0,"name":"跛腳沙骨狼","note":"皮膚乾燥如石，纏著風化的古骨與乾草，四肢強壯能在峭壁行走。\n<dropItemsEval>\n[\n['i' , 721 , 0.2 , 1],\n['a' , 161 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"跛腳沙骨狼","note":"皮膚乾燥如石，纏著風化的古骨與乾草，四肢強壯能在峭壁行走。\n<dropItemsEval>\n[\n['i' , 721 , 0.2 , 1],\n['a' , 161 , 0.05 , 1],\n['i' , 910 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		30,
 		3,
 		3,
@@ -1175,7 +1175,7 @@
 		{"code":11,"dataId":8,"value":0.5},
 		{"code":11,"dataId":2,"value":1.5},
 		{"code":11,"dataId":7,"value":1.5}
-	],"gold":0,"name":"沙骨狼","note":"皮膚乾燥如石，纏著風化的古骨與乾草，四肢強壯能在峭壁行走。\n<dropItemsEval>\n[\n['i' , 721 , 0.2 , 1],\n['a' , 161 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"沙骨狼","note":"皮膚乾燥如石，纏著風化的古骨與乾草，四肢強壯能在峭壁行走。\n<dropItemsEval>\n[\n['i' , 721 , 0.2 , 1],\n['a' , 161 , 0.05 , 1],\n['i' , 910 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		30,
 		3,
 		3,
@@ -1205,7 +1205,7 @@
 		{"code":11,"dataId":8,"value":0.25},
 		{"code":11,"dataId":2,"value":1.25},
 		{"code":11,"dataId":7,"value":1.25}
-	],"gold":0,"name":"沙骨狼王","note":"皮膚乾燥如石，纏著風化的古骨與乾草，四肢強壯能在峭壁行走。\n回合結束時機率追獵\n<dropItemsEval>\n[\n['i' , 721 , 0.2 , 1],\n['a' , 161 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"沙骨狼王","note":"皮膚乾燥如石，纏著風化的古骨與乾草，四肢強壯能在峭壁行走。\n回合結束時機率追獵\n<dropItemsEval>\n[\n['i' , 721 , 0.2 , 1],\n['a' , 161 , 0.05 , 1],\n['i' , 910 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		30,
 		3,
 		3,
@@ -1234,7 +1234,7 @@
 		{"code":11,"dataId":9,"value":0.75},
 		{"code":11,"dataId":6,"value":2},
 		{"code":11,"dataId":8,"value":2}
-	],"gold":0,"name":"鼠寶","note":"淘氣調皮動作敏捷、樣貌就像小老鼠般的精靈。\n<dropItemsEval>\n[\n['i' , 725 , 0.1 , 1],\n['a' , 162 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"鼠寶","note":"淘氣調皮動作敏捷、樣貌就像小老鼠般的精靈。\n<dropItemsEval>\n[\n['i' , 725 , 0.1 , 1],\n['a' , 162 , 0.05 , 1],\n['i' , 911 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		30,
 		3,
 		3,
@@ -1263,7 +1263,7 @@
 		{"code":11,"dataId":9,"value":0.5},
 		{"code":11,"dataId":6,"value":1.5},
 		{"code":11,"dataId":8,"value":1.5}
-	],"gold":0,"name":"淘氣鼠","note":"<dropItemsEval>\n[\n['i' , 725 , 0.1 , 1],\n['a' , 162 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"淘氣鼠","note":"<dropItemsEval>\n[\n['i' , 725 , 0.1 , 1],\n['a' , 162 , 0.05 , 1],\n['i' , 911 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		30,
 		3,
 		3,
@@ -1293,7 +1293,7 @@
 		{"code":11,"dataId":9,"value":0.25},
 		{"code":11,"dataId":6,"value":1.25},
 		{"code":11,"dataId":8,"value":1.25}
-	],"gold":0,"name":"蠻巖鼠","note":"<dropItemsEval>\n[\n['i' , 725 , 0.1 , 1],\n['a' , 162 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"蠻巖鼠","note":"<dropItemsEval>\n[\n['i' , 725 , 0.1 , 1],\n['a' , 162 , 0.05 , 1],\n['i' , 911 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		30,
 		3,
 		3,
@@ -1322,7 +1322,7 @@
 		{"code":11,"dataId":5,"value":0.75},
 		{"code":11,"dataId":9,"value":2},
 		{"code":11,"dataId":3,"value":2}
-	],"gold":0,"name":"泥土小精靈","note":"<dropItemsEval>\n[\n['a' , 163 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"泥土小精靈","note":"<dropItemsEval>\n[\n['a' , 163 , 0.05 , 1],\n['i' , 912 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -1352,7 +1352,7 @@
 		{"code":11,"dataId":5,"value":0.5},
 		{"code":11,"dataId":9,"value":1.5},
 		{"code":11,"dataId":3,"value":1.5}
-	],"gold":0,"name":"泥土精靈","note":"<dropItemsEval>\n[\n['a' , 163 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"泥土精靈","note":"<dropItemsEval>\n[\n['a' , 163 , 0.05 , 1],\n['i' , 912 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -1381,7 +1381,7 @@
 		{"code":11,"dataId":5,"value":0.25},
 		{"code":11,"dataId":9,"value":1.25},
 		{"code":11,"dataId":3,"value":1.25}
-	],"gold":0,"name":"泥土巨人","note":"<dropItemsEval>\n[\n['a' , 163 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"泥土巨人","note":"<dropItemsEval>\n[\n['a' , 163 , 0.05 , 1],\n['i' , 912 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -1409,7 +1409,7 @@
 		{"code":11,"dataId":9,"value":0.75},
 		{"code":11,"dataId":2,"value":2},
 		{"code":11,"dataId":8,"value":2}
-	],"gold":0,"name":"咕嚕咕咕","note":"<dropItemsEval>\n[\n['a' , 164 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"咕嚕咕咕","note":"<dropItemsEval>\n[\n['a' , 164 , 0.05 , 1],\n['i' , 913 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -1439,7 +1439,7 @@
 		{"code":11,"dataId":9,"value":0.5},
 		{"code":11,"dataId":2,"value":1.5},
 		{"code":11,"dataId":8,"value":1.5}
-	],"gold":0,"name":"石羽咕咕","note":"<dropItemsEval>\n[\n['a' , 164 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"石羽咕咕","note":"<dropItemsEval>\n[\n['a' , 164 , 0.05 , 1],\n['i' , 913 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -1469,7 +1469,7 @@
 		{"code":11,"dataId":2,"value":1.25},
 		{"code":11,"dataId":8,"value":1.25},
 		{"code":13,"dataId":16,"value":0.5}
-	],"gold":0,"name":"鋼石翼鴿","note":"<dropItemsEval>\n[\n['a' , 164 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"鋼石翼鴿","note":"<dropItemsEval>\n[\n['a' , 164 , 0.05 , 1],\n['i' , 913 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -1490,7 +1490,7 @@
 		{"kind":1,"dataId":736,"denominator":5},
 		{"kind":3,"dataId":165,"denominator":20}
 	],"exp":0,"traits":[
-	],"gold":0,"name":"幻角","note":"獨角鹿","params":[
+	],"gold":0,"name":"幻角","note":"獨角鹿\n<dropItemsEval>\n[\n['i' , 914 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -1510,7 +1510,7 @@
 		{"kind":1,"dataId":736,"denominator":5},
 		{"kind":3,"dataId":165,"denominator":20}
 	],"exp":0,"traits":[
-	],"gold":0,"name":"幻角","note":"獨角鹿","params":[
+	],"gold":0,"name":"幻角","note":"獨角鹿\n<dropItemsEval>\n[\n['i' , 914 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -1529,7 +1529,7 @@
 		{"kind":1,"dataId":736,"denominator":5},
 		{"kind":3,"dataId":165,"denominator":5}
 	],"exp":0,"traits":[
-	],"gold":0,"name":"幻角","note":"獨角鹿","params":[
+	],"gold":0,"name":"幻角","note":"獨角鹿\n<dropItemsEval>\n[\n['i' , 914 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -1574,7 +1574,7 @@
 		{"code":13,"dataId":14,"value":0.4},
 		{"code":13,"dataId":15,"value":0},
 		{"code":13,"dataId":16,"value":0}
-	],"gold":0,"name":"雷牙山豬","note":"<dropItemsEval>\n[\n['a' , 166 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"雷牙山豬","note":"<dropItemsEval>\n[\n['a' , 166 , 0.05 , 1],\n['i' , 915 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -1622,7 +1622,7 @@
 		{"code":13,"dataId":14,"value":0.2},
 		{"code":13,"dataId":15,"value":0},
 		{"code":13,"dataId":16,"value":0}
-	],"gold":0,"name":"雷牙山豬","note":"<dropItemsEval>\n[\n['a' , 166 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"雷牙山豬","note":"<dropItemsEval>\n[\n['a' , 166 , 0.05 , 1],\n['i' , 915 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -1671,7 +1671,7 @@
 		{"code":13,"dataId":14,"value":0.1},
 		{"code":13,"dataId":15,"value":0},
 		{"code":13,"dataId":16,"value":0}
-	],"gold":0,"name":"雷牙山豬","note":"<dropItemsEval>\n[\n['i' , 432 , 0.2 , 1],\n['i' , 432 , 0.2 , 1],\n['a' , 166 , 0.2 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"雷牙山豬","note":"<dropItemsEval>\n[\n['i' , 432 , 0.2 , 1],\n['i' , 432 , 0.2 , 1],\n['a' , 166 , 0.2 , 1],\n['i' , 915 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -1715,7 +1715,7 @@
 		{"code":13,"dataId":14,"value":0.4},
 		{"code":13,"dataId":15,"value":0.4},
 		{"code":13,"dataId":16,"value":0.6}
-	],"gold":0,"name":"大掌灰鷹","note":"風+雷屬性的巨鷹\n<dropItemsEval>\n[\n['a' , 167 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"大掌灰鷹","note":"風+雷屬性的巨鷹\n<dropItemsEval>\n[\n['a' , 167 , 0.05 , 1],\n['i' , 916 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -1763,7 +1763,7 @@
 		{"code":13,"dataId":14,"value":0.2},
 		{"code":13,"dataId":15,"value":0.2},
 		{"code":13,"dataId":16,"value":0.3}
-	],"gold":0,"name":"大掌灰鷹","note":"風+雷屬性的巨鷹\n<dropItemsEval>\n[\n['a' , 167 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"大掌灰鷹","note":"風+雷屬性的巨鷹\n<dropItemsEval>\n[\n['a' , 167 , 0.05 , 1],\n['i' , 916 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -1814,7 +1814,7 @@
 		{"code":13,"dataId":14,"value":0.1},
 		{"code":13,"dataId":15,"value":0.1},
 		{"code":13,"dataId":16,"value":0.15}
-	],"gold":0,"name":"大掌灰鷹","note":"風+雷屬性的巨鷹\n<dropItemsEval>\n[\n['a' , 167 , 0.2 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"大掌灰鷹","note":"風+雷屬性的巨鷹\n<dropItemsEval>\n[\n['a' , 167 , 0.2 , 1],\n['i' , 916 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -1834,7 +1834,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"飛天甜菜","note":"","params":[
+	],"gold":0,"name":"飛天甜菜","note":"<dropItemsEval>\n[\n['i' , 917 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -1854,7 +1854,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"飛天菜根","note":"","params":[
+	],"gold":0,"name":"飛天菜根","note":"<dropItemsEval>\n[\n['i' , 917 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -1874,7 +1874,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"飛天大根","note":"<dropItemsEval>\n[\n['i' , 744 , 0.2 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"飛天大根","note":"<dropItemsEval>\n[\n['i' , 744 , 0.2 , 1],\n['i' , 917 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -1894,7 +1894,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"小氣球兔","note":"<dropItemsEval>\n[\n['a' , 169 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"小氣球兔","note":"<dropItemsEval>\n[\n['a' , 169 , 0.05 , 1],\n['i' , 918 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -1914,7 +1914,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"氣球兔","note":"<dropItemsEval>\n[\n['a' , 169 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"氣球兔","note":"<dropItemsEval>\n[\n['a' , 169 , 0.05 , 1],\n['i' , 918 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -1934,7 +1934,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"飛艇兔","note":"<dropItemsEval>\n[\n['i' , 747 , 0.2 , 1],\n['a' , 169 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"飛艇兔","note":"<dropItemsEval>\n[\n['i' , 747 , 0.2 , 1],\n['a' , 169 , 0.05 , 1],\n['i' , 918 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -1954,7 +1954,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"陸魚仔","note":"<dropItemsEval>\n[\n['a' , 170 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"陸魚仔","note":"<dropItemsEval>\n[\n['a' , 170 , 0.05 , 1],\n['i' , 919 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -1974,7 +1974,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"陸魚","note":"<dropItemsEval>\n[\n['a' , 170 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"陸魚","note":"<dropItemsEval>\n[\n['a' , 170 , 0.05 , 1],\n['i' , 919 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -1994,7 +1994,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"鬼頭陸魚","note":"<dropItemsEval>\n[\n['i' , 748 , 0.25 , 1],\n['i' , 748 , 0.25 , 1],\n['a' , 170 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"鬼頭陸魚","note":"<dropItemsEval>\n[\n['i' , 748 , 0.25 , 1],\n['i' , 748 , 0.25 , 1],\n['a' , 170 , 0.05 , 1],\n['i' , 919 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2014,7 +2014,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"湖泊菇寶","note":"","params":[
+	],"gold":0,"name":"湖泊菇寶","note":"<dropItemsEval>\n[\n['i' , 920 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2034,7 +2034,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"湖泊菇精","note":"","params":[
+	],"gold":0,"name":"湖泊菇精","note":"<dropItemsEval>\n[\n['i' , 920 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2054,7 +2054,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"湖泊菇霸","note":"","params":[
+	],"gold":0,"name":"湖泊菇霸","note":"<dropItemsEval>\n[\n['i' , 920 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2074,7 +2074,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"叢林小五角","note":"","params":[
+	],"gold":0,"name":"叢林小五角","note":"<dropItemsEval>\n[\n['i' , 921 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2094,7 +2094,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"叢林山星","note":"","params":[
+	],"gold":0,"name":"叢林山星","note":"<dropItemsEval>\n[\n['i' , 921 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2114,7 +2114,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"叢林七星","note":"","params":[
+	],"gold":0,"name":"叢林七星","note":"<dropItemsEval>\n[\n['i' , 921 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2134,7 +2134,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"雙色仙精(簡單)","note":"<dropItemsEval>\n[\n['a' , 173 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"雙色仙精(簡單)","note":"<dropItemsEval>\n[\n['a' , 173 , 0.05 , 1],\n['i' , 922 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2154,7 +2154,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"雙色仙精(普通)","note":"<dropItemsEval>\n[\n['a' , 173 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"雙色仙精(普通)","note":"<dropItemsEval>\n[\n['a' , 173 , 0.05 , 1],\n['i' , 922 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2174,7 +2174,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"雙色仙精(困難)","note":"<dropItemsEval>\n[\n['a' , 173 , 0.2 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"雙色仙精(困難)","note":"<dropItemsEval>\n[\n['a' , 173 , 0.2 , 1],\n['i' , 922 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2194,7 +2194,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"潛爪青熊(簡單)","note":"<dropItemsEval>\n[\n['i' , 60 , 1 , 1],\n['i' , 61 , 1 , 1],\n['i' , 62 , 1 , 1],\n['a' , 174 , 0.05 , 1],\n]\n</dropItemsEval>\n","params":[
+	],"gold":0,"name":"潛爪青熊(簡單)","note":"<dropItemsEval>\n[\n['i' , 60 , 1 , 1],\n['i' , 61 , 1 , 1],\n['i' , 62 , 1 , 1],\n['a' , 174 , 0.05 , 1],\n['i' , 923 , 1 , 1],\n]\n</dropItemsEval>\n","params":[
 		100,
 		0,
 		10,
@@ -2214,7 +2214,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"潛爪青熊(普通)","note":"<dropItemsEval>\n[\n['i' , 60 , 1 , 1],\n['i' , 61 , 1 , 1],\n['i' , 62 , 1 , 1],\n['a' , 174 , 0.05 , 1],\n]\n</dropItemsEval>\n棕熊＋河狸＋鱷魚特性\n外型：全身長出藍色水苔與甲殼，前掌像鰭狀，嘴部長出魚類鋸齒。\n背景：原本是森林高地的霸主，因為顛倒森林水域擴張，被迫棲息於湖底，如今學會潛水狩獵。","params":[
+	],"gold":0,"name":"潛爪青熊(普通)","note":"<dropItemsEval>\n[\n['i' , 60 , 1 , 1],\n['i' , 61 , 1 , 1],\n['i' , 62 , 1 , 1],\n['a' , 174 , 0.05 , 1],\n['i' , 923 , 1 , 1],\n]\n</dropItemsEval>\n棕熊＋河狸＋鱷魚特性\n外型：全身長出藍色水苔與甲殼，前掌像鰭狀，嘴部長出魚類鋸齒。\n背景：原本是森林高地的霸主，因為顛倒森林水域擴張，被迫棲息於湖底，如今學會潛水狩獵。","params":[
 		100,
 		0,
 		10,
@@ -2234,7 +2234,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"潛爪青熊(困難)","note":"<dropItemsEval>\n[\n['i' , 60 , 1 , 1],\n['i' , 61 , 1 , 1],\n['i' , 62 , 1 , 1],\n['a' , 174 , 0.2 , 1],\n]\n</dropItemsEval>\n","params":[
+	],"gold":0,"name":"潛爪青熊(困難)","note":"<dropItemsEval>\n[\n['i' , 60 , 1 , 1],\n['i' , 61 , 1 , 1],\n['i' , 62 , 1 , 1],\n['a' , 174 , 0.2 , 1],\n['i' , 923 , 1 , 1],\n]\n</dropItemsEval>\n","params":[
 		100,
 		0,
 		10,
@@ -2254,7 +2254,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"大地龍鯊(簡單)","note":"<dropItemsEval>\n[\n['i' , 56 , 1 , 1],\n['i' , 57 , 1 , 1],\n['a' , 175 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"大地龍鯊(簡單)","note":"<dropItemsEval>\n[\n['i' , 56 , 1 , 1],\n['i' , 57 , 1 , 1],\n['a' , 175 , 0.05 , 1],\n['i' , 924 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2274,7 +2274,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"大地龍鯊(普通)","note":"<dropItemsEval>\n[\n['i' , 56 , 1 , 1],\n['i' , 57 , 1 , 1],\n['a' , 175 , 0.05 , 1],\n]\n</dropItemsEval>\n\n大白鯊＋地龍形態\n外型：全身如濕石板般粗糙，背鰭變成鋸齒狀硬甲，鰭化作前肢能在地面爆衝。\n背景：原是深海中的頂級掠食者，因顛倒森林的潮汐扭曲被「抽」上地面，如今成了森林溪谷間的恐怖掠食獸。\n技能設計：\n地裂衝擊：從地面竄出撞擊敵人，造成範圍震盪。\n潮吼：釋放海嘯聲波造成混亂。\n潮濕皮膚（被動）：物理攻擊命中時有機率濺出濕泥造成滑倒效果。","params":[
+	],"gold":0,"name":"大地龍鯊(普通)","note":"<dropItemsEval>\n[\n['i' , 56 , 1 , 1],\n['i' , 57 , 1 , 1],\n['a' , 175 , 0.05 , 1],\n['i' , 924 , 1 , 1],\n]\n</dropItemsEval>\n\n大白鯊＋地龍形態\n外型：全身如濕石板般粗糙，背鰭變成鋸齒狀硬甲，鰭化作前肢能在地面爆衝。\n背景：原是深海中的頂級掠食者，因顛倒森林的潮汐扭曲被「抽」上地面，如今成了森林溪谷間的恐怖掠食獸。\n技能設計：\n地裂衝擊：從地面竄出撞擊敵人，造成範圍震盪。\n潮吼：釋放海嘯聲波造成混亂。\n潮濕皮膚（被動）：物理攻擊命中時有機率濺出濕泥造成滑倒效果。","params":[
 		100,
 		0,
 		10,
@@ -2294,7 +2294,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"大地龍鯊(困難)","note":"<dropItemsEval>\n[\n['i' , 56 , 1 , 1],\n['i' , 57 , 1 , 1],\n['a' , 175 , 0.2 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"大地龍鯊(困難)","note":"<dropItemsEval>\n[\n['i' , 56 , 1 , 1],\n['i' , 57 , 1 , 1],\n['a' , 175 , 0.2 , 1],\n['i' , 924 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2314,7 +2314,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"飯糰小卒","note":"<dropItemsEval>\n[\n['a' , 176 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"飯糰小卒","note":"<dropItemsEval>\n[\n['a' , 176 , 0.05 , 1],\n['i' , 925 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2334,7 +2334,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"飯糰浪客","note":"<dropItemsEval>\n[\n['a' , 176 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"飯糰浪客","note":"<dropItemsEval>\n[\n['a' , 176 , 0.05 , 1],\n['i' , 925 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2354,7 +2354,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"飯糰侍","note":"<dropItemsEval>\n[\n['a' , 176 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"飯糰侍","note":"<dropItemsEval>\n[\n['a' , 176 , 0.05 , 1],\n['i' , 925 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2374,7 +2374,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"燒餅守衛","note":"<dropItemsEval>\n[\n['a' , 177 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"燒餅守衛","note":"<dropItemsEval>\n[\n['a' , 177 , 0.05 , 1],\n['i' , 926 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2394,7 +2394,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"燒餅俠","note":"<dropItemsEval>\n[\n['a' , 177 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"燒餅俠","note":"<dropItemsEval>\n[\n['a' , 177 , 0.05 , 1],\n['i' , 926 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2414,7 +2414,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"燒餅大將","note":"<dropItemsEval>\n[\n['i' , 767 , 0.2 , 1],\n['a' , 177 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"燒餅大將","note":"<dropItemsEval>\n[\n['i' , 767 , 0.2 , 1],\n['a' , 177 , 0.05 , 1],\n['i' , 926 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2434,7 +2434,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"炒泡麵流氓","note":"<dropItemsEval>\n[\n['a' , 178 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"炒泡麵流氓","note":"<dropItemsEval>\n[\n['a' , 178 , 0.05 , 1],\n['i' , 927 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2454,7 +2454,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"炒泡麵狂徒","note":"<dropItemsEval>\n[\n['a' , 178 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"炒泡麵狂徒","note":"<dropItemsEval>\n[\n['a' , 178 , 0.05 , 1],\n['i' , 927 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2474,7 +2474,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"炒泡麵老大","note":"<dropItemsEval>\n[\n['i' , 769 , 0.2 , 1],\n['a' , 178 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"炒泡麵老大","note":"<dropItemsEval>\n[\n['i' , 769 , 0.2 , 1],\n['a' , 178 , 0.05 , 1],\n['i' , 927 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2494,7 +2494,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"關東煮劍兵","note":"<dropItemsEval>\n[\n['a' , 179 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"關東煮劍兵","note":"<dropItemsEval>\n[\n['a' , 179 , 0.05 , 1],\n['i' , 928 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2514,7 +2514,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"關東煮劍士","note":"<dropItemsEval>\n[\n['a' , 179 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"關東煮劍士","note":"<dropItemsEval>\n[\n['a' , 179 , 0.05 , 1],\n['i' , 928 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2534,7 +2534,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"關東煮騎士","note":"<dropItemsEval>\n[\n['a' , 179 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"關東煮騎士","note":"<dropItemsEval>\n[\n['a' , 179 , 0.05 , 1],\n['i' , 928 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2554,7 +2554,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"魚條弓箭手","note":"<dropItemsEval>\n[\n['a' , 180 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"魚條弓箭手","note":"<dropItemsEval>\n[\n['a' , 180 , 0.05 , 1],\n['i' , 929 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2574,7 +2574,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"魚條射手","note":"<dropItemsEval>\n[\n['a' , 180 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"魚條射手","note":"<dropItemsEval>\n[\n['a' , 180 , 0.05 , 1],\n['i' , 929 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2594,7 +2594,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"魚條神射手","note":"<dropItemsEval>\n[\n['w' , 207 , 0.1 , 1],\n['a' , 180 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"魚條神射手","note":"<dropItemsEval>\n[\n['w' , 207 , 0.1 , 1],\n['a' , 180 , 0.05 , 1],\n['i' , 929 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2614,7 +2614,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"鹹酥小雞（簡單）","note":"<dropItemsEval>\n[\n['a' , 181 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"鹹酥小雞（簡單）","note":"<dropItemsEval>\n[\n['a' , 181 , 0.05 , 1],\n['i' , 930 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2634,7 +2634,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"鹹酥小雞（普通）","note":"<dropItemsEval>\n[\n['a' , 181 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"鹹酥小雞（普通）","note":"<dropItemsEval>\n[\n['a' , 181 , 0.05 , 1],\n['i' , 930 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2654,7 +2654,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"鹹酥小雞（困難）","note":"<dropItemsEval>\n[\n['a' , 181 , 0.2 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"鹹酥小雞（困難）","note":"<dropItemsEval>\n[\n['a' , 181 , 0.2 , 1],\n['i' , 930 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2674,7 +2674,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"茄湯奶奶（簡單）","note":"<dropItemsEval>\n[\n['a' , 182 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"茄湯奶奶（簡單）","note":"<dropItemsEval>\n[\n['a' , 182 , 0.05 , 1],\n['i' , 932 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2694,7 +2694,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"茄湯奶奶（普通）","note":"<dropItemsEval>\n[\n['a' , 182 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"茄湯奶奶（普通）","note":"<dropItemsEval>\n[\n['a' , 182 , 0.05 , 1],\n['i' , 932 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2714,7 +2714,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"茄湯奶奶（困難）","note":"<dropItemsEval>\n[\n['i' , 775 , 0.2 , 1],\n['i' , 776 , 0.2 , 1],\n['a' , 182 , 0.2 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"茄湯奶奶（困難）","note":"<dropItemsEval>\n[\n['i' , 775 , 0.2 , 1],\n['i' , 776 , 0.2 , 1],\n['a' , 182 , 0.2 , 1],\n['i' , 932 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2734,7 +2734,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"蒜棍爺爺（簡單）","note":"<dropItemsEval>\n[\n['a' , 183 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"蒜棍爺爺（簡單）","note":"<dropItemsEval>\n[\n['a' , 183 , 0.05 , 1],\n['i' , 931 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2754,7 +2754,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"蒜棍爺爺（普通）","note":"<dropItemsEval>\n[\n['a' , 183 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"蒜棍爺爺（普通）","note":"<dropItemsEval>\n[\n['a' , 183 , 0.05 , 1],\n['i' , 931 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2774,7 +2774,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"蒜棍爺爺（困難）","note":"<dropItemsEval>\n[\n['i' , 777 , 0.2 , 1],\n['i' , 778 , 0.2 , 1],\n['a' , 183 , 0.2 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"蒜棍爺爺（困難）","note":"<dropItemsEval>\n[\n['i' , 777 , 0.2 , 1],\n['i' , 778 , 0.2 , 1],\n['a' , 183 , 0.2 , 1],\n['i' , 931 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2794,7 +2794,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"英雄霸王堡（簡單）","note":"<dropItemsEval>\n[\n['i' , 782 , 1 , 1],\n['a' , 442 , 0.1 , 1],\n['a' , 184 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"英雄霸王堡（簡單）","note":"<dropItemsEval>\n[\n['i' , 782 , 1 , 1],\n['a' , 442 , 0.1 , 1],\n['a' , 184 , 0.05 , 1],\n['i' , 933 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2814,7 +2814,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"英雄霸王堡（普通）","note":"<dropItemsEval>\n[\n['i' , 782 , 1 , 1],\n['a' , 442 , 0.1 , 1],\n['a' , 184 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"英雄霸王堡（普通）","note":"<dropItemsEval>\n[\n['i' , 782 , 1 , 1],\n['a' , 442 , 0.1 , 1],\n['a' , 184 , 0.05 , 1],\n['i' , 933 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2834,7 +2834,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"英雄霸王堡（困難）","note":"<dropItemsEval>\n[\n['i' , 782 , 1 , 1],\n['a' , 442 , 0.1 , 1],\n['a' , 184 , 0.2 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"英雄霸王堡（困難）","note":"<dropItemsEval>\n[\n['i' , 782 , 1 , 1],\n['a' , 442 , 0.1 , 1],\n['a' , 184 , 0.2 , 1],\n['i' , 933 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2854,7 +2854,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"雪人士兵","note":"<dropItemsEval>\n[\n['a' , 185 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"雪人士兵","note":"<dropItemsEval>\n[\n['a' , 185 , 0.05 , 1],\n['i' , 934 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2874,7 +2874,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"雪人戰士","note":"<dropItemsEval>\n[\n['a' , 185 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"雪人戰士","note":"<dropItemsEval>\n[\n['a' , 185 , 0.05 , 1],\n['i' , 934 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2894,7 +2894,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"雪人將軍","note":"<dropItemsEval>\n[\n['a' , 185 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"雪人將軍","note":"<dropItemsEval>\n[\n['a' , 185 , 0.05 , 1],\n['i' , 934 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2914,7 +2914,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"雪人投手","note":"<dropItemsEval>\n[\n['a' , 186 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"雪人投手","note":"<dropItemsEval>\n[\n['a' , 186 , 0.05 , 1],\n['i' , 935 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2934,7 +2934,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"雪人投彈手","note":"<dropItemsEval>\n[\n['a' , 186 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"雪人投彈手","note":"<dropItemsEval>\n[\n['a' , 186 , 0.05 , 1],\n['i' , 935 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2954,7 +2954,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"雪人重砲手","note":"<dropItemsEval>\n[\n['a' , 186 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"雪人重砲手","note":"<dropItemsEval>\n[\n['a' , 186 , 0.05 , 1],\n['i' , 935 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2974,7 +2974,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"冷笑話幽靈","note":"","params":[
+	],"gold":0,"name":"冷笑話幽靈","note":"<dropItemsEval>\n[\n['i' , 936 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -2994,7 +2994,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"怨念幽靈","note":"","params":[
+	],"gold":0,"name":"怨念幽靈","note":"<dropItemsEval>\n[\n['i' , 936 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3014,7 +3014,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"怨恨咒靈","note":"","params":[
+	],"gold":0,"name":"怨恨咒靈","note":"<dropItemsEval>\n[\n['i' , 936 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3034,7 +3034,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"停屍間腐屍","note":"","params":[
+	],"gold":0,"name":"停屍間腐屍","note":"<dropItemsEval>\n[\n['i' , 937 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3054,7 +3054,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"駐顏有助腐屍","note":"","params":[
+	],"gold":0,"name":"駐顏有助腐屍","note":"<dropItemsEval>\n[\n['i' , 937 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3074,7 +3074,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"型男腐屍","note":"","params":[
+	],"gold":0,"name":"型男腐屍","note":"<dropItemsEval>\n[\n['i' , 937 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3094,7 +3094,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"路過的寒冰法師","note":"","params":[
+	],"gold":0,"name":"路過的寒冰法師","note":"<dropItemsEval>\n[\n['i' , 938 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3114,7 +3114,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"校外教學的寒冰法師","note":"","params":[
+	],"gold":0,"name":"校外教學的寒冰法師","note":"<dropItemsEval>\n[\n['i' , 938 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3134,7 +3134,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"把這當家的寒冰法師","note":"","params":[
+	],"gold":0,"name":"把這當家的寒冰法師","note":"<dropItemsEval>\n[\n['i' , 938 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3154,7 +3154,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"雪球狗狗(簡單)","note":"<dropItemsEval>\n[\n['a' , 190 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"雪球狗狗(簡單)","note":"<dropItemsEval>\n[\n['a' , 190 , 0.05 , 1],\n['i' , 939 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3174,7 +3174,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"雪球狗狗(普通)","note":"<dropItemsEval>\n[\n['a' , 190 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"雪球狗狗(普通)","note":"<dropItemsEval>\n[\n['a' , 190 , 0.05 , 1],\n['i' , 939 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3194,7 +3194,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"雪球狗狗(困難)","note":"<dropItemsEval>\n[\n['a' , 190 , 0.2 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"雪球狗狗(困難)","note":"<dropItemsEval>\n[\n['a' , 190 , 0.2 , 1],\n['i' , 939 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3214,7 +3214,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"冰圖騰像(簡單)","note":"<dropItemsEval>\n[\n['a' , 191 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"冰圖騰像(簡單)","note":"<dropItemsEval>\n[\n['a' , 191 , 0.05 , 1],\n['i' , 940 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3234,7 +3234,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"冰圖騰像(普通)","note":"<dropItemsEval>\n[\n['a' , 191 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"冰圖騰像(普通)","note":"<dropItemsEval>\n[\n['a' , 191 , 0.05 , 1],\n['i' , 940 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3254,7 +3254,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"冰圖騰像(困難)","note":"<dropItemsEval>\n[\n['a' , 191 , 0.2 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"冰圖騰像(困難)","note":"<dropItemsEval>\n[\n['a' , 191 , 0.2 , 1],\n['i' , 940 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3274,7 +3274,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"冰晶蛟龍(簡單)","note":"<dropItemsEval>\n[\n['a' , 192 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"冰晶蛟龍(簡單)","note":"<dropItemsEval>\n[\n['a' , 192 , 0.05 , 1],\n['i' , 941 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3294,7 +3294,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"冰晶蛟龍(普通)","note":"<dropItemsEval>\n[\n['a' , 192 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"冰晶蛟龍(普通)","note":"<dropItemsEval>\n[\n['a' , 192 , 0.05 , 1],\n['i' , 941 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3314,7 +3314,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"冰晶蛟龍(困難)","note":"<dropItemsEval>\n[\n['a' , 192 , 0.2 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"冰晶蛟龍(困難)","note":"<dropItemsEval>\n[\n['a' , 192 , 0.2 , 1],\n['i' , 941 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3334,7 +3334,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"咬人草","note":"<dropItemsEval>\n[\n['a' , 193 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"咬人草","note":"<dropItemsEval>\n[\n['a' , 193 , 0.05 , 1],\n['i' , 942 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3354,7 +3354,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"嗜人草","note":"<dropItemsEval>\n[\n['a' , 193 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"嗜人草","note":"<dropItemsEval>\n[\n['a' , 193 , 0.05 , 1],\n['i' , 942 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3374,7 +3374,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"惡念嗜人草","note":"<dropItemsEval>\n[\n['a' , 193 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"惡念嗜人草","note":"<dropItemsEval>\n[\n['a' , 193 , 0.05 , 1],\n['i' , 942 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3394,7 +3394,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"巨石怪","note":"","params":[
+	],"gold":0,"name":"巨石怪","note":"<dropItemsEval>\n[\n['i' , 943 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3414,7 +3414,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"巨石守衛","note":"","params":[
+	],"gold":0,"name":"巨石守衛","note":"<dropItemsEval>\n[\n['i' , 943 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3434,7 +3434,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"神殿守護者","note":"","params":[
+	],"gold":0,"name":"神殿守護者","note":"<dropItemsEval>\n[\n['i' , 943 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3454,7 +3454,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"狼蛛","note":"<dropItemsEval>\n[\n['a' , 195 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"狼蛛","note":"<dropItemsEval>\n[\n['a' , 195 , 0.05 , 1],\n['i' , 944 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3474,7 +3474,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"沙漠狼蛛","note":"<dropItemsEval>\n[\n['a' , 195 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"沙漠狼蛛","note":"<dropItemsEval>\n[\n['a' , 195 , 0.05 , 1],\n['i' , 944 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3494,7 +3494,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"晶礦沙漠狼蛛","note":"<dropItemsEval>\n[\n['a' , 195 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"晶礦沙漠狼蛛","note":"<dropItemsEval>\n[\n['a' , 195 , 0.05 , 1],\n['i' , 944 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3514,7 +3514,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"腐爛木乃伊","note":"<dropItemsEval>\n[\n['a' , 196 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"腐爛木乃伊","note":"<dropItemsEval>\n[\n['a' , 196 , 0.05 , 1],\n['i' , 945 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3534,7 +3534,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"木乃伊","note":"<dropItemsEval>\n[\n['a' , 196 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"木乃伊","note":"<dropItemsEval>\n[\n['a' , 196 , 0.05 , 1],\n['i' , 945 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3554,7 +3554,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"夢魘木乃伊","note":"<dropItemsEval>\n[\n['a' , 196 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"夢魘木乃伊","note":"<dropItemsEval>\n[\n['a' , 196 , 0.05 , 1],\n['i' , 945 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3574,7 +3574,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"迷你沙蟲","note":"","params":[
+	],"gold":0,"name":"迷你沙蟲","note":"<dropItemsEval>\n[\n['i' , 946 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3594,7 +3594,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"沙蟲","note":"","params":[
+	],"gold":0,"name":"沙蟲","note":"<dropItemsEval>\n[\n['i' , 946 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3614,7 +3614,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"巨大沙蟲","note":"","params":[
+	],"gold":0,"name":"巨大沙蟲","note":"<dropItemsEval>\n[\n['i' , 946 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3634,7 +3634,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"武者仙人掌(簡單)","note":"<dropItemsEval>\n[\n['a' , 198 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"武者仙人掌(簡單)","note":"<dropItemsEval>\n[\n['a' , 198 , 0.05 , 1],\n['i' , 947 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3654,7 +3654,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"武者仙人掌(普通)","note":"<dropItemsEval>\n[\n['a' , 198 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"武者仙人掌(普通)","note":"<dropItemsEval>\n[\n['a' , 198 , 0.05 , 1],\n['i' , 947 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3674,7 +3674,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"武者仙人掌(困難)","note":"<dropItemsEval>\n[\n['a' , 198 , 0.2 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"武者仙人掌(困難)","note":"<dropItemsEval>\n[\n['a' , 198 , 0.2 , 1],\n['i' , 947 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3705,7 +3705,7 @@
 		{"code":11,"dataId":9,"value":0.75},
 		{"code":11,"dataId":10,"value":0.75},
 		{"code":11,"dataId":11,"value":0.75}
-	],"gold":0,"name":"鷲頭飛獅(簡單)","note":"<dropItemsEval>\n[\n['a' , 199 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"鷲頭飛獅(簡單)","note":"<dropItemsEval>\n[\n['a' , 199 , 0.05 , 1],\n['i' , 948 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3736,7 +3736,7 @@
 		{"code":11,"dataId":9,"value":0.75},
 		{"code":11,"dataId":10,"value":0.75},
 		{"code":11,"dataId":11,"value":0.75}
-	],"gold":0,"name":"鷲頭飛獅(普通)","note":"<dropItemsEval>\n[\n['a' , 199 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"鷲頭飛獅(普通)","note":"<dropItemsEval>\n[\n['a' , 199 , 0.05 , 1],\n['i' , 948 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3767,7 +3767,7 @@
 		{"code":11,"dataId":9,"value":0.75},
 		{"code":11,"dataId":10,"value":0.75},
 		{"code":11,"dataId":11,"value":0.75}
-	],"gold":0,"name":"鷲頭飛獅(困難)","note":"<dropItemsEval>\n[\n['a' , 199 , 0.2 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"鷲頭飛獅(困難)","note":"<dropItemsEval>\n[\n['a' , 199 , 0.2 , 1],\n['i' , 948 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3787,7 +3787,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"神殿守護者(簡單)","note":"<dropItemsEval>\n[\n['w' , 128 , 0.1 , 1],\n['a' , 200 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"神殿守護者(簡單)","note":"<dropItemsEval>\n[\n['w' , 128 , 0.1 , 1],\n['a' , 200 , 0.05 , 1],\n['i' , 949 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3807,7 +3807,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"神殿守護者(普通)","note":"<dropItemsEval>\n[\n['w' , 128 , 0.1 , 1],\n['a' , 200 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"神殿守護者(普通)","note":"<dropItemsEval>\n[\n['w' , 128 , 0.1 , 1],\n['a' , 200 , 0.05 , 1],\n['i' , 949 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3827,7 +3827,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"神殿守護者(困難)","note":"<dropItemsEval>\n[\n['w' , 128 , 0.1 , 1],\n['a' , 200 , 0.2 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"神殿守護者(困難)","note":"<dropItemsEval>\n[\n['w' , 128 , 0.1 , 1],\n['a' , 200 , 0.2 , 1],\n['i' , 949 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3847,7 +3847,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"血蝠","note":"","params":[
+	],"gold":0,"name":"血蝠","note":"<dropItemsEval>\n[\n['i' , 950 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3867,7 +3867,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"毒牙血蝠","note":"","params":[
+	],"gold":0,"name":"毒牙血蝠","note":"<dropItemsEval>\n[\n['i' , 950 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3887,7 +3887,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"狂暴血蝠","note":"","params":[
+	],"gold":0,"name":"狂暴血蝠","note":"<dropItemsEval>\n[\n['i' , 950 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3907,7 +3907,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"血鬼","note":"","params":[
+	],"gold":0,"name":"血鬼","note":"<dropItemsEval>\n[\n['i' , 951 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3927,7 +3927,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"血鬼殺手","note":"","params":[
+	],"gold":0,"name":"血鬼殺手","note":"<dropItemsEval>\n[\n['i' , 951 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3947,7 +3947,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"血鬼刺殺者","note":"","params":[
+	],"gold":0,"name":"血鬼刺殺者","note":"<dropItemsEval>\n[\n['i' , 951 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3967,7 +3967,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"屍鬼","note":"","params":[
+	],"gold":0,"name":"屍鬼","note":"<dropItemsEval>\n[\n['i' , 952 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -3987,7 +3987,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"屍鬼眷屬","note":"","params":[
+	],"gold":0,"name":"屍鬼眷屬","note":"<dropItemsEval>\n[\n['i' , 952 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4007,7 +4007,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"屍鬼血僕","note":"","params":[
+	],"gold":0,"name":"屍鬼血僕","note":"<dropItemsEval>\n[\n['i' , 952 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4027,7 +4027,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"吸血鬼侍者","note":"<dropItemsEval>\n[\n['a' , 204 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"吸血鬼侍者","note":"<dropItemsEval>\n[\n['a' , 204 , 0.05 , 1],\n['i' , 953 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4047,7 +4047,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"吸血鬼管家","note":"<dropItemsEval>\n[\n['a' , 204 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"吸血鬼管家","note":"<dropItemsEval>\n[\n['a' , 204 , 0.05 , 1],\n['i' , 953 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4067,7 +4067,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"吸血鬼總管","note":"<dropItemsEval>\n[\n['a' , 204 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"吸血鬼總管","note":"<dropItemsEval>\n[\n['a' , 204 , 0.05 , 1],\n['i' , 953 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4087,7 +4087,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"吸血鬼隨從","note":"<dropItemsEval>\n[\n['a' , 205 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"吸血鬼隨從","note":"<dropItemsEval>\n[\n['a' , 205 , 0.05 , 1],\n['i' , 954 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4107,7 +4107,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"吸血鬼護衛","note":"<dropItemsEval>\n[\n['a' , 205 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"吸血鬼護衛","note":"<dropItemsEval>\n[\n['a' , 205 , 0.05 , 1],\n['i' , 954 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4127,7 +4127,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"吸血鬼侍衛","note":"<dropItemsEval>\n[\n['a' , 205 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"吸血鬼侍衛","note":"<dropItemsEval>\n[\n['a' , 205 , 0.05 , 1],\n['i' , 954 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4147,7 +4147,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"紅月貓(簡單)","note":"","params":[
+	],"gold":0,"name":"紅月貓(簡單)","note":"<dropItemsEval>\n[\n['i' , 955 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4167,7 +4167,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"紅月貓(普通)","note":"","params":[
+	],"gold":0,"name":"紅月貓(普通)","note":"<dropItemsEval>\n[\n['i' , 955 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4187,7 +4187,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"紅月貓(困難)","note":"","params":[
+	],"gold":0,"name":"紅月貓(困難)","note":"<dropItemsEval>\n[\n['i' , 955 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4207,7 +4207,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"吸血鬼淑女(簡單)","note":"<dropItemsEval>\n[\n['a' , 207 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"吸血鬼淑女(簡單)","note":"<dropItemsEval>\n[\n['a' , 207 , 0.05 , 1],\n['i' , 956 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4227,7 +4227,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"吸血鬼淑女(普通)","note":"<dropItemsEval>\n[\n['a' , 207 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"吸血鬼淑女(普通)","note":"<dropItemsEval>\n[\n['a' , 207 , 0.05 , 1],\n['i' , 956 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4247,7 +4247,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"吸血鬼淑女(困難)","note":"<dropItemsEval>\n[\n['a' , 207 , 0.2 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"吸血鬼淑女(困難)","note":"<dropItemsEval>\n[\n['a' , 207 , 0.2 , 1],\n['i' , 956 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4267,7 +4267,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"吸血鬼少爺(簡單)","note":"<dropItemsEval>\n[\n['a' , 208 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"吸血鬼少爺(簡單)","note":"<dropItemsEval>\n[\n['a' , 208 , 0.05 , 1],\n['i' , 957 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4287,7 +4287,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"吸血鬼少爺(普通)","note":"<dropItemsEval>\n[\n['a' , 208 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"吸血鬼少爺(普通)","note":"<dropItemsEval>\n[\n['a' , 208 , 0.05 , 1],\n['i' , 957 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4307,7 +4307,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"吸血鬼少爺(困難)","note":"<dropItemsEval>\n[\n['a' , 208 , 0.2 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"吸血鬼少爺(困難)","note":"<dropItemsEval>\n[\n['a' , 208 , 0.2 , 1],\n['i' , 957 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4327,7 +4327,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"吸血鬼夫人(簡單)","note":"<dropItemsEval>\n[\n['a' , 209 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"吸血鬼夫人(簡單)","note":"<dropItemsEval>\n[\n['a' , 209 , 0.05 , 1],\n['i' , 958 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4347,7 +4347,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"吸血鬼夫人(普通)","note":"<dropItemsEval>\n[\n['a' , 209 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"吸血鬼夫人(普通)","note":"<dropItemsEval>\n[\n['a' , 209 , 0.05 , 1],\n['i' , 958 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4367,7 +4367,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"吸血鬼夫人(困難)","note":"<dropItemsEval>\n[\n['a' , 209 , 0.2 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"吸血鬼夫人(困難)","note":"<dropItemsEval>\n[\n['a' , 209 , 0.2 , 1],\n['i' , 958 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4387,7 +4387,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"吸血鬼領主(簡單)","note":"<dropItemsEval>\n[\n['a' , 209 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"吸血鬼領主(簡單)","note":"<dropItemsEval>\n[\n['a' , 209 , 0.05 , 1],\n['i' , 959 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4407,7 +4407,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"吸血鬼領主(普通)","note":"<dropItemsEval>\n[\n['a' , 209 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"吸血鬼領主(普通)","note":"<dropItemsEval>\n[\n['a' , 209 , 0.05 , 1],\n['i' , 959 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4427,7 +4427,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"吸血鬼領主(困難)","note":"<dropItemsEval>\n[\n['a' , 209 , 0.2 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"吸血鬼領主(困難)","note":"<dropItemsEval>\n[\n['a' , 209 , 0.2 , 1],\n['i' , 959 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4447,7 +4447,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"海怪","note":"<dropItemsEval>\n[\n['a' , 211 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"海怪","note":"<dropItemsEval>\n[\n['a' , 211 , 0.05 , 1],\n['i' , 960 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4467,7 +4467,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"死亡海怪","note":"<dropItemsEval>\n[\n['a' , 211 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"死亡海怪","note":"<dropItemsEval>\n[\n['a' , 211 , 0.05 , 1],\n['i' , 960 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4487,7 +4487,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"深淵海怪","note":"<dropItemsEval>\n[\n['a' , 211 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"深淵海怪","note":"<dropItemsEval>\n[\n['a' , 211 , 0.05 , 1],\n['i' , 960 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4507,7 +4507,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"長得比較醜的人魚","note":"","params":[
+	],"gold":0,"name":"長得比較醜的人魚","note":"<dropItemsEval>\n[\n['i' , 961 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4527,7 +4527,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"人魚","note":"","params":[
+	],"gold":0,"name":"人魚","note":"<dropItemsEval>\n[\n['i' , 961 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4547,7 +4547,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"長得很帥的人魚","note":"","params":[
+	],"gold":0,"name":"長得很帥的人魚","note":"<dropItemsEval>\n[\n['i' , 961 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4567,7 +4567,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"蟹槍兵","note":"<dropItemsEval>\n[\n['a' , 213 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"蟹槍兵","note":"<dropItemsEval>\n[\n['a' , 213 , 0.05 , 1],\n['i' , 962 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4587,7 +4587,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"蟹將軍","note":"<dropItemsEval>\n[\n['a' , 213 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"蟹將軍","note":"<dropItemsEval>\n[\n['a' , 213 , 0.05 , 1],\n['i' , 962 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4607,7 +4607,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"長山蟹子龍","note":"<dropItemsEval>\n[\n['a' , 213 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"長山蟹子龍","note":"<dropItemsEval>\n[\n['a' , 213 , 0.05 , 1],\n['i' , 962 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4627,7 +4627,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"虎面鯊魚","note":"","params":[
+	],"gold":0,"name":"虎面鯊魚","note":"<dropItemsEval>\n[\n['i' , 963 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4647,7 +4647,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"鬼面鯊魚","note":"","params":[
+	],"gold":0,"name":"鬼面鯊魚","note":"<dropItemsEval>\n[\n['i' , 963 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4667,7 +4667,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"龍面鯊魚","note":"","params":[
+	],"gold":0,"name":"龍面鯊魚","note":"<dropItemsEval>\n[\n['i' , 963 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4687,7 +4687,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"海天使","note":"","params":[
+	],"gold":0,"name":"海天使","note":"<dropItemsEval>\n[\n['i' , 964 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4707,7 +4707,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"深海魚影","note":"","params":[
+	],"gold":0,"name":"深海魚影","note":"<dropItemsEval>\n[\n['i' , 964 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4727,7 +4727,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"遨遊魚影","note":"","params":[
+	],"gold":0,"name":"遨遊魚影","note":"<dropItemsEval>\n[\n['i' , 964 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4747,7 +4747,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"海神狙擊兵","note":"<dropItemsEval>\n[\n['a' , 216 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"海神狙擊兵","note":"<dropItemsEval>\n[\n['a' , 216 , 0.05 , 1],\n['i' , 965 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4767,7 +4767,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"海神騎射兵","note":"<dropItemsEval>\n[\n['a' , 216 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"海神騎射兵","note":"<dropItemsEval>\n[\n['a' , 216 , 0.05 , 1],\n['i' , 965 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4787,7 +4787,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"海神騎射軍","note":"<dropItemsEval>\n[\n['a' , 216 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"海神騎射軍","note":"<dropItemsEval>\n[\n['a' , 216 , 0.05 , 1],\n['i' , 965 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4807,7 +4807,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"海神斥侯兵","note":"<dropItemsEval>\n[\n['a' , 217 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"海神斥侯兵","note":"<dropItemsEval>\n[\n['a' , 217 , 0.05 , 1],\n['i' , 966 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4827,7 +4827,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"海神突擊兵","note":"<dropItemsEval>\n[\n['a' , 217 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"海神突擊兵","note":"<dropItemsEval>\n[\n['a' , 217 , 0.05 , 1],\n['i' , 966 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4847,7 +4847,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"海神突擊軍","note":"<dropItemsEval>\n[\n['a' , 217 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"海神突擊軍","note":"<dropItemsEval>\n[\n['a' , 217 , 0.05 , 1],\n['i' , 966 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4867,7 +4867,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"古代蝦(簡單)","note":"","params":[
+	],"gold":0,"name":"古代蝦(簡單)","note":"<dropItemsEval>\n[\n['i' , 967 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4887,7 +4887,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"古代蝦(普通)","note":"","params":[
+	],"gold":0,"name":"古代蝦(普通)","note":"<dropItemsEval>\n[\n['i' , 967 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4907,7 +4907,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"古代蝦(困難)","note":"","params":[
+	],"gold":0,"name":"古代蝦(困難)","note":"<dropItemsEval>\n[\n['i' , 967 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4927,7 +4927,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"海龍王(簡單)","note":"<dropItemsEval>\n[\n['a' , 219 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"海龍王(簡單)","note":"<dropItemsEval>\n[\n['a' , 219 , 0.05 , 1],\n['i' , 968 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4947,7 +4947,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"海龍王(普通)","note":"<dropItemsEval>\n[\n['a' , 219 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"海龍王(普通)","note":"<dropItemsEval>\n[\n['a' , 219 , 0.05 , 1],\n['i' , 968 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4967,7 +4967,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"海龍王(困難)","note":"<dropItemsEval>\n[\n['a' , 219 , 0.2 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"海龍王(困難)","note":"<dropItemsEval>\n[\n['a' , 219 , 0.2 , 1],\n['i' , 968 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -4987,7 +4987,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"海神皇(簡單)","note":"<dropItemsEval>\n[\n['a' , 220 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"海神皇(簡單)","note":"<dropItemsEval>\n[\n['a' , 220 , 0.05 , 1],\n['i' , 969 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -5007,7 +5007,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"海神皇(普通)","note":"<dropItemsEval>\n[\n['a' , 220 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"海神皇(普通)","note":"<dropItemsEval>\n[\n['a' , 220 , 0.05 , 1],\n['i' , 969 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -5027,7 +5027,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"海神皇(困難)","note":"<dropItemsEval>\n[\n['a' , 220 , 0.2 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"海神皇(困難)","note":"<dropItemsEval>\n[\n['a' , 220 , 0.2 , 1],\n['i' , 969 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -5047,7 +5047,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"幼雷龍","note":"<dropItemsEval>\n[\n['i' , 867 , 0.2 , 1],\n['a' , 221 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"幼雷龍","note":"<dropItemsEval>\n[\n['i' , 867 , 0.2 , 1],\n['a' , 221 , 0.05 , 1],\n['i' , 970 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -5067,7 +5067,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"雷龍","note":"<dropItemsEval>\n[\n['i' , 867 , 0.2 , 1],\n['a' , 221 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"雷龍","note":"<dropItemsEval>\n[\n['i' , 867 , 0.2 , 1],\n['a' , 221 , 0.05 , 1],\n['i' , 970 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -5087,7 +5087,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"成年雷龍","note":"<dropItemsEval>\n[\n['i' , 867 , 0.2 , 1],\n['a' , 221 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"成年雷龍","note":"<dropItemsEval>\n[\n['i' , 867 , 0.2 , 1],\n['a' , 221 , 0.05 , 1],\n['i' , 970 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -5107,7 +5107,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"幼火龍","note":"<dropItemsEval>\n[\n['i' , 868 , 0.2 , 1],\n['a' , 222 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"幼火龍","note":"<dropItemsEval>\n[\n['i' , 868 , 0.2 , 1],\n['a' , 222 , 0.05 , 1],\n['i' , 971 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -5127,7 +5127,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"火龍","note":"<dropItemsEval>\n[\n['i' , 868 , 0.2 , 1],\n['a' , 222 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"火龍","note":"<dropItemsEval>\n[\n['i' , 868 , 0.2 , 1],\n['a' , 222 , 0.05 , 1],\n['i' , 971 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -5147,7 +5147,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"成年火龍","note":"<dropItemsEval>\n[\n['i' , 868 , 0.2 , 1],\n['a' , 222 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"成年火龍","note":"<dropItemsEval>\n[\n['i' , 868 , 0.2 , 1],\n['a' , 222 , 0.05 , 1],\n['i' , 971 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -5167,7 +5167,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"幼土龍","note":"<dropItemsEval>\n[\n['i' , 869 , 0.2 , 1],\n['a' , 223 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"幼土龍","note":"<dropItemsEval>\n[\n['i' , 869 , 0.2 , 1],\n['a' , 223 , 0.05 , 1],\n['i' , 972 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -5187,7 +5187,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"土龍","note":"<dropItemsEval>\n[\n['i' , 869 , 0.2 , 1],\n['a' , 223 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"土龍","note":"<dropItemsEval>\n[\n['i' , 869 , 0.2 , 1],\n['a' , 223 , 0.05 , 1],\n['i' , 972 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -5207,7 +5207,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"成年土龍","note":"<dropItemsEval>\n[\n['i' , 869 , 0.2 , 1],\n['a' , 223 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"成年土龍","note":"<dropItemsEval>\n[\n['i' , 869 , 0.2 , 1],\n['a' , 223 , 0.05 , 1],\n['i' , 972 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -5227,7 +5227,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"幼風龍","note":"<dropItemsEval>\n[\n['i' , 870 , 0.2 , 1],\n['a' , 224 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"幼風龍","note":"<dropItemsEval>\n[\n['i' , 870 , 0.2 , 1],\n['a' , 224 , 0.05 , 1],\n['i' , 973 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -5247,7 +5247,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"風龍","note":"<dropItemsEval>\n[\n['i' , 870 , 0.2 , 1],\n['a' , 224 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"風龍","note":"<dropItemsEval>\n[\n['i' , 870 , 0.2 , 1],\n['a' , 224 , 0.05 , 1],\n['i' , 973 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -5267,7 +5267,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"成年風龍","note":"<dropItemsEval>\n[\n['i' , 870 , 0.2 , 1],\n['a' , 224 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"成年風龍","note":"<dropItemsEval>\n[\n['i' , 870 , 0.2 , 1],\n['a' , 224 , 0.05 , 1],\n['i' , 973 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -5287,7 +5287,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"幼水龍","note":"<dropItemsEval>\n[\n['i' , 871 , 0.2 , 1],\n['a' , 225 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"幼水龍","note":"<dropItemsEval>\n[\n['i' , 871 , 0.2 , 1],\n['a' , 225 , 0.05 , 1],\n['i' , 974 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -5307,7 +5307,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"水龍","note":"<dropItemsEval>\n[\n['i' , 871 , 0.2 , 1],\n['a' , 225 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"水龍","note":"<dropItemsEval>\n[\n['i' , 871 , 0.2 , 1],\n['a' , 225 , 0.05 , 1],\n['i' , 974 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -5327,7 +5327,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"成年水龍","note":"<dropItemsEval>\n[\n['i' , 871 , 0.2 , 1],\n['a' , 225 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"成年水龍","note":"<dropItemsEval>\n[\n['i' , 871 , 0.2 , 1],\n['a' , 225 , 0.05 , 1],\n['i' , 974 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -5347,7 +5347,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"幼冰龍","note":"<dropItemsEval>\n[\n['i' , 872 , 0.2 , 1],\n['a' , 226 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"幼冰龍","note":"<dropItemsEval>\n[\n['i' , 872 , 0.2 , 1],\n['a' , 226 , 0.05 , 1],\n['i' , 975 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -5367,7 +5367,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"冰龍","note":"<dropItemsEval>\n[\n['i' , 872 , 0.2 , 1],\n['a' , 226 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"冰龍","note":"<dropItemsEval>\n[\n['i' , 872 , 0.2 , 1],\n['a' , 226 , 0.05 , 1],\n['i' , 975 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -5387,7 +5387,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"成年冰龍","note":"<dropItemsEval>\n[\n['i' , 872 , 0.2 , 1],\n['a' , 226 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"成年冰龍","note":"<dropItemsEval>\n[\n['i' , 872 , 0.2 , 1],\n['a' , 226 , 0.05 , 1],\n['i' , 975 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -5407,7 +5407,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"龍星(簡單)","note":"<dropItemsEval>\n[\n['a' , 227 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"龍星(簡單)","note":"<dropItemsEval>\n[\n['a' , 227 , 0.05 , 1],\n['i' , 976 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -5427,7 +5427,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"龍星(普通)","note":"<dropItemsEval>\n[\n['a' , 227 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"龍星(普通)","note":"<dropItemsEval>\n[\n['a' , 227 , 0.05 , 1],\n['i' , 976 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -5447,7 +5447,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"龍星(困難)","note":"<dropItemsEval>\n[\n['a' , 227 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"龍星(困難)","note":"<dropItemsEval>\n[\n['a' , 227 , 0.05 , 1],\n['i' , 976 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -5467,7 +5467,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"黑龍(簡單)","note":"<dropItemsEval>\n[\n['i' , 873 , 0.2 , 1],\n['a' , 228 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"黑龍(簡單)","note":"<dropItemsEval>\n[\n['i' , 873 , 0.2 , 1],\n['a' , 228 , 0.05 , 1],\n['i' , 977 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -5487,7 +5487,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"黑龍(普通)","note":"<dropItemsEval>\n[\n['i' , 873 , 0.2 , 1],\n['a' , 228 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"黑龍(普通)","note":"<dropItemsEval>\n[\n['i' , 873 , 0.2 , 1],\n['a' , 228 , 0.05 , 1],\n['i' , 977 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -5507,7 +5507,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"黑龍(困難)","note":"<dropItemsEval>\n[\n['i' , 873 , 0.2 , 1],\n['a' , 228 , 0.2 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"黑龍(困難)","note":"<dropItemsEval>\n[\n['i' , 873 , 0.2 , 1],\n['a' , 228 , 0.2 , 1],\n['i' , 977 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -5527,7 +5527,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"白龍(簡單)","note":"<dropItemsEval>\n[\n['i' , 874 , 0.2 , 1],\n['a' , 229 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"白龍(簡單)","note":"<dropItemsEval>\n[\n['i' , 874 , 0.2 , 1],\n['a' , 229 , 0.05 , 1],\n['i' , 978 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -5547,7 +5547,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"白龍(普通)","note":"<dropItemsEval>\n[\n['i' , 874 , 0.2 , 1],\n['a' , 229 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"白龍(普通)","note":"<dropItemsEval>\n[\n['i' , 874 , 0.2 , 1],\n['a' , 229 , 0.05 , 1],\n['i' , 978 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -5567,7 +5567,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"白龍(困難)","note":"<dropItemsEval>\n[\n['i' , 874 , 0.2 , 1],\n['a' , 229 , 0.2 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"白龍(困難)","note":"<dropItemsEval>\n[\n['i' , 874 , 0.2 , 1],\n['a' , 229 , 0.2 , 1],\n['i' , 978 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -5587,7 +5587,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"古龍(簡單)","note":"<dropItemsEval>\n[\n['i' , 879 , 0.2 , 1],\n['a' , 230 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"古龍(簡單)","note":"<dropItemsEval>\n[\n['i' , 879 , 0.2 , 1],\n['a' , 230 , 0.05 , 1],\n['i' , 979 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -5607,7 +5607,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"古龍(普通)","note":"<dropItemsEval>\n[\n['i' , 879 , 0.2 , 1],\n['a' , 230 , 0.05 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"古龍(普通)","note":"<dropItemsEval>\n[\n['i' , 879 , 0.2 , 1],\n['a' , 230 , 0.05 , 1],\n['i' , 979 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
@@ -5627,7 +5627,7 @@
 		{"code":22,"dataId":0,"value":0.95},
 		{"code":22,"dataId":1,"value":0.05},
 		{"code":31,"dataId":1,"value":0}
-	],"gold":0,"name":"古龍(困難)","note":"<dropItemsEval>\n[\n['i' , 879 , 0.2 , 1],\n['a' , 230 , 0.2 , 1],\n]\n</dropItemsEval>","params":[
+	],"gold":0,"name":"古龍(困難)","note":"<dropItemsEval>\n[\n['i' , 879 , 0.2 , 1],\n['a' , 230 , 0.2 , 1],\n['i' , 979 , 1 , 1],\n]\n</dropItemsEval>","params":[
 		100,
 		0,
 		10,
