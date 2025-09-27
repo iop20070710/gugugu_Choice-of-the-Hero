@@ -1367,7 +1367,8 @@
 					"取消",
 					"過ㄌ一天(刷新)",
 					"查看所有任務",
-					"清除所有任務資料"
+					"清除所有任務資料",
+					"打開籃子(倉庫)"
 				],
 				0,
 				0,
@@ -1387,6 +1388,21 @@
 				"過ㄌ一天(刷新)"
 			]},
 			{"code":355,"indent":1,"parameters":[
+				"// 前一批的倉庫裡的東西要清掉"
+			]},
+			{"code":655,"indent":1,"parameters":[
+				"$gamePlayer._currQuests.map(info=>info.materials).forEach(materials=>{"
+			]},
+			{"code":655,"indent":1,"parameters":[
+				"  if(!materials) return;"
+			]},
+			{"code":655,"indent":1,"parameters":[
+				"  materials.filter(info=>info&&info[1]&&info[1][2]===\"倉庫\").forEach(info=>$gameParty.depository_delCont(info[1][3]));"
+			]},
+			{"code":655,"indent":1,"parameters":[
+				"});"
+			]},
+			{"code":655,"indent":1,"parameters":[
 				"$gamePlayer._currQuests=[];"
 			]},
 			{"code":355,"indent":1,"parameters":[
@@ -1405,10 +1421,10 @@
 				"materials_block_title:\"需求\","
 			]},
 			{"code":655,"indent":1,"parameters":[
-				"materials:["
+				"materials:[ ['j',\"\\\\TXTFONTSIZE:\\\"16\\\"\\\\TXTCENTER:\\\"(現在這列不是需求)\\\"\"], "
 			]},
 			{"code":655,"indent":1,"parameters":[
-				"['j',\"面向\"+texts[ch][0]+\"即可完成\",\"\",\"$gamePlayer._direction===\"+texts[ch][1]],"
+				"['j',\"\\\\TXTCENTER:\"+JSON.stringify(\"面向\"+texts[ch][0]+\"即可完成\"),\"\",\"$gamePlayer._direction===\"+texts[ch][1]],"
 			]},
 			{"code":655,"indent":1,"parameters":[
 				"['j',undefined,\"this[11]=true\",\"!this[11]\"], // 只完成一次"
@@ -1494,6 +1510,78 @@
 			{"code":655,"indent":1,"parameters":[
 				"}"
 			]},
+			{"code":355,"indent":1,"parameters":[
+				"{ const cnt=~~(Math.random()*3+9),倉庫id=\"倉庫隨機id-\"+Graphics.frameCount+'-'+(~~(Math.random()*65536)).toString(16).padStart(4,'0');"
+			]},
+			{"code":655,"indent":1,"parameters":[
+				"$gamePlayer._currQuests.push(({ key:\"任務\"+($gamePlayer._currQuests.length+1),display_block_title:\"\",display:\"道具任務1\",display_text:\"\\\\C[6]這是道具任務\\\\C[0]\",description_window_hide:true,"
+			]},
+			{"code":655,"indent":1,"parameters":[
+				"gains_block_title:\"報酬\", gains:[['j',\"跟你說你好棒棒棒棒\",\"alert('你好棒棒棒棒')\",],],"
+			]},
+			{"code":655,"indent":1,"parameters":[
+				"materials_block_title:\"需求\", materials:["
+			]},
+			{"code":655,"indent":1,"parameters":[
+				"['j',['\"已放入物品 \"+$gameParty.depository_getTotalCnt(this[1][3])+\" / \"+this[1][1]+\" 個\"',cnt,\"倉庫\",倉庫id,\"籃子1\",\"$dataItems.concat($dataWeapons).concat($dataArmors).filter(dataobj=>dataobj&&dataobj.id<10)\"],\"this[11]=true;\",\"!this[11]&&$gameParty.depository_getTotalCapacityUsed(this[1][3])>=this[1][1]\"], // this 會帶入這個 ['j', ... ] 的陣列"
+			]},
+			{"code":655,"indent":1,"parameters":[
+				"// [ 'j' , ['動態項目訊息' , 數量 , 用來提示說這有倉庫的字串 , 倉庫id , \"顯示的倉庫名\" , 決定哪些道具可以被算進來的JS ] , 完成時要做的事情 , 完成條件"
+			]},
+			{"code":655,"indent":1,"parameters":[
+				"// [ 'j' , [  這個陣列除了[0]不能換位置以外，其他都可以調整，注意要同時調整\"完成時要做的事情\"、\"完成條件\"，並且不要跟其他任務訊息衝突就好  ] , 完成時要做的事情 , 完成條件"
+			]},
+			{"code":655,"indent":1,"parameters":[
+				"],"
+			]},
+			{"code":655,"indent":1,"parameters":[
+				"head:\"\\\\TXTCENTER:\\\"在\\\\\\\\C[6]籃子1\\\\\\\\C[0]中放\"+cnt+\"個道具\\\"\","
+			]},
+			{"code":655,"indent":1,"parameters":[
+				"tail:\"\\\\TXTCENTER:\\\"可放入的道具為\\\\\\\\C[6]編號<10\\\\\\\\C[0]者\\\"\","
+			]},
+			{"code":655,"indent":1,"parameters":[
+				"}),); "
+			]},
+			{"code":655,"indent":1,"parameters":[
+				"}"
+			]},
+			{"code":355,"indent":1,"parameters":[
+				"{ const cnt1=~~(Math.random()*3+3),cnt2=~~(Math.random()*3+3);"
+			]},
+			{"code":655,"indent":1,"parameters":[
+				"const 倉庫id1=\"倉庫隨機id-\"+Graphics.frameCount+'-'+(~~(Math.random()*65536)).toString(16).padStart(4,'0');"
+			]},
+			{"code":655,"indent":1,"parameters":[
+				"const 倉庫id2=\"倉庫隨機id-\"+Graphics.frameCount+'-'+(~~(Math.random()*65536)).toString(16).padStart(4,'0');"
+			]},
+			{"code":655,"indent":1,"parameters":[
+				"$gamePlayer._currQuests.push(({ key:\"任務\"+($gamePlayer._currQuests.length+1),display_block_title:\"\",display:\"道具任務2\",display_text:\"\\\\C[6]這是道具任務\\\\C[0]\",description_window_hide:true,"
+			]},
+			{"code":655,"indent":1,"parameters":[
+				"gains_block_title:\"報酬\", gains:[['j',\"跟你說你好棒棒棒棒棒\",\"alert('你好棒棒棒棒棒')\",],],"
+			]},
+			{"code":655,"indent":1,"parameters":[
+				"materials_block_title:\"需求\", materials:[ ['j',undefined,\"this[11]=true\",\"!this[11]\"], // 只完成一次。 // this 會帶入這個 ['j', ... ] 的陣列"
+			]},
+			{"code":655,"indent":1,"parameters":[
+				"['j',['\"籃子1已放入礦石 \"+$gameParty.depository_getTotalCnt(this[1][3])+\" / \"+this[1][1]+\" 個\"',cnt1,\"倉庫\",倉庫id1,\"籃子1\",\"$dataItems.concat($dataWeapons).concat($dataArmors).filter(dataobj=>dataobj&&dataobj.meta.礦石)\"],\"this[11]=true;\",\"!this[11]&&$gameParty.depository_getTotalCapacityUsed(this[1][3])>=this[1][1]\"], // this 會帶入這個 ['j', ... ] 的陣列"
+			]},
+			{"code":655,"indent":1,"parameters":[
+				"['j',['\"籃子2已放入道具 \"+$gameParty.depository_getTotalCnt(this[1][3])+\" / \"+this[1][1]+\" 個\"',cnt2,\"倉庫\",倉庫id2,\"籃子2\",\"$dataItems.filter(dataobj=>dataobj&&dataobj.id>=10)\"],\"this[11]=true;\",\"!this[11]&&$gameParty.depository_getTotalCapacityUsed(this[1][3])>=this[1][1]\"], // this 會帶入這個 ['j', ... ] 的陣列"
+			]},
+			{"code":655,"indent":1,"parameters":[
+				"],"
+			]},
+			{"code":655,"indent":1,"parameters":[
+				"head:\"\\\\TXTCENTER:\\\"在\\\\\\\\C[6]籃子1\\\\\\\\C[0]中放\"+cnt1+\"個道具\\\"\\n\\\\TXTCENTER:\\\"在\\\\\\\\C[6]籃子2\\\\\\\\C[0]中放\"+cnt2+\"個道具\\\"\\n\","
+			]},
+			{"code":655,"indent":1,"parameters":[
+				"tail:\"\\\\TXTCENTER:\\\"在\\\\\\\\C[6]籃子1\\\\\\\\C[0]可放入<礦石>\\\"\\n\\\\TXTCENTER:\\\"在\\\\\\\\C[6]籃子2\\\\\\\\C[0]可放入\\\\\\\\C[6]編號>=10的道具\\\\\\\\C[0]\\\"\\n\","
+			]},
+			{"code":655,"indent":1,"parameters":[
+				"}),); }"
+			]},
 			{"code":0,"indent":1,"parameters":[
 			]},
 			{"code":402,"indent":0,"parameters":[
@@ -1526,7 +1614,142 @@
 			]},
 			{"code":0,"indent":1,"parameters":[
 			]},
+			{"code":402,"indent":0,"parameters":[
+				4,
+				"打開籃子(倉庫)"
+			]},
+			{"code":118,"indent":1,"parameters":[
+				"_選籃子_先選任務"
+			]},
+			{"code":355,"indent":1,"parameters":[
+				"console.log('choose quest'); // for debug"
+			]},
+			{"code":655,"indent":1,"parameters":[
+				"{ const callback=function f(n){"
+			]},
+			{"code":655,"indent":1,"parameters":[
+				"  $gameTemp._tmp_列舉任務倉庫用_任務=n&&f.tbl[n]; // !n 時是取消"
+			]},
+			{"code":655,"indent":1,"parameters":[
+				"  console.log(n); // debug 用"
+			]},
+			{"code":655,"indent":1,"parameters":[
+				"}; callback.tbl=[\"(cancel)\"];"
+			]},
+			{"code":655,"indent":1,"parameters":[
+				"if($gamePlayer._currQuests) callback.tbl.concat_inplace($gamePlayer._currQuests);"
+			]},
+			{"code":655,"indent":1,"parameters":[
+				"callback.tbl=callback.tbl.filter((info,i)=>!i||info.materials&&info.materials.some(x=>!x[11]&&x[1]&&x[1][2]===\"倉庫\")); // 只列出取消和有放籃子(倉庫)需求的未完成任務"
+			]},
+			{"code":655,"indent":1,"parameters":[
+				"$gameMessage.add(\"選擇任務\");"
+			]},
+			{"code":655,"indent":1,"parameters":[
+				"$gameMessage.setChoices(callback.tbl.map((info,i)=>i?info.display||info.key:info),0,0); // [0]放取消字串，所以直接用原本的東西就好；其他的是任務資訊，把任務資訊中顯示的字拿出來"
+			]},
+			{"code":655,"indent":1,"parameters":[
+				"$gameMessage.setChoiceCallback(callback); }"
+			]},
+			{"code":655,"indent":1,"parameters":[
+				"this.setWaitMode('message');"
+			]},
+			{"code":655,"indent":1,"parameters":[
+				"// 選擇的任務會存在 $gameTemp._tmp_列舉任務倉庫用_任務;"
+			]},
+			{"code":111,"indent":1,"parameters":[
+				12,
+				"$gameTemp._tmp_列舉任務倉庫用_任務"
+			]},
+			{"code":118,"indent":2,"parameters":[
+				"_選籃子_再選籃子"
+			]},
+			{"code":355,"indent":2,"parameters":[
+				"console.log('choose depository'); // for debug"
+			]},
+			{"code":655,"indent":2,"parameters":[
+				"{ const info=$gameTemp._tmp_列舉任務倉庫用_任務;"
+			]},
+			{"code":655,"indent":2,"parameters":[
+				"const callback=function f(n){"
+			]},
+			{"code":655,"indent":2,"parameters":[
+				"  $gameTemp._tmp_列舉任務倉庫用_倉庫項目=n&&f.tbl[n]; // !n 時是取消"
+			]},
+			{"code":655,"indent":2,"parameters":[
+				"  console.log(n); // debug 用"
+			]},
+			{"code":655,"indent":2,"parameters":[
+				"}; callback.tbl=[\"(cancel)\"].concat_inplace(info.materials.filter(x=>x&&x[1]&&x[1][2]===\"倉庫\")); // 只列出用到籃子(倉庫)的需求"
+			]},
+			{"code":655,"indent":2,"parameters":[
+				"$gameMessage.add(\"選擇任務: \"+(info.display||info.key)+\" 的籃子(倉庫)\");"
+			]},
+			{"code":655,"indent":2,"parameters":[
+				"$gameMessage.setChoices(callback.tbl.map((info,i)=>i?info[1][4]:info),0,0); // [0]放取消字串，所以直接用原本的東西就好；其他的是需求資訊，把倉庫名拿出來"
+			]},
+			{"code":655,"indent":2,"parameters":[
+				"$gameMessage.setChoiceCallback(callback); }"
+			]},
+			{"code":655,"indent":2,"parameters":[
+				"this.setWaitMode('message');"
+			]},
+			{"code":655,"indent":2,"parameters":[
+				"// 選擇的含有倉庫需求的項目會存在 $gameTemp._tmp_列舉任務倉庫用_倉庫項目;"
+			]},
+			{"code":111,"indent":2,"parameters":[
+				12,
+				"$gameTemp._tmp_列舉任務倉庫用_倉庫項目"
+			]},
+			{"code":355,"indent":3,"parameters":[
+				"console.log('open depository'); // for debug"
+			]},
+			{"code":655,"indent":3,"parameters":[
+				"{ const x=$gameTemp._tmp_列舉任務倉庫用_倉庫項目;"
+			]},
+			{"code":655,"indent":3,"parameters":[
+				"const items=x[1][5]&&EVAL.call(x,x[1][5]);"
+			]},
+			{"code":655,"indent":3,"parameters":[
+				"$gameTemp.depository_open(x[1][3],({capacity:x[1][1],availableItems:items,}),);"
+			]},
+			{"code":655,"indent":3,"parameters":[
+				"}"
+			]},
+			{"code":119,"indent":3,"parameters":[
+				"_選籃子_再選籃子"
+			]},
+			{"code":0,"indent":3,"parameters":[
+			]},
+			{"code":411,"indent":2,"parameters":[
+			]},
+			{"code":108,"indent":3,"parameters":[
+				"走這邊就是按取消ㄌ"
+			]},
+			{"code":119,"indent":3,"parameters":[
+				"_選籃子_先選任務"
+			]},
+			{"code":0,"indent":3,"parameters":[
+			]},
+			{"code":412,"indent":2,"parameters":[
+			]},
+			{"code":0,"indent":2,"parameters":[
+			]},
+			{"code":411,"indent":1,"parameters":[
+			]},
+			{"code":108,"indent":2,"parameters":[
+				"走這邊就是按取消ㄌ"
+			]},
+			{"code":0,"indent":2,"parameters":[
+			]},
+			{"code":412,"indent":1,"parameters":[
+			]},
+			{"code":0,"indent":1,"parameters":[
+			]},
 			{"code":404,"indent":0,"parameters":[
+			]},
+			{"code":119,"indent":0,"parameters":[
+				"_strt"
 			]},
 			{"code":0,"indent":0,"parameters":[
 			]}
