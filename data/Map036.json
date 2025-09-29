@@ -1391,7 +1391,7 @@
 				"// 前一批的倉庫裡的東西要清掉"
 			]},
 			{"code":655,"indent":1,"parameters":[
-				"$gamePlayer._currQuests.map(info=>info.materials).forEach(materials=>{"
+				"if($gamePlayer._currQuests) $gamePlayer._currQuests.map(info=>info.materials).forEach(materials=>{"
 			]},
 			{"code":655,"indent":1,"parameters":[
 				"  if(!materials) return;"
